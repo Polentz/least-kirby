@@ -1,4 +1,4 @@
 title: Audio File
 
 accept: 
-  mime: audio/mp3
+  extension: mp3
