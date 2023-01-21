@@ -1,19 +1,22 @@
 title: Home
 
 sections:
-  background:
-    label: Main image
-    type: files
-    template: main-image
-    max: 1
-    limit: 1
-    layout: cards
-    size: large
-    image:
-      ratio: 16/9
-      cover: true
+  cover:
+    type: fields
+    fields:
+      background:
+        label: Background image
+        type: files
+        template: main-image
+        max: 1
+        limit: 1
+        layout: cards
+        size: large
+        image:
+          ratio: 16/9
+          cover: true
 
-  parts:
+  pagesections:
     label: Page sections
     type: pages
     status: all
