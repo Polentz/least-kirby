@@ -1,2 +1,2 @@
 <?php $leastPage = page('least') ?>
-    <?php snippet('least', ['leastPage' => $leastPage]); ?>
+<?php snippet('least', ['leastPage' => $leastPage]); ?>
