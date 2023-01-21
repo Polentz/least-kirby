@@ -9,7 +9,3 @@ return [
       'breaks' => true
     ]
 ];
-
-return [
-  'home' => 'least'
-];
