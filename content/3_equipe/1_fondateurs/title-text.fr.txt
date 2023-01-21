@@ -1,0 +1,41 @@
+Title: Fondateurs
+
+----
+
+Sectiontitle: fondateurs
+
+----
+
+Maintext: 
+
+----
+
+Plaintext:
+
+**Vincent Barras**
+Directeur de l'Institut des humanités en médecine et professeur d'histoire de la médecine et des sciences (UNIL-CHUV), performeur, auteur.
+
+**Tony Berrada**
+Professeur de finance UNIGE et directeur du Geneva Finance Research Institute.
+
+**Claire de Ribaupierre**
+Docteur ès Lettres, spécialisée dans le domaine de l'anthropologie, dramaturge, co-créatrice de projets artistiques.
+
+**Alexander Federau**
+Docteur en philosophie de l'écologie, titulaire d'un diplôme en physique EPFZ, engagé depuis de nombreuses années sur les questions environnementales.
+
+**Rodrigo Fernandez**
+Docteur en ingénierie des matériaux EPFL, co-fondateur de Terrabloc (lauréat du Prix Sud 2019, start-up durable).
+
+**Véronique Ferrero Delacoste**
+Curatrice spécialisée dans le domaine des arts vivants, titulaire d'un Master Art in the public sphere, directrice de projets artistiques, participatifs et co-créatifs.
+
+**Adina Secretan**
+Chorégraphe, metteuse en scène, titulaire d'un Master en philosophie, porteuse de projets artistiques sociaux et communautaires.
+
+**Laurent de Wurstemberger**
+Architecte AAM, fondateur de l'atelier d'architecture LDW, co-fondateur de Terrabloc (lauréat du Prix Sud 2019, start-up durable).
+
+----
+
+Uuid: UStacXeb3KIy0ocy

@@ -1,9 +1,0 @@
-Sort: 4
-
-----
-
-Uuid: 4mr70Qew17UBKKeP
-
-----
-
-Template: gallery-image

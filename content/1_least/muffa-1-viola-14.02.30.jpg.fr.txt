@@ -1,0 +1,9 @@
+Sort: 1
+
+----
+
+Uuid: yc1n4TM2hrJCRMCk
+
+----
+
+Template: main-image

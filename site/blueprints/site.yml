@@ -5,4 +5,4 @@ sections:
     type: pages
     label: "{{ page.title }}"
     image: false
-    status: all
+    status: listed

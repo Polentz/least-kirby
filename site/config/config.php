@@ -9,3 +9,7 @@ return [
       'breaks' => true
     ]
 ];
+
+return [
+  'languages' => true
+];
