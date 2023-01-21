@@ -1,0 +1,11 @@
+title: Media text
+
+sections:
+  parts:
+    label: Text section
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - copy

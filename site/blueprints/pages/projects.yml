@@ -1,0 +1,10 @@
+title: Projects
+
+sections:
+  cards:
+    type: pages
+    layout: cards
+    label: Projects
+    image: false
+    templates:
+      - project

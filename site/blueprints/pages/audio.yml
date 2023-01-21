@@ -1,0 +1,17 @@
+title: Audio
+
+sections:
+  header:
+    type: fields
+    fields:
+      audiotitle: 
+        label: Title
+        type: text
+
+  audio:
+    label: Audio
+    type: files
+    layout: cards
+    template: audio
+    size: small
+    info: "{{ file.dimensions }}"

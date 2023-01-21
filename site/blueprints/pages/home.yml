@@ -1,0 +1,29 @@
+title: Home
+
+sections:
+  background:
+    label: Main image
+    type: files
+    template: main-image
+    max: 1
+    limit: 1
+    layout: cards
+    size: large
+    image:
+      ratio: 16/9
+      cover: true
+
+  parts:
+    label: Page sections
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    templates:
+      - title-text
+      - left-column-text
+      - right-column-text
+      - molds-images
+      - gallery
+      - cards
+      - projects

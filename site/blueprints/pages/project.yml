@@ -1,0 +1,70 @@
+title: Project
+
+tabs:
+  card:
+    label: Project Card
+    icon: grid-full
+    columns: 
+      - width: 1/2
+        label: Front
+        sections:
+          front:
+            type: fields
+            fields:
+              fronttext:
+                label: Headline
+                type: text
+                icon: title
+                required: true
+              background:
+                label: Background image
+                type: files
+                template: gallery-image
+                layout: cards
+                size: small
+                image:
+                  ratio: 1/1
+                  cover: true
+      - width: 1/2
+        label: Back
+        sections:
+          back:
+            type: fields
+            fields:
+              backtext:
+                label: Description
+                type: textarea
+                icon: text
+                required: true
+                buttons: false
+                maxlength: 125
+              pagestatus:
+                label: Is the project page ready?
+                type: toggle
+                text: 
+                  - "no"
+                  - "yes"
+              placeholder:
+                label: Temporary text
+                placeholder: More information soon
+                help: If the project page is not ready, you can replace the link to the page with some text
+                type: text
+                icon: text
+
+  project:
+    label: Project Page
+    icon: page
+    sections:
+      parts:
+        label: Page sections
+        type: pages
+        status: all
+        info: "{{ page.intendedTemplate }}"
+        image: false
+        templates:
+          - title-text
+          - left-column-text
+          - right-column-text
+          - molds-images
+          - gallery
+          - cards

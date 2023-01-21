@@ -1,0 +1,31 @@
+title: Title + Text
+
+columns: 
+  - width: 1/2
+    sections:
+      title:
+        type: fields
+        fields:
+          sectiontitle:
+            label: Title
+            type: text
+            help: This is the title of the section. It will appear in the left column
+            icon: grid-left
+            spellcheck: true
+            before:
+            after:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          maintext:
+            label: Large text
+            type: textarea
+            icon: grid-right
+            spellcheck: true
+          plaintext:
+            label: Small text
+            type: textarea
+            icon: grid-right
+            spellcheck: true

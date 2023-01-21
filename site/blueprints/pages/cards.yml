@@ -1,0 +1,9 @@
+title: Cards
+
+sections:
+  cards:
+    type: pages
+    layout: cards
+    image: false
+    templates:
+      - card

@@ -1,0 +1,9 @@
+title: Médias
+
+sections:
+  medialist:
+    label: Page sections
+    type: pages
+    image: false
+    templates:
+      - mediacontents

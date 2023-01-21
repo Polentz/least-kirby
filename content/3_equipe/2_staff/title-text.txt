@@ -1,0 +1,29 @@
+Title: Staff
+
+----
+
+Sectiontitle: Staff
+
+----
+
+Maintext: 
+
+----
+
+Plaintext:
+
+**Veronique Ferrero-Delacoste**
+Artistic Direction and Management
+
+**Phoebe Lin-Elnan**
+Research / Production
+
+**Stella Succi**
+Research / Writing
+
+**Giulia Polenta **
+Identity / Website
+
+----
+
+Uuid: DHuSaTrYthHSZz5u

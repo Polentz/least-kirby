@@ -1,0 +1,10 @@
+title: Media contents
+
+sections:
+  cards:
+    type: pages
+    layout: cards
+    label: Media
+    image: false
+    templates:
+      - mediacontent

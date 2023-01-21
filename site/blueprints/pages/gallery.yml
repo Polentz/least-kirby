@@ -1,0 +1,15 @@
+title: Gallery
+
+sections:
+  gallery:
+    label: Gallery images
+    type: files
+    layout: cards
+    template: gallery-image
+    size: small
+    min: 2
+    info: "{{ file.caption }}"
+    help: "{{ file.dimensions }}"
+    image:
+      ratio: 1/1
+      cover: true

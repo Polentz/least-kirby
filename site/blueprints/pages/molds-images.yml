@@ -1,0 +1,12 @@
+title: Molds images
+
+sections:
+  image:
+    label: Image
+    type: files
+    required: true
+    layout: cards
+    template: gallery-image
+    image:
+      ratio: 1/1
+      cover: true

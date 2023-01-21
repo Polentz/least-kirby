@@ -1,0 +1,36 @@
+title: Card
+
+columns: 
+  - width: 1/2
+    label: Front
+    sections:
+      front:
+        type: fields
+        fields:
+          fronttext:
+            label: Headline
+            type: text
+            icon: title
+            required: true
+          background:
+            label: Background image
+            type: files
+            template: gallery-image
+            layout: cards
+            size: small
+            image:
+              ratio: 1/1
+              cover: true
+  - width: 1/2
+    label: Back
+    sections:
+      back:
+        type: fields
+        fields:
+          backtext:
+            label: Description
+            type: textarea
+            icon: text
+            required: true
+            buttons: false
+            maxlength: 125

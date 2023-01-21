@@ -1,0 +1,9 @@
+title: Video File
+
+accept: 
+  mime: video/mp4
+  type: video
+
+fields:
+  caption:
+    type: text

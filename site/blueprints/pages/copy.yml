@@ -1,0 +1,27 @@
+title: Text + Image
+
+sections:
+  maintext:
+    type: fields
+    fields:
+      largetext: 
+        label: Large text
+        type: textarea
+
+  plaintext:
+    type: fields
+    fields:
+      copytext: 
+        label: Small text
+        type: textarea
+  
+  image:
+    type: files
+    label: Image
+    layout: cards
+    template: simple-image
+    info: "{{ file.caption }}"
+    help: "{{ file.dimensions }}"
+    image:
+      ratio: 1/1
+      cover: true

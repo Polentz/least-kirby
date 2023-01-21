@@ -1,0 +1,17 @@
+Alt: Gordon Cole from Twin Peaks
+
+----
+
+Caption: My Socks are on fire
+
+----
+
+Sort: 1
+
+----
+
+Uuid: yMf2PIeWKRxtQAlt
+
+----
+
+Template: simple-image

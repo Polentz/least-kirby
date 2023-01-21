@@ -1,0 +1,10 @@
+title: Main image
+
+accept: 
+  mime: image/jpg, image/jpeg
+
+fields:
+  alt:
+    type: text
+  author:
+    type: text

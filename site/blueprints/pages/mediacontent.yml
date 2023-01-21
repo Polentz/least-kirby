@@ -1,0 +1,72 @@
+title: Media content
+
+tabs:
+  card:
+    label: Media Card
+    icon: grid-full
+    columns: 
+      - width: 1/2
+        sections:
+          front:
+            type: fields
+            fields:
+              fronttext:
+                label: Headline
+                type: text
+                icon: title
+                required: true
+              shortname:
+                label: Content ID
+                type: text
+                icon: title
+                required: true
+              background:
+                label: Background image
+                type: files
+                template: gallery-image
+                layout: cards
+                size: small
+                image:
+                  ratio: 1/1
+                  cover: true
+      - width: 1/2
+        sections:
+          back:
+            type: fields
+            fields:
+              backtext:
+                label: Description
+                type: textarea
+                icon: text
+                required: true
+                buttons: false
+                maxlength: 125
+              filter:
+                label: Filter by
+                type: select
+                options:
+                  Lecture
+                  Podcast
+                  Video
+                required: true
+              tag:
+                label: Tag
+                type: tags
+                required: true
+
+  content:
+    label: Media content
+    icon: page
+    sections:
+      parts:
+        label: Media content sections
+        type: pages
+        status: all
+        info: "{{ page.intendedTemplate }}"
+        image: false
+        templates:
+          - copy-component
+          - audio-component
+          - video-component
+
+ 

@@ -1,0 +1,11 @@
+title: Simple image
+
+accept: 
+  mime: image/png, image/jpg, image/jpeg
+  maxwidth: 1200
+
+fields:
+  alt:
+    type: text
+  caption:
+    type: text

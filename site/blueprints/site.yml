@@ -1,0 +1,8 @@
+title: Site
+
+sections:
+  pages:
+    type: pages
+    label: "{{ page.title }}"
+    image: false
+    status: listed

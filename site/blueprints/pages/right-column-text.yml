@@ -1,0 +1,21 @@
+title: Right column text
+
+columns: 
+  - width: 1/2
+    sections:
+      empty:
+        label: Column 2
+        type: info
+        text: |
+          This column will stay empty
+  - width: 1/2
+    sections:
+      text:
+        type: fields
+        fields:
+          maintext:
+            label: Main Text
+            type: textarea
+          plaintext:
+            label: Plain text
+            type: textarea

@@ -1,0 +1,11 @@
+title: Gallery image
+
+accept: 
+  mime: image/png, image/jpg, image/jpeg
+  maxwidth: 1600
+
+fields:
+  alt:
+    type: text
+  caption:
+    type: text

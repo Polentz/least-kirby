@@ -1,0 +1,23 @@
+title: Left column text
+
+columns: 
+  - width: 1/2
+    sections:
+      text:
+        type: fields
+        fields:
+          maintext:
+            label: Main Text
+            type: textarea
+            spellcheck: true
+          plaintext:
+            label: Plain text
+            type: textarea
+            spellcheck: true
+  - width: 1/2
+    sections:
+      empty:
+        label: Column 2
+        type: info
+        text: |
+          This column will stay empty

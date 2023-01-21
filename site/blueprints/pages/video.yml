@@ -1,0 +1,7 @@
+title: Video
+
+fields:
+  video:
+    type: files
+    uploads: video
+    template: video-file

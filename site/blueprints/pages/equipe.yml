@@ -1,0 +1,17 @@
+title: Équipe
+
+sections:
+  parts:
+    label: Page sections
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    templates:
+      - title-text
+      - left-column-text
+      - right-column-text
+      - molds-images
+      - gallery
+      - cards
+      - projects
