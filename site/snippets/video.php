@@ -4,10 +4,8 @@
             <?= $videoelement->videotitle()->kt() ?>
         </div>
     <?php endif ?> 
-    <?php if ($video = $videoelement->video()->toFile()) : ?>
-        <video>
-            <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
-        </video>
+    <?php if ($file = $videoelement->file()): ?>
+        <video controls src="<?= $file->url() ?>"></video>
     <?php endif ?>
     <div class="--txt-caption">
         <?= $videoelement->caption()->kt() ?>
