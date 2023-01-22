@@ -23,19 +23,30 @@
         content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
     <meta property="og:url" content="<?= $page->url() ?>">
     <meta property="og:site_name" content="least">
-    <meta property="og:image" content="assets/media/images/this-is-the-muffa.jpg">
+    <?php if($cover = $site->file('least-mold.jpg')): ?>
+        <meta property="og:image" content="<?= $cover->url() ?>">
+    <?php endif ?>
     <meta property="og:image:alt" content="Identité visuelle de least avec un collage d'images de moisissures">
-    <meta property="og:image:secure_url" content="assets/media/images/this-is-the-muffa.jpg">
+    <?php if($cover = $site->file('least-mold.jpg')): ?>
+        <meta property="og:image:secure_url" content="<?= $cover->url() ?>">
+    <?php endif ?>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description"
         content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
     <meta name="twitter:title"
         content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
-    <meta name="twitter:image" content="assets/media/images/this-is-the-muffa.jpg">
+    <?php if($cover = $site->file('least-mold.jpg')): ?>
+        <meta name="twitter:image" content="<?= $cover->url() ?>">
+    <?php endif ?>
+
     <meta name="twitter:image:alt" content="Identité visuelle de least avec un collage d'images de moisissures">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="shortcut icon" type="image/png" sizes="48x48" href="assets/favicon/least-favicon-48.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="assets/favicon/least-favicon-192.png">
+    <?php if($favicon = $site->file('least-favicon-48.png')): ?>
+        <link rel="shortcut icon" type="image/png" sizes="48x48" href="<?= $favicon->url() ?>">
+    <?php endif ?>
+    <?php if($favicon = $site->file('least-favicon-192.png')): ?>
+        <link rel="shortcut icon" type="image/png" sizes="192x192" href="<?= $favicon->url() ?>">
+    <?php endif ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
