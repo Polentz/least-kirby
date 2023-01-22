@@ -1,11 +1,11 @@
-<div id="wallace-1-component" class="audio-wrapper">
+<div class="audio-wrapper">
     <?php if ($audioelement->audiotitle()->isNotEmpty()): ?>
         <div class="audio-title --title-small">
             <?= $audioelement->audiotitle()->kt() ?>
         </div>
     <?php endif ?>  
     <div class="audio-player">
-        <div id="wallace-1" class="play-btn">
+        <div class="play-btn">
             <svg class="play-icon" viewBox="0 0 27 26" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 25L25 13.3077L1 1V25Z" />

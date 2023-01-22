@@ -143,8 +143,7 @@ const audioComponent = document.querySelectorAll(".audio-wrapper");
 
 audioComponent.forEach(component => {
     playBtns.forEach(btn => {
-        console.log(btn.id);
-        if (component.id === `${btn.id}-component`) {
+        if (btn.parentNode.parentNode === component) {
             const audioPlayerContainer = component.querySelector(".audio-player");
             const seekSlider = component.querySelector(".seek-slider");
             const audio = component.querySelector("audio");
