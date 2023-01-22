@@ -147,14 +147,34 @@
     padding: 0 var(--marg-s);
 }
 
-.media-content-category svg,
-.media-content-category img,
-.media-content-header img,
-.media-content-close svg {
+.svg-tag svg {
     width: var(--txt-small);
-    border: none;
+    stroke-width: 1.5px;
+    stroke: var(--bg-color);
     mix-blend-mode: difference;
 }
+
+
+.media-content-close svg {
+    width: var(--txt-small);
+    stroke: var(--txt-color);
+    stroke-width: 1.5px;
+}
+
+.svg-lecture svg,
+.svg-podcast svg,
+.svg-video svg {
+    width: var(--txt-small);
+    stroke: var(--txt-color);
+    stroke-width: 1.5px;
+}
+
+.svg-lecture,
+.svg-podcast,
+.svg-video {
+    display: none;
+}
+
 
 .media-content-category {
     display: -webkit-box;
@@ -166,12 +186,6 @@
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-}
-
-.svg-lecture,
-.svg-podcast,
-.svg-video {
-    display: none;
 }
 
 .media-content-wrapper {
@@ -243,6 +257,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .filtered {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -250,7 +265,22 @@
         color: var(--bg-color);
     }
 
+    .filtered .--txt-medium p,
+    .filtered .media-content-filter {
+        color: var(--bg-color);
+    }
+
+    .filtered .svg-lecture svg,
+    .filtered .svg-podcast svg,
+    .filtered .svg-video svg {
+        stroke: var(--bg-color);
+    }
+
     .media-content {
         padding-bottom: var(--marg-m);
+    }
+
+    .svg-tag svg {
+        stroke: var(--txt-color);
     }
 }

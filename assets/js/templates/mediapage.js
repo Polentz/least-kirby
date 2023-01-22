@@ -123,20 +123,31 @@ const unselectContent = () => {
     });
 }
 
-// mediaContentCategoryConteiner.forEach(container => {
-//     const mediaContentCategory = container.querySelector(".media-content-category p");
-//     const svgLecture = container.querySelector(".svg-lecture");
-//     const svgPodcast = container.querySelector(".svg-podcast");
-//     const svgVideo = container.querySelector(".svg-video");
-//     console.log(svgLecture, svgPodcast, svgVideo)
-//     if (mediaContentCategory.innerHTML = "Lecture") {
-//         console.log("giusto")
-//     } else if (mediaContentCategory.innerHTML = "Podcast") {
-//         console.log("giusto")
-//     } else if (mediaContentCategory.innerHTML = "Video") {
-//         console.log("giusto")
-//     }
-// })
+mediaContentCategoryConteiner.forEach(container => {
+    const mediaContentCategories = container.querySelectorAll(".media-content-filter");
+    const lecture = "Lecture"
+    const podcast = "Podcast"
+    const video = "Video"
+    const svgLecture = container.querySelectorAll(".svg-lecture");
+    const svgPodcast = container.querySelectorAll(".svg-podcast");
+    const svgVideo = container.querySelectorAll(".svg-video");
+    mediaContentCategories.forEach(category => {
+        if (category.innerText === lecture) {
+            svgLecture.forEach(element => {
+                element.style.display = "block";
+            });
+        } else if (category.innerText === podcast) {
+            svgPodcast.forEach(element => {
+                element.style.display = "block";
+            });
+        } else if (category.innerText === video) {
+            svgVideo.forEach(element => {
+                element.style.display = "block";
+            });
+        }
+    })
+
+});
 
 const playBtns = document.querySelectorAll(".play-btn");
 const audioComponent = document.querySelectorAll(".audio-wrapper");
