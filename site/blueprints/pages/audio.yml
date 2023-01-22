@@ -11,7 +11,6 @@ sections:
   audio:
     label: Audio
     type: files
-    layout: cards
     template: audio
     size: small
     info: "{{ file.dimensions }}"

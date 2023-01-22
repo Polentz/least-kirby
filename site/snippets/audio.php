@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <?php if ($file = $audioelement->audio()->toFile()): ?>
-        <audio src="<?= $file->url() ?>" type="<?= $file->mime() ?>" preload="metadata"></audio>
+    <?php if ($file = $audioelement->file()): ?>
+        <audio src="<?= $file->url() ?>" preload="metadata"></audio>
     <?php endif ?>
 </div>
