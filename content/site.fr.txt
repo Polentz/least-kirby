@@ -17,6 +17,13 @@ Newslettername: Newsletter
 
 ----
 
+Temporarymenu:
+
+on se retrouve en
+février 2023
+
+----
+
 Subtitle: laboratoire écologie et art pour une société en transition
 
 ----

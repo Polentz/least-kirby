@@ -1,17 +1,21 @@
-Title: À propos
+Title: About
 
 ----
 
-Sectiontitle: À propos
+Sectiontitle: About
 
 ----
 
-Maintext: **least** [laboratoire écologie et art pour une société en transition] est une association née des réflexions de huit personnes issues de disciplines diverses et convergeant vers un constat commun : tout est à construire et à (re)créer, à commencer par nos pratiques, nos métiers, nos habitudes, notre quotidien tout entier. **least** vise, par ses actions, un changement profond de nos modes de vie, rendu nécessaire par les bouleversements écologiques, sociaux et sanitaires actuels.
+Maintext: **least** [ecology and art laboratory for a society in transition] is an association born from the reflections of eight people from different backgrounds who converge towards the common observation that everything has to be built and (re)created, starting with our practices, our jobs, our habits, and our entire daily life. **least** aims, through its actions, for a profound change in our way of life that is made necessary by the current ecological, social, and health upheavals.
 
 ----
 
-Plaintext: Ensemble, iels constituent un programme au sens politique du terme, soit une suite d'actions en vue d'un résultat. Ce programme ambitieux initie et accompagne des démarches artistiques, scientifiques, écologiques, sociales et participatives. Pour le réaliser, il met en place des outils aptes à contribuer au développement d'une pensée et d'actions collectives qui changeront le monde.
+Plaintext: Together, the members have constituted a programme in the political sense of the term, i.e. a series of actions with a view to achieving a result. This ambitious programme initiates and supports artistic, scientific, ecological, social and participatory approaches. To this end, it aims to implement tools capable of contributing to the development of collective thought and action that will change the world.
 
 ----
 
-Uuid: SonbfIVFNKfELf1c
+Buttontext: 
+
+----
+
+Buttonurl: 

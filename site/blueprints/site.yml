@@ -23,11 +23,21 @@ sections:
       email:
         label: Email
         type: email
+        width: 1/3      
+      temporarymenu:
+        label: Temporary menu
+        type: textarea
         width: 1/3
+        buttons: false
       newslettername:
-        label: Newsletter Name
+        label: Newsletter name
         type: text
         icon: bolt
+        width: 1/3
+        buttons: false
+      newslettercta:
+        label: Newsletter CTA
+        type: textarea
         width: 1/3
         buttons: false
 

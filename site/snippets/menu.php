@@ -4,11 +4,12 @@ $items = $pages->find('mediapage', 'equipe');
 
 <div class="menu">
     <ul class="menu-wrapper">
-        <?php foreach($items as $item) : ?>
+        <!-- <?php foreach($items as $item) : ?>
             <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
         <?php endforeach ?>
-    <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
-    <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li>
+        <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
+        <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li> -->
+        <li class="menu-link"><?= $site->temporarymenu()->kt() ?></li>
     </ul>
 </div>
 <div class="close-btn">

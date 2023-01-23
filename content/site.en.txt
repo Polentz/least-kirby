@@ -17,11 +17,21 @@ Newslettername: Newsletter
 
 ----
 
+Temporarymenu:
+
+see you in
+february 2023
+
+----
+
 Subtitle: laboratoire écologie et art pour une société en transition
 
 ----
 
-Newslettercta: Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
+Newslettercta:
+
+Our website will be launched in February.
+Sign up for our newsletter to receive updates and special content by least.
 
 ----
 
