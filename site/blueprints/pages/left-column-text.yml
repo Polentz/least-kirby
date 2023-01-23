@@ -11,13 +11,19 @@ columns:
             type: textarea
             spellcheck: true
           plaintext:
-            label: Plain text
+            label: Small text
             type: textarea
             spellcheck: true
+          buttontext:
+            label: Button text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: url
   - width: 1/2
     sections:
       empty:
         label: Column 2
         type: info
         text: |
-          This column will stay empty
+          This column will be empty

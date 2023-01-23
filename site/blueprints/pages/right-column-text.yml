@@ -7,7 +7,7 @@ columns:
         label: Column 2
         type: info
         text: |
-          This column will stay empty
+          This column will be empty
   - width: 1/2
     sections:
       text:
@@ -17,5 +17,11 @@ columns:
             label: Main Text
             type: textarea
           plaintext:
-            label: Plain text
+            label: Small text
             type: textarea
+          buttontext:
+            label: Button text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: url

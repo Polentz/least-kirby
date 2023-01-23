@@ -11,7 +11,6 @@ columns:
             type: text
             help: This is the title of the section. It will appear in the left column
             icon: grid-left
-            spellcheck: true
             before:
             after:
   - width: 1/2
@@ -23,9 +22,13 @@ columns:
             label: Large text
             type: textarea
             icon: grid-right
-            spellcheck: true
           plaintext:
             label: Small text
             type: textarea
             icon: grid-right
-            spellcheck: true
+          buttontext:
+            label: Button text
+            type: text
+          buttonurl:
+            label: Button URL
+            type: url
