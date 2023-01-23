@@ -58,9 +58,10 @@ tabs:
     icon: page
     sections:
       parts:
-        label: Media content sections
+        label: Content Sections
         type: pages
         status: all
+        help: Choose your media type
         info: "{{ page.intendedTemplate }}"
         image: false
         templates:

@@ -8,12 +8,13 @@ sections:
         label: Background image
         type: files
         template: main-image
+        min: 1
         max: 1
-        limit: 1
         layout: cards
-        size: large
+        size: huge
+        info: "{{ file.caption }}"
         image:
-          ratio: 16/9
+          ratio: 16/4
           cover: true
 
   pagesections:

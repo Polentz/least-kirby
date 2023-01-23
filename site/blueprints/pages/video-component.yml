@@ -1,8 +1,8 @@
-title: Media video
+title: Video
 
 sections:
   parts:
-    label: Video
+    label: Videos List
     type: pages
     status: all
     info: "{{ page.intendedTemplate }}"

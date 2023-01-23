@@ -7,13 +7,11 @@ columns:
         type: fields
         fields:
           maintext:
-            label: Main Text
+            label: Large text
             type: textarea
-            spellcheck: true
           plaintext:
             label: Small text
             type: textarea
-            spellcheck: true
           buttontext:
             label: Button text
             type: text
@@ -23,7 +21,7 @@ columns:
   - width: 1/2
     sections:
       empty:
-        label: Column 2
+        label: Right Column
         type: info
         text: |
           This column will be empty

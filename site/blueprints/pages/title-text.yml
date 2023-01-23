@@ -9,10 +9,7 @@ columns:
           sectiontitle:
             label: Title
             type: text
-            help: This is the title of the section. It will appear in the left column
-            icon: grid-left
-            before:
-            after:
+            icon: headline
   - width: 1/2
     sections:
       content:
@@ -21,11 +18,9 @@ columns:
           maintext:
             label: Large text
             type: textarea
-            icon: grid-right
           plaintext:
             label: Small text
             type: textarea
-            icon: grid-right
           buttontext:
             label: Button text
             type: text

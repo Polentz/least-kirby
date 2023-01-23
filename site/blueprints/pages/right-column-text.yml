@@ -4,7 +4,7 @@ columns:
   - width: 1/2
     sections:
       empty:
-        label: Column 2
+        label: Left Column
         type: info
         text: |
           This column will be empty
@@ -14,7 +14,7 @@ columns:
         type: fields
         fields:
           maintext:
-            label: Main Text
+            label: Large Text
             type: textarea
           plaintext:
             label: Small text

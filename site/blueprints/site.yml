@@ -6,3 +6,28 @@ sections:
     label: "{{ page.title }}"
     image: false
     status: listed
+
+  information:
+    type: fields
+    fields:
+      settings:
+        label: General Settings
+        type: headline
+        numbered: false
+      address:
+        label: Address
+        type: textarea
+        icon: map
+        width: 1/3
+        buttons: false
+      email:
+        label: Email
+        type: email
+        width: 1/3
+      newslettername:
+        label: Newsletter Name
+        type: text
+        icon: bolt
+        width: 1/3
+        buttons: false
+

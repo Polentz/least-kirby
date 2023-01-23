@@ -5,33 +5,38 @@ sections:
     type: fields
     fields:
       firstslot: 
-        label: Use this square?
+        label: Display the image in this column?
+        help: I suggest to use one column at a time
         width: 1/4
         type: toggle
+        info: I suggest to use one column at a time
         text: 
-        - "no"
-        - "yes"
+          - "no"
+          - "yes"
       secondslot: 
-        label: Use this square?
+        label: Display the image in this column?
+        help: I suggest to use one column at a time
         width: 1/4
         type: toggle
         text: 
-        - "no"
-        - "yes"
+          - "no"
+          - "yes"
       thirdslot: 
-        label: Use this square?
+        label: Display the image in this column?
+        help: I suggest to use one column at a time
         width: 1/4
         type: toggle
         text: 
-        - "no"
-        - "yes"
+          - "no"
+          - "yes"
       fourthslot: 
-        label: Use this square?
+        label: Display the image in this column?
+        help: I suggest to use one column at a time
         width: 1/4
         type: toggle
         text: 
-        - "no"
-        - "yes"
+          - "no"
+          - "yes"
   image:
     label: Image
     type: files

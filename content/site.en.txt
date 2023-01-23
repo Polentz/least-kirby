@@ -2,14 +2,6 @@ Title: least
 
 ----
 
-Subtitle: laboratoire écologie et art pour une société en transition
-
-----
-
-Email: contact@least.eco
-
-----
-
 Address:
 
 4, rue du Beulet
@@ -17,7 +9,15 @@ CH-1203 Genève
 
 ----
 
+Email: contact@least.eco
+
+----
+
 Newslettername: Newsletter
+
+----
+
+Subtitle: laboratoire écologie et art pour une société en transition
 
 ----
 

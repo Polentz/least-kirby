@@ -19,9 +19,9 @@ sections:
     type: files
     label: Image
     layout: cards
+    max: 1
     template: simple-image
     info: "{{ file.caption }}"
-    help: "{{ file.dimensions }}"
     image:
       ratio: 1/1
       cover: true
