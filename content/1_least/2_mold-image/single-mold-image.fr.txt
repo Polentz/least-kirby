@@ -1,0 +1,21 @@
+Title: Mold image
+
+----
+
+Firstslot: false
+
+----
+
+Secondslot: true
+
+----
+
+Thirdslot: false
+
+----
+
+Fourthslot: false
+
+----
+
+Uuid: cg3cT7zAAS975Cmi

@@ -1,0 +1,9 @@
+Uuid: c6b7byATqAOankCg
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

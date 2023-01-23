@@ -26,7 +26,7 @@ sections:
       - title-text
       - left-column-text
       - right-column-text
-      - molds-images
+      - single-mold-image
       - gallery
       - cards
       - projects
