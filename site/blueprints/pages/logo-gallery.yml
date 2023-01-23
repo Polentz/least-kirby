@@ -1,13 +1,12 @@
-title: Gallery
+title: Logo gallery
 
 sections:
   gallery:
-    label: Gallery images
+    label: Logo gallery
     type: files
-    layout: cards
+    layout: cardlets
     template: gallery-image
     size: small
-    min: 2
     info: "{{ file.caption }}"
     image:
       ratio: 1/1

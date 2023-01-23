@@ -741,7 +741,28 @@ input.seek-slider::-webkit-slider-thumb {
     padding: var(--marg-s);
 }
 
-.gallery-block::-webkit-scrollbar {
+.logo-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: var(--marg-s);
+    padding: var(--marg-s);
+}
+
+.gallery-block::-webkit-scrollbar,
+.logo-block::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -757,6 +778,11 @@ input.seek-slider::-webkit-slider-thumb {
     -o-transition: filter .5s ease;
     transition: filter .5s ease;
     transition: filter .5s ease, -webkit-filter .5s ease;
+}
+
+.logo-wrapper img {
+    height: 48px;
+    border: none;
 }
 
 .image-wrapper img.--grayscale {
@@ -851,6 +877,10 @@ input.seek-slider::-webkit-slider-thumb {
     :root {
         --txt-large: calc(6vw + 2rem);
         --txt-medium: 1.4rem;
+    }
+
+    .grid-layout.four-columns {
+        grid-template-columns: repeat(2, 50%);
     }
 }
 
