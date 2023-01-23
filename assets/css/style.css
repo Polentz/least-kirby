@@ -538,7 +538,7 @@ a:visited {
     align-items: center;
     border: var(--border);
     padding: var(--txt-small);
-    margin-top: .5rem;
+    margin-top: .8rem;
 }
 
 .audio-player svg {
@@ -571,13 +571,18 @@ a:visited {
     opacity: 1;
 }
 
+.stop-icon {
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
 .stop-icon.toggle-play {
-    fill: var(--txt-color);
+    opacity: 1;
     cursor: pointer;
 }
 
 .audio-time {
-    width: 144px;
+    width: 160px;
     white-space: nowrap;
     text-align: center;
 }
@@ -640,8 +645,6 @@ input.seek-slider::-webkit-slider-thumb {
 .mute-icon.toggle-volume {
     opacity: 1;
 }
-
-/* END AUDIO */
 
 .card-front,
 .card-back {

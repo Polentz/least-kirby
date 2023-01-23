@@ -5,6 +5,8 @@ const mediaCards = document.querySelectorAll(".media-card");
 const mediaContent = document.querySelectorAll(".media-article");
 const mediaContentCategoryConteiner = document.querySelectorAll(".media-content-category");
 const mediaContentClose = document.querySelectorAll(".media-content-close");
+const playBtns = document.querySelectorAll(".play-btn");
+const audioComponent = document.querySelectorAll(".audio-wrapper");
 
 filterBtns.forEach(btn => {
     btn.addEventListener("click", (element) => {
@@ -148,9 +150,6 @@ mediaContentCategoryConteiner.forEach(container => {
     })
 
 });
-
-const playBtns = document.querySelectorAll(".play-btn");
-const audioComponent = document.querySelectorAll(".audio-wrapper");
 
 audioComponent.forEach(component => {
     playBtns.forEach(btn => {

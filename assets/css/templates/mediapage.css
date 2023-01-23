@@ -189,6 +189,7 @@
 }
 
 .media-content-wrapper {
+    width: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -197,7 +198,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     gap: var(--marg-s);
-    padding: 0 var(--marg-s);
+    padding-left: var(--marg-s);
 }
 
 .video-wrapper video,
@@ -215,7 +216,7 @@
 
 .video-wrapper video {
     width: -webkit-fill-available;
-    margin-top: 0.5rem;
+    margin-top: .8rem;
 }
 
 .media-content-close {
