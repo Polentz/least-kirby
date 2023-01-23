@@ -1,0 +1,9 @@
+Uuid: rCDQHY4zxW2Ca6Xp
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 2

@@ -138,12 +138,12 @@ a:visited {
     font-size: var(--txt-ui);
 }
 
-.--txt-caption {
-    padding: .5rem 1rem;
-}
-
 .--txt-footer {
     line-height: 2;
+}
+
+figcaption {
+    padding-left: .8rem;
 }
 
 .side-nav {

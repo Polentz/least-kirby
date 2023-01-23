@@ -68,5 +68,6 @@ tabs:
           - copy-component
           - audio-component
           - video-component
+          - gallery
 
  

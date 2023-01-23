@@ -1,3 +1,15 @@
+.gallery-layout.--outline {
+    outline: none;
+}
+
+.gallery-block {
+    padding-bottom: 0;
+}
+
+.gallery-btn {
+    padding-top: 0;
+}
+
 .filter-btn {
     border-bottom: var(--border);
     cursor: pointer;
@@ -148,6 +160,7 @@
 }
 
 .svg-tag svg {
+    display: block;
     width: var(--txt-small);
     stroke-width: 1.5px;
     stroke: var(--bg-color);
@@ -156,6 +169,7 @@
 
 
 .media-content-close svg {
+    display: block;
     width: var(--txt-small);
     stroke: var(--txt-color);
     stroke-width: 1.5px;
@@ -164,6 +178,7 @@
 .svg-lecture svg,
 .svg-podcast svg,
 .svg-video svg {
+    display: block;
     width: var(--txt-small);
     stroke: var(--txt-color);
     stroke-width: 1.5px;
@@ -186,10 +201,10 @@
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    gap: .8rem;
 }
 
 .media-content-wrapper {
-    width: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -198,11 +213,11 @@
     -ms-flex-direction: column;
     flex-direction: column;
     gap: var(--marg-s);
-    padding-left: var(--marg-s);
 }
 
 .video-wrapper video,
 .content-text-image img {
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
@@ -210,14 +225,17 @@
     border: var(--border);
 }
 
-.content-text-image img {
+/* .content-text-image img {
     width: 100%;
-}
+} */
 
-.video-wrapper video {
-    width: -webkit-fill-available;
+.video-title {
     margin-top: .8rem;
 }
+
+/* .video-wrapper video {
+    width: -webkit-fill-available;
+} */
 
 .media-content-close {
     cursor: pointer;
@@ -245,6 +263,17 @@
     -ms-flex-direction: column;
     flex-direction: column;
     gap: var(--p-gap);
+    padding: 0 var(--marg-s);
+}
+
+.content-text-image,
+.video-wrapper {
+    padding: 0 var(--marg-s);
+}
+
+.content-audio-component {
+    width: 75%;
+    padding: 0 var(--marg-s);
 }
 
 @media screen and (max-width: 910px) {

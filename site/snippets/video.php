@@ -7,7 +7,9 @@
     <?php if ($file = $videoelement->file()): ?>
         <video controls src="<?= $file->url() ?>"></video>
     <?php endif ?>
-    <div class="--txt-caption">
-        <?= $videoelement->caption()->kt() ?>
-    </div>
+    <?php if ($videoelement->caption()->isNotEmpty()): ?>
+        <div class="--txt-caption">
+            <?= $videoelement->caption()->kt() ?>
+        </div>  
+    <?php endif ?> 
 </div>
