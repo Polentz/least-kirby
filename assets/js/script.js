@@ -100,44 +100,23 @@ const createChild = () => {
     return div;
 }
 
-// const grid = () => {
-//     const gridLayout = document.querySelectorAll(".grid-layout");
-//     for (let i = 0; i < gridLayout.length; i++) {
-//         const parent = gridLayout[i];
-//         const children = parent.children;
-//         const childrenArray = Array.from(children);
-
-//         if (parent.children.length != 2) {
-//             for (let i = parent.children.length; i < 4; i++) {
-//                 parent.appendChild(createChild());
-//             };
-//         };
-//         const childrenLength = parent.children.length;
-//         // console.log(childrenLength);
-
-//         if (parent.children.length == 2) {
-//             parent.classList.add("two-columns");
-//             childrenArray.forEach(child => {
-//                 child.classList.add("grid-block");
-//                 if (child.children.length == 0) {
-//                     child.classList.add("--empty");
-//                 };
-//             });
-//         } else if (parent.children.length == 4) {
-//             parent.classList.add("four-columns");
-//             childrenArray.forEach(child => {
-//                 child.classList.add("grid-square");
-//                 if (child.children.length == 0) {
-//                     child.classList.add("--empty");
-//                 };
-//             });
-//         };
-//     };
-// };
+const grid = () => {
+    const gridLayout = document.querySelectorAll(".grid-layout");
+    for (let i = 0; i < gridLayout.length; i++) {
+        const parent = gridLayout[i];
+        const children = parent.children;
+        const childrenArray = Array.from(children);
+        childrenArray.forEach(child => {
+            if (child.children.length == 0) {
+                child.classList.add("--empty");
+            };
+        });
+    };
+};
 
 window.addEventListener("resize", documentHeight);
 documentHeight();
 jsScroll();
 menu();
 header();
-// grid();
+grid();
