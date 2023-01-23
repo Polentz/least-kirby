@@ -46,7 +46,6 @@
         </section>
             
         <footer class="footer --outline">
-            <a class="--txt-footer" href="">Impressum</a>   
             <p class="--txt-footer">2022 © least</p>    
         </footer>
     </main>

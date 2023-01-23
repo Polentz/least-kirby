@@ -38,9 +38,9 @@ mediaCards.forEach(label => {
 mediaContentClose.forEach(btn => {
     btn.addEventListener("click", () => {
         unselectContent();
-        mediaCards.forEach(label => {
-            label.style.display = "flex";
-        });
+        // mediaCards.forEach(label => {
+        //     label.classList.add("hide");
+        // });
         window.scrollTo(0, 0);
     });
 

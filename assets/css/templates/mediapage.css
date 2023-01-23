@@ -286,6 +286,31 @@
     }
 }
 
+@media screen and (max-width: 720px) {
+    .card {
+        display: block;
+    }
+
+    .card-back {
+        border-left: none;
+        background-color: transparent;
+        padding-top: 0;
+    }
+
+    .card-back .--txt-small {
+        display: none;
+    }
+
+    .card-back a,
+    .card-back p {
+        mix-blend-mode: difference;
+    }
+
+    .media-card.unfiltered>.card-back {
+        opacity: .2;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     .filtered {
@@ -312,5 +337,10 @@
 
     .svg-tag svg {
         stroke: var(--txt-color);
+    }
+
+    .content-audio-component,
+    .audio-time {
+        width: auto;
     }
 }
