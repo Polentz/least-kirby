@@ -6,9 +6,7 @@
 <?= snippet('topbar') ?>
 
 <?php foreach ($page->children()->listed() as $part) : ?>
-    <section>
-        <?php snippet($part->intendedTemplate(), compact('part')) ?>
-    </section>
+    <?php snippet($part->intendedTemplate(), compact('part')) ?>
 <?php endforeach ?>
 
 <?= snippet('footer') ?>

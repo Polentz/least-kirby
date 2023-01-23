@@ -28,24 +28,11 @@
 </section>
 
 <section class="cards-section">
-    <div class="grid-layout four-columns">
-        <?php foreach ($mediacards->children()->listed() as $mediacontent): ?>
-            <?php snippet('mediacontent', ['mediacontent' => $mediacontent]); ?>
-        <?php endforeach ?>
-    </div>
+    <?php snippet('mediacontents'); ?>
 </section>
 
 <section class="content-section">
-    <?php foreach ($mediacards->children()->listed() as $mediacontent): ?>
-            <?php snippet('mediaheader', ['mediacontent' => $mediacontent]); ?>
-                <div class="media-content-wrapper">
-                    <?php foreach ($mediacontent->children()->listed() as $part) : ?>
-                        <?php snippet($part->intendedTemplate(), compact('part')) ?>
-                    <?php endforeach ?>
-                </div>
-            </div>
-        </div>
-    <?php endforeach ?>
+    <?php snippet('content'); ?>
 </section>
 
 <?= snippet('footer') ?> 

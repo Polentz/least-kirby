@@ -1,20 +1,17 @@
 <?php
 
 return function ($page) {
-    $mediacards = $page->children()->listed()->first();
-    // $mediacontent = $mediacards->children()->listed();
+    $mediacontents = $page->children()->listed()->first();
     $filterBy = get('filter');
-    $unfiltered = $mediacards->children()->listed();
+    $unfiltered = $mediacontents->children()->listed();
     $content = $unfiltered
     ->when($filterBy, function($filterBy) {
        return $this->filterBy('filter', $filterBy);
     });
     $filters = $unfiltered->pluck('filter', null, true);
 
-    // variables
     return [
-        'mediacards' => $mediacards,
-        // 'mediacontent' => $mediacontent,
+        'mediacontents' => $mediacontents,
         'filterBy' => $filterBy,
         'unfiltered' => $unfiltered,
         'content' => $content,

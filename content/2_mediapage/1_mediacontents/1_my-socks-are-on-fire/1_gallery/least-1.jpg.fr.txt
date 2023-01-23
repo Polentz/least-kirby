@@ -1,9 +1,0 @@
-Uuid: SCHIjmJ0aMbefc2o
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 1

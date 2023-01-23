@@ -1,0 +1,9 @@
+Uuid: 4nQTAgiszxBJY8jL
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 6

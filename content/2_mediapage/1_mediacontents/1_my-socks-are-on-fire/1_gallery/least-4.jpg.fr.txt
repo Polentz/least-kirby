@@ -1,9 +1,0 @@
-Uuid: VKuVTn8Pl5DFFyE7
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 4

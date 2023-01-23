@@ -1,0 +1,9 @@
+Uuid: L8aZB9uVSGyolb9a
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 7

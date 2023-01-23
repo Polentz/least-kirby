@@ -1,0 +1,9 @@
+Uuid: ZzY2ibXvAlkppfwU
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 4

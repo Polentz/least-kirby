@@ -1,0 +1,9 @@
+Uuid: UjAo6bfbjFo0x1XP
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 3
