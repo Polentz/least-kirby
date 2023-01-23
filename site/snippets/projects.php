@@ -1,6 +1,6 @@
 <section id="<?= $part->title()->slug() ?>">
     <div class="grid-layout four-columns">
-        <?php foreach ($part->children()->listed()->paginate(4) as $card): ?>
+        <?php foreach ($part->children()->listed() as $card): ?>
             <div class="grid-square --outline card">
                 <div class="card-front --txt-medium" 
                     <?php if ($cover = $card->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
@@ -23,6 +23,4 @@
         <?php endforeach ?>
     </div>
 </section>
-
-<!-- ho inserito paginate(4): trovare il modo creare un'altra section quando si supera 4 e nel blueprint di limitare il numero massimo di card a 4 -->
 

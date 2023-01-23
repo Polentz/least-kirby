@@ -1,6 +1,6 @@
 <section>
     <div class="grid-layout four-columns">
-        <?php foreach ($part->children()->listed()->paginate(4) as $card): ?>
+        <?php foreach ($part->children()->listed() as $card): ?>
             <div class="grid-square --outline card">
                 <div class="card-front --txt-medium" 
                     <?php if ($cover = $card->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
