@@ -1,9 +1,9 @@
 <?php
 
 return function ($page) {
-    $mediacontents = $page->children()->listed()->first();
+    $mediacontents = $page->children()->listed();
     $filterBy = get('filter');
-    $unfiltered = $mediacontents->children()->listed();
+    $unfiltered = $page->children()->listed();
     $content = $unfiltered
     ->when($filterBy, function($filterBy) {
        return $this->filterBy('filter', $filterBy);

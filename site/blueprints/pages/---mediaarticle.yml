@@ -1,0 +1,11 @@
+title: Media Content
+
+sections:
+  text:
+    type: pages
+    label: Content
+    image: false
+    templates:
+      - text-component
+      - audio-component
+      - video-component

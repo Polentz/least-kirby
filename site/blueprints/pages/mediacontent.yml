@@ -10,37 +10,23 @@ tabs:
           front:
             type: fields
             fields:
+              frontinfo:
+                type: info
+                label: false
+                text: This is the front of the card
               fronttext:
-                label: Headline
+                label: Title
                 type: text
-                icon: title
-                required: true
-              shortname:
-                label: Content ID
-                type: text
-                icon: title
                 required: true
               background:
                 label: Background image
                 type: files
-                template: gallery-image
+                template: simple-image
                 layout: cards
                 size: small
                 image:
                   ratio: 1/1
                   cover: true
-      - width: 1/2
-        sections:
-          back:
-            type: fields
-            fields:
-              backtext:
-                label: Description
-                type: textarea
-                icon: text
-                required: true
-                buttons: false
-                maxlength: 125
               filter:
                 label: Filter by
                 type: select
@@ -49,25 +35,39 @@ tabs:
                   Podcast
                   Video
                 required: true
+      - width: 1/2
+        sections:
+          back:
+            type: fields
+            fields:
+              backinfo:
+                type: info
+                label: false
+                text: This is the back of the card
+              backtext:
+                label: Description
+                type: textarea
+                required: true
+                buttons: false
+                maxlength: 125
               tag:
                 label: Tag
                 type: tags
                 required: true
-  content:
-    label: Media content
+  mediaarticle:
+    label: Media Content
     icon: page
     sections:
       parts:
-        label: Content Sections
         type: pages
         status: all
         help: Choose your media type
         info: "{{ page.intendedTemplate }}"
         image: false
         templates:
-          - copy-component
-          - audio-component
-          - video-component
+          - media-text
+          - media-audio
+          - media-video
           - gallery
 
  

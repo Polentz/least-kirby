@@ -1,4 +1,4 @@
-<div class="--outline grid-square card media-card" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->shortname()->slug() ?>">
+<div class="--outline grid-square card media-card" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>">
     <div class="card-front" <?php if ($cover = $mediacontent->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
         <?php endif ?>>
         <div class="--txt-medium">

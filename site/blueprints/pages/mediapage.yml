@@ -1,9 +1,10 @@
 title: Media Page
 
 sections:
-  medialist:
-    label: Page sections
+  cards:
     type: pages
+    layout: cards
+    label: Media Cards
     image: false
     templates:
-      - mediacontents
+      - mediacontent
