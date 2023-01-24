@@ -5,15 +5,15 @@ sections:
     type: pages
     label: "{{ page.title }}"
     image: false
-    status: listed
+    status: all
 
-  information:
+  info:
     type: fields
     fields:
       settings:
         label: General Settings
-        type: headline
-        numbered: false
+        type: info
+        text: The content fields below are global and available through all pages of the website.
       address:
         label: Address
         type: textarea
@@ -38,6 +38,11 @@ sections:
       newslettercta:
         label: Newsletter CTA
         type: textarea
+        width: 1/3
+        buttons: false
+      partnerlink:
+        label: Partner page
+        type: text
         width: 1/3
         buttons: false
 

@@ -1,0 +1,6 @@
+title: Error
+
+options:
+  read:
+    admin: false
+    editor: false
