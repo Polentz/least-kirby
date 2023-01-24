@@ -9,3 +9,7 @@ return [
 return [
   'languages' => true
 ];
+
+return [
+  'debug'  => true
+];
