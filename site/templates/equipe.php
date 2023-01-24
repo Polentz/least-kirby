@@ -1,8 +1,6 @@
 <?= snippet('header') ?>
 <?= snippet('sidebar') ?>
-
 <main class="main">
-
 <?= snippet('topbar') ?>
 
 <?php foreach ($page->children()->listed() as $part) : ?>

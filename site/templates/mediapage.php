@@ -26,8 +26,6 @@
         </div>
     </div>
 </section>
-
-
     
 <section class="cards-section">
     <div class="grid-layout four-columns">
@@ -67,7 +65,6 @@
         </div>
     <?php endforeach ?>
 </section>
-
 
 <?= snippet('footer') ?> 
 

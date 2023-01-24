@@ -1,3 +1,4 @@
+const mainSection = document.querySelector(".main");
 const mediaSection = document.querySelector(".cards-section");
 const mediaCards = document.querySelectorAll(".media-card");
 const mediaContents = document.querySelectorAll(".media-article");
@@ -5,6 +6,23 @@ const mediaContentCategoryConteiner = document.querySelectorAll(".media-content-
 const mediaContentClose = document.querySelectorAll(".media-content-close");
 const playBtns = document.querySelectorAll(".play-btn");
 const audioComponent = document.querySelectorAll(".audio-wrapper");
+
+const pageTag = mainSection.dataset.name;
+mediaCards.forEach(card => {
+    const cardTag = card.dataset.tag;
+    if (pageTag != cardTag) {
+        card.remove();
+    };
+});
+
+mediaContents.forEach(content => {
+    const contentTag = content.dataset.tag;
+    console.log(contentTag)
+    if (pageTag != contentTag) {
+        content.remove();
+    };
+});
+
 
 mediaCards.forEach(label => {
     label.addEventListener("click", (element) => {
@@ -15,10 +33,9 @@ mediaCards.forEach(label => {
 mediaContentClose.forEach(btn => {
     btn.addEventListener("click", () => {
         unselectContent();
-        window.scrollTo(0, 0);
+        mediaSection.scrollTo(0, 0);
     });
-
-})
+});
 
 const selectContent = (element) => {
     const contentTag = element.currentTarget.dataset.name;
@@ -26,7 +43,7 @@ const selectContent = (element) => {
         const contentName = content.dataset.name;
         if (contentName.includes(contentTag)) {
             content.classList.add("show-content");
-            content.scrollIntoView({});
+            // content.scrollIntoView({});
         } else {
             content.classList.remove("show-content");
             mediaSection.style.display = "none";

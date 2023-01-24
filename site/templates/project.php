@@ -1,7 +1,7 @@
 <?= snippet('header') ?>
 <?= snippet('sidebar') ?>
 
-<main class="main" id="a-propos">
+<main class="main" data-name="<?= $page->title()->slug() ?>">
 
 <?= snippet('topbar') ?>
 
@@ -19,7 +19,7 @@
 
 <section class="content-section">
     <?php foreach ($site->page('mediapage')->children()->listed() as $mediacontent): ?>
-        <div class="--outline media-article" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>">
+        <div class="--outline media-article" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>" data-tag="<?= $mediacontent->tag()->slug() ?>">
             <div class="media-title">
                 <div class="--txt-medium">
                     <?= $mediacontent->fronttext()->kt() ?>
