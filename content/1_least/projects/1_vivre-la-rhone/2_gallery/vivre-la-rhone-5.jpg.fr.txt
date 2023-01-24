@@ -1,9 +1,0 @@
-Uuid: endikPn1NteqWw53
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 5

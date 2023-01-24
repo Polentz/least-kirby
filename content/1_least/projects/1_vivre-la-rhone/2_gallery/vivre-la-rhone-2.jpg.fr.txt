@@ -1,9 +1,0 @@
-Uuid: bYpsTA9DZLDKXjZW
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 2
