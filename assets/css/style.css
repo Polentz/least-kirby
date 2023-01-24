@@ -820,6 +820,7 @@ input.seek-slider::-webkit-slider-thumb {
 
 .button-label {
     position: relative;
+    text-transform: lowercase;
     margin: 0;
 }
 

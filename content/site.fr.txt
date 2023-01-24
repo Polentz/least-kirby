@@ -13,10 +13,6 @@ Email: contact@least.eco
 
 ----
 
-Newslettername: Newsletter
-
-----
-
 Temporarymenu:
 
 on se retrouve en
@@ -24,11 +20,19 @@ février 2023
 
 ----
 
-Subtitle: laboratoire écologie et art pour une société en transition
+Newslettername: Newsletter
 
 ----
 
 Newslettercta: Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
+
+----
+
+Partnerlink: 
+
+----
+
+Subtitle: laboratoire écologie et art pour une société en transition
 
 ----
 

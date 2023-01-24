@@ -1,8 +1,8 @@
 const filterBtns = document.querySelectorAll(".filter-btn");
 const filterClear = document.getElementById("all-media");
-const mediaSection = document.querySelectorAll(".cards-section, .filters-section");
+const mediaSections = document.querySelectorAll(".cards-section, .filters-section");
 const mediaCards = document.querySelectorAll(".media-card");
-const mediaContent = document.querySelectorAll(".media-article");
+const mediaContents = document.querySelectorAll(".media-article");
 const mediaContentCategoryConteiner = document.querySelectorAll(".media-content-category");
 const mediaContentClose = document.querySelectorAll(".media-content-close");
 const playBtns = document.querySelectorAll(".play-btn");
@@ -85,7 +85,7 @@ const removeFilters = () => {
         media.classList.remove("unfiltered");
         media.classList.remove("filtered");
     });
-    mediaContent.forEach(content => {
+    mediaContents.forEach(content => {
         content.classList.remove("show-content");
     });
     filterClear.style.display = "none";
@@ -93,14 +93,14 @@ const removeFilters = () => {
 
 const selectContent = (element) => {
     const contentTag = element.currentTarget.dataset.name;
-    mediaContent.forEach(content => {
+    mediaContents.forEach(content => {
         const contentName = content.dataset.name;
         if (contentName.includes(contentTag)) {
             content.classList.add("show-content");
             content.scrollIntoView({});
         } else {
             content.classList.remove("show-content");
-            mediaSection.forEach(section => {
+            mediaSections.forEach(section => {
                 section.style.display = "none";
             });
         };
@@ -108,7 +108,7 @@ const selectContent = (element) => {
 };
 
 const unselectContent = () => {
-    mediaContent.forEach(content => {
+    mediaContents.forEach(content => {
         if (content.classList.contains("show-content")) {
             content.classList.remove("show-content");
         };
@@ -120,7 +120,7 @@ const unselectContent = () => {
             }
         }
     });
-    mediaSection.forEach(section => {
+    mediaSections.forEach(section => {
         section.style.display = "block";
     });
 }
