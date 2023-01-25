@@ -21,7 +21,7 @@
                         <?= $filter->kt() ?>
                     </li>
                 <?php endforeach ?>
-                <li id="all-media" class="filter-btn --title-small" data-filter="all">Tous les médias</li>
+                <li id="all-media" class="all-media-btn --title-small" data-filter="all">Tous les médias</li>
             </ul>
         </div>
     </div>

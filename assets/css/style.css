@@ -529,8 +529,6 @@ figcaption {
     padding: var(--txt-small) var(--marg-s);
 }
 
-/* AUDIO */
-
 .audio-player {
     height: var(--header);
     display: flex;
@@ -663,13 +661,12 @@ input.seek-slider::-webkit-slider-thumb {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* box-shadow: inset 0 0 0 600px rgb(255 255 255 / 35%); */
+    box-shadow: inset 0 0 0 600px rgb(255 255 255 / 45%);
     filter: grayscale(1);
 }
 
 .card-front p {
     color: var(--txt-color);
-    mix-blend-mode: overlay;
 }
 
 .card-back {
@@ -1070,7 +1067,6 @@ input.seek-slider::-webkit-slider-thumb {
     }
 
     .header {
-        /* display: none; */
         padding-bottom: 0;
     }
 

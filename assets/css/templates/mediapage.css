@@ -10,7 +10,8 @@
     padding-top: 0;
 }
 
-.filter-btn {
+.filter-btn,
+.all-media-btn {
     border-bottom: var(--border);
     cursor: pointer;
     -webkit-transition: all .5s ease;
@@ -19,7 +20,7 @@
     position: relative;
 }
 
-.filter-btn:last-of-type {
+.all-media-btn {
     display: none;
 }
 
@@ -38,10 +39,21 @@
 }
 
 .media-card {
+    position: relative;
     cursor: pointer;
+    mix-blend-mode: multiply;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+}
+
+.media-card::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    mix-blend-mode: multiply;
 }
 
 .media-card.unfiltered {
@@ -56,7 +68,8 @@
     cursor: pointer;
 }
 
-.filter-btn:hover {
+.filter-btn:hover,
+.all-media-btn:hover {
     text-indent: .5rem;
 }
 
@@ -74,9 +87,8 @@
     background: linear-gradient(217deg, #fff, #AF73BF);
 }
 
-.media-card[data-category="lecture"].filtered,
-.media-card[data-category="lecture"].highlight,
-.media-card[data-category="lecture"]:hover {
+.media-card[data-category="lecture"].filtered::after,
+.media-card[data-category="lecture"].highlight::after {
     background: -o-linear-gradient(47deg, #fff, #AF73BF);
     background: linear-gradient(43deg, #fff, #AF73BF);
 }
@@ -87,9 +99,8 @@
     background: linear-gradient(217deg, #fff, #5896e7);
 }
 
-.media-card[data-category="video"].filtered,
-.media-card[data-category="video"].highlight,
-.media-card[data-category="video"]:hover {
+.media-card[data-category="video"].filtered::after,
+.media-card[data-category="video"].highlight::after {
     background: -o-linear-gradient(47deg, #fff, #5896e7);
     background: linear-gradient(43deg, #fff, #5896e7);
 }
@@ -100,9 +111,8 @@
     background: linear-gradient(217deg, #fff, #A8F0CD);
 }
 
-.media-card[data-category="podcast"].filtered,
-.media-card[data-category="podcast"].highlight,
-.media-card[data-category="podcast"]:hover {
+.media-card[data-category="podcast"].filtered::after,
+.media-card[data-category="podcast"].highlight::after {
     background: -o-linear-gradient(47deg, #fff, #A8F0CD);
     background: linear-gradient(43deg, #fff, #A8F0CD);
 }
@@ -225,17 +235,9 @@
     border: var(--border);
 }
 
-/* .content-text-image img {
-    width: 100%;
-} */
-
 .video-title {
     margin-top: .8rem;
 }
-
-/* .video-wrapper video {
-    width: -webkit-fill-available;
-} */
 
 .media-content-close {
     cursor: pointer;

@@ -38,9 +38,6 @@ mediaCards.forEach(label => {
 mediaContentClose.forEach(btn => {
     btn.addEventListener("click", () => {
         unselectContent();
-        // mediaCards.forEach(label => {
-        //     label.classList.add("hide");
-        // });
         window.scrollTo(0, 0);
     });
 
@@ -55,7 +52,9 @@ const highlightItemPerFilter = (element) => {
         } else {
             media.classList.remove("highlight");
         };
+
     });
+
 };
 
 const applyFilter = (element, btn) => {
