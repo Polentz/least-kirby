@@ -41,6 +41,9 @@
                     <div class="contact--block --txt-small">
                         <a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
                     </div>
+                    <div class="contact--block --txt-small">
+                        <a href=""><?= $site->partnerlink() ?></a>
+                    </div>
                 </div>
             </div>
         </section>

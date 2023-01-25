@@ -28,7 +28,7 @@ Newslettercta: Inscrivez-vous à notre newsletter pour recevoir nos dernières a
 
 ----
 
-Partnerlink: 
+Partnerlink: partners and sponsors
 
 ----
 
