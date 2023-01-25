@@ -1,0 +1,20 @@
+title: Page
+
+sections:
+  parts:
+    label: Page sections
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    templates:
+      - title-text
+      - left-column-text
+      - right-column-text
+      - one-column-text
+      - two-columns-text
+      - single-mold-image
+      - gallery
+      - cards
+      - projects
+      - logo-gallery

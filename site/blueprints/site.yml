@@ -6,6 +6,11 @@ sections:
     label: "{{ page.title }}"
     image: false
     status: all
+    template:
+      - page
+      - equipe
+      - mediapage
+      - home
 
   info:
     type: fields
@@ -13,7 +18,8 @@ sections:
       settings:
         label: General Settings
         type: info
-        text: The content fields below are global and available through all pages of the website.
+        theme: none
+        text: Content fields below are global and available on all pages.
       address:
         label: Address
         type: textarea
