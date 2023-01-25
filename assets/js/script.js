@@ -101,7 +101,7 @@ const createChild = () => {
 }
 
 const grid = () => {
-    const gridLayout = document.querySelectorAll(".grid-layout");
+    const gridLayout = document.querySelectorAll(".four-columns, .two-columns");
     for (let i = 0; i < gridLayout.length; i++) {
         const parent = gridLayout[i];
         const children = parent.children;

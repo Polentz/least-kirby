@@ -1,6 +1,14 @@
 title: Media Page
 
 sections:
+  filter:
+    type: fields
+    fields:
+      filterintro:
+        type: text
+        label: Introduce filters
+        width: 1/3
+        buttons: false
   cards:
     type: pages
     layout: cards

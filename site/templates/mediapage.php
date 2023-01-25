@@ -8,12 +8,12 @@
     <div class="grid-layout two-columns">
         <div class="grid-block --outline">
             <div class="grid-text">
-                <h2 class="--title-large">médias</h2>
+                <h2 class="--title-large"><?= $page->title()->kt() ?></h2>
             </div>
         </div>
         <div class="--outline">
             <div class="grid-title">
-                <li class="--txt-medium">médias filtrants par</li>
+                <li class="--txt-medium"><?= $page->filterintro()->kt() ?></li>
             </div>
             <ul class="grid-list">
                 <?php foreach ($filters as $filter): ?>

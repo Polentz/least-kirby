@@ -1,0 +1,18 @@
+title: One column text
+
+sections:
+  part:
+    type: fields
+    fields:
+      maintext:
+        label: Large text
+        type: textarea
+      plaintext:
+        label: Small text
+        type: textarea
+      buttontext:
+        label: Button text
+        type: text
+      buttonurl:
+        label: Button URL
+        type: url

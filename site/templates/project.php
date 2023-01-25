@@ -9,6 +9,17 @@
     <?php snippet($part->intendedTemplate(), compact('part')) ?>
 <?php endforeach ?>
 
+<section>
+    <div class="grid-layout two-columns">
+        <div class="grid-block --outline">
+            <div class="grid-text">
+                <h2 class="--title-large"></h2>
+            </div>
+        </div>
+        <div class="--outline"></div>
+    </div>
+</section>
+
 <section class="cards-section">
     <div class="grid-layout four-columns">
         <?php foreach ($site->page('mediapage')->children()->listed() as $mediacontent): ?>
@@ -48,5 +59,8 @@
     <?php endforeach ?>
 </section>
 
+<?php if ($part = $page->children()->listed()) : ?>
+    <?php snippet('logo-gallery', ['part' => $part]); ?>
+<?php endif ?>
 
 <?= snippet('footer') ?>

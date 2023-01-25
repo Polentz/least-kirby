@@ -2,27 +2,25 @@ const mainSection = document.querySelector(".main");
 const mediaSection = document.querySelector(".cards-section");
 const mediaCards = document.querySelectorAll(".media-card");
 const mediaContents = document.querySelectorAll(".media-article");
-const mediaContentCategoryConteiner = document.querySelectorAll(".media-content-category");
 const mediaContentClose = document.querySelectorAll(".media-content-close");
+const categoryWrapper = document.querySelectorAll(".media-content-category");
 const playBtns = document.querySelectorAll(".play-btn");
 const audioComponent = document.querySelectorAll(".audio-wrapper");
 
-const pageTag = mainSection.dataset.name;
-mediaCards.forEach(card => {
-    const cardTag = card.dataset.tag;
-    if (pageTag != cardTag) {
-        card.remove();
-    };
+window.addEventListener("load", () => {
+    filterByTag(mediaCards);
+    filterByTag(mediaContents);
 });
 
-mediaContents.forEach(content => {
-    const contentTag = content.dataset.tag;
-    console.log(contentTag)
-    if (pageTag != contentTag) {
-        content.remove();
-    };
-});
-
+const filterByTag = (cards) => {
+    cards.forEach(card => {
+        const pageTag = mainSection.dataset.name;
+        const cardTag = card.dataset.tag;
+        if (pageTag != cardTag) {
+            card.remove();
+        };
+    });
+};
 
 mediaCards.forEach(label => {
     label.addEventListener("click", (element) => {
@@ -43,7 +41,6 @@ const selectContent = (element) => {
         const contentName = content.dataset.name;
         if (contentName.includes(contentTag)) {
             content.classList.add("show-content");
-            // content.scrollIntoView({});
         } else {
             content.classList.remove("show-content");
             mediaSection.style.display = "none";
@@ -61,17 +58,17 @@ const unselectContent = () => {
             const audio = audios[i];
             if (audio.played) {
                 audio.pause();
-            }
-        }
+            };
+        };
     });
     mediaSection.style.display = "block";
-}
+};
 
-mediaContentCategoryConteiner.forEach(container => {
+categoryWrapper.forEach(container => {
     const mediaContentCategories = container.querySelectorAll(".media-content-filter");
-    const lecture = "Lecture"
-    const podcast = "Podcast"
-    const video = "Video"
+    const lecture = "Lecture";
+    const podcast = "Podcast";
+    const video = "Video";
     const svgLecture = container.querySelectorAll(".svg-lecture");
     const svgPodcast = container.querySelectorAll(".svg-podcast");
     const svgVideo = container.querySelectorAll(".svg-video");
@@ -88,8 +85,8 @@ mediaContentCategoryConteiner.forEach(container => {
             svgVideo.forEach(element => {
                 element.style.display = "block";
             });
-        }
-    })
+        };
+    });
 
 });
 
@@ -146,8 +143,8 @@ audioComponent.forEach(component => {
                     audio.volume = 1;
                     volumeIcon.classList.remove("toggle-volume");
                     muteIcon.classList.remove("toggle-volume");
-                }
-            }
+                };
+            };
 
             const stopAudio = () => {
                 audio.pause();
@@ -210,7 +207,7 @@ audioComponent.forEach(component => {
                 audio.currentTime = seekSlider.value;
                 if (!audio.paused) {
                     requestAnimationFrame(whilePlaying);
-                }
+                };
             });
         };
     });
@@ -221,8 +218,8 @@ document.addEventListener("play", (e) => {
     for (let i = 0, len = audios.length; i < len; i++) {
         if (audios[i] != e.target) {
             audios[i].pause();
-        }
-    }
+        };
+    };
 }, true);
 
 

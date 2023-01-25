@@ -450,7 +450,7 @@ figcaption {
 .grid-layout {
     display: -ms-grid;
     display: grid;
-    /* grid-template-columns: repeat(4, 25%); */
+    grid-template-columns: repeat(1, 100%);
     grid-auto-flow: row dense;
     justify-items: stretch;
     align-items: stretch;
