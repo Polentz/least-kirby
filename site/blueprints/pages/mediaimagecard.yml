@@ -1,0 +1,34 @@
+title: Image card
+
+sections:
+  noteditable:
+    type: fields
+    fields:
+      tag:
+        width: 1/2
+        label: Tag
+        type: tags
+        max: 1
+        disabled: true
+        default:
+          Image
+        help: This field is filled automatically and is not editable.
+      filter:
+        width: 1/2
+        label: Filter By
+        type: tags
+        max: 1
+        disabled: true
+        default:
+          Lecture
+        help: This field is filled automatically and is not editable.
+  cover:
+    label: Image
+    type: files
+    layout: cards
+    template: simple-image
+    min: 1
+    max: 1
+    image:
+      ratio: 1/1
+      cover: true

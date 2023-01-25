@@ -30,7 +30,7 @@
 <section class="cards-section">
     <div class="grid-layout four-columns">
         <?php foreach ($page->children()->listed() as $mediacontent): ?>
-            <?php snippet('mediacontent', ['mediacontent' => $mediacontent]); ?>
+            <?php snippet($mediacontent->intendedTemplate(), compact('mediacontent')) ?>
         <?php endforeach ?>
     </div>
 </section>

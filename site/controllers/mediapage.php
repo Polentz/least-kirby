@@ -6,10 +6,9 @@ return function ($page) {
     $unfiltered = $page->children()->listed();
     $content = $unfiltered
     ->when($filterBy, function($filterBy) {
-       return $this->filterBy('filter', $filterBy);
+    return $this->filterBy('filter', $filterBy);
     });
     $filters = $unfiltered->pluck('filter', null, true);
-
     return [
         'mediacontents' => $mediacontents,
         'filterBy' => $filterBy,
