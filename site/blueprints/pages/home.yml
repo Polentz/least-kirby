@@ -28,6 +28,7 @@ sections:
       - left-column-text
       - right-column-text
       - one-column-text
+      - two-columns-text
       - single-mold-image
       - gallery
       - cards

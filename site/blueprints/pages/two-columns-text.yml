@@ -1,0 +1,37 @@
+title: Two columns text
+
+columns: 
+  - width: 1/2
+    sections:
+      leftcolumn:
+        type: fields
+        fields:
+          leftmaintext:
+            label: Large text
+            type: textarea
+          leftplaintext:
+            label: Small text
+            type: textarea
+          leftbuttontext:
+            label: Button text
+            type: text
+          leftbuttonurl:
+            label: Button URL
+            type: url
+  - width: 1/2
+    sections:
+      rightcolumn:
+        type: fields
+        fields:
+          rightmaintext:
+            label: Large text
+            type: textarea
+          rightplaintext:
+            label: Small text
+            type: textarea
+          rightbuttontext:
+            label: Button text
+            type: text
+          rightbuttonurl:
+            label: Button URL
+            type: url
