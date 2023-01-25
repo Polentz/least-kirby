@@ -3,11 +3,15 @@ title: Right column text
 columns: 
   - width: 1/2
     sections:
-      empty:
-        label: Left Column
-        type: info
-        text: |
-          This column will be empty
+      emptycolumn:
+        type: fields
+        fields:
+          columninfo:
+            type: info
+            label: false
+            text: THIS COLUMN WILL BE EMPTY
+            align: center
+            theme: none
   - width: 1/2
     sections:
       text:

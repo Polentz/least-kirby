@@ -9,5 +9,7 @@ sections:
     size: small
     info: "{{ file.caption }}"
     image:
+      back: "#000"
+      icon: false
       ratio: 1/1
       cover: true

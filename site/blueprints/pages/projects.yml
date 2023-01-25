@@ -4,7 +4,11 @@ sections:
   cards:
     type: pages
     layout: cards
-    label: Projects
-    image: false
-    templates:
-      - project
+    label: Cards layout
+    info: "{{ page.fronttext }}"
+    image: 
+      back: "#fff"
+      icon: false
+      ratio: 4/3
+      cover: true
+    template: project

@@ -13,20 +13,13 @@ tabs:
               frontinfo:
                 type: info
                 label: false
-                text: This is the front of the card
+                text: FRONT OF THE CARD
+                align: center
+                theme: none 
               fronttext:
                 label: Title
                 type: text
                 required: true
-              background:
-                label: Background image
-                type: files
-                template: simple-image
-                layout: cards
-                size: small
-                image:
-                  ratio: 1/1
-                  cover: true
               filter:
                 label: Filter by
                 type: select
@@ -35,6 +28,18 @@ tabs:
                   Podcast
                   Video
                 required: true
+              background:
+                label: Background image
+                type: files
+                template: simple-image
+                layout: list
+                size: small
+                max: 1
+                image:
+                  back: "#000"
+                  icon: false
+                  ratio: 1/1
+                  cover: true
       - width: 1/2
         sections:
           back:
@@ -43,9 +48,11 @@ tabs:
               backinfo:
                 type: info
                 label: false
-                text: This is the back of the card
+                text: BACK OF THE CARD
+                align: center
+                theme: none
               backtext:
-                label: Description
+                label: Short text
                 type: textarea
                 required: true
                 buttons: false
@@ -61,7 +68,7 @@ tabs:
       parts:
         type: pages
         status: all
-        help: Choose your media type
+        label: Content sections
         info: "{{ page.intendedTemplate }}"
         image: false
         templates:

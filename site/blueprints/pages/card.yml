@@ -7,18 +7,26 @@ columns:
       front:
         type: fields
         fields:
+          frontinfo:
+            type: info
+            label: false
+            text: FRONT OF THE CARD
+            align: center
+            theme: none 
           fronttext:
-            label: Headline
+            label: Title
             type: text
-            icon: title
             required: true
           background:
             label: Background image
             type: files
-            template: gallery-image
-            layout: cards
+            template: simple-image
+            layout: list
             size: small
+            max: 1
             image:
+              back: "#000"
+              icon: false
               ratio: 1/1
               cover: true
   - width: 1/2
@@ -27,10 +35,15 @@ columns:
       back:
         type: fields
         fields:
+          backinfo:
+            type: info
+            label: false
+            text: BACK OF THE CARD
+            align: center
+            theme: none
           backtext:
-            label: Description
+            label: Short text
             type: textarea
-            icon: text
             required: true
             buttons: false
             maxlength: 125

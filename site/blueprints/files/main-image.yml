@@ -6,5 +6,3 @@ accept:
 fields:
   alt:
     type: text
-  author:
-    type: text

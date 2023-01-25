@@ -14,6 +14,8 @@ sections:
         size: huge
         info: "{{ file.caption }}"
         image:
+          back: "#000"
+          icon: false
           ratio: 16/4
           cover: true
 
