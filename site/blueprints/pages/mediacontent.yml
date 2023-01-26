@@ -22,11 +22,14 @@ tabs:
                 required: true
               filter:
                 label: Filter by
-                type: select
-                options:
-                  Lecture
-                  Podcast
-                  Video
+                type: tags
+                min: 1
+                max: 1
+#                type: select
+#                options:
+#                  Lecture
+#                  Podcast
+#                  Video
                 required: true
               background:
                 label: Background image
@@ -60,6 +63,8 @@ tabs:
               tag:
                 label: Tag
                 type: tags
+                min: 1
+                max: 1
                 required: true
   mediaarticle:
     label: Media Content

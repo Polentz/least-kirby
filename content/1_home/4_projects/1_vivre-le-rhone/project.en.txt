@@ -1,8 +1,8 @@
-Title: Vivre la Rhône
+Title: Vivre le Rhône
 
 ----
 
-Fronttext: Vivre la Rhône
+Fronttext: Vivre le Rhône
 
 ----
 
@@ -18,8 +18,8 @@ Pagestatus: true
 
 ----
 
-Placeholder: More information soon
+Placeholder: 
 
 ----
 
-Uuid: SonbfIVFNKfELf1c
+Tag: Vivre le Rhône

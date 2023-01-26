@@ -16,4 +16,4 @@ return function ($page) {
         'content' => $content,
         'filters' => $filters
     ];
-}; 
+};

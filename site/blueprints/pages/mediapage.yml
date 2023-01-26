@@ -1,14 +1,23 @@
 title: Media Page
 
+
 sections:
   filter:
     type: fields
     fields:
       filterintro:
         type: text
-        label: Media filters
-        width: 1/2        
+        label: Filters      
         buttons: false
+        width: 1/2
+      filters:
+        type: structure
+        label: false
+        width: 1/2
+        fields:
+          filter:
+            type: text
+            label: Available filters
   cards:
     label: Media cards
     type: pages

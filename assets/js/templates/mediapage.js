@@ -3,7 +3,7 @@ const filterClear = document.getElementById("all-media");
 const mediaSections = document.querySelectorAll(".cards-section, .filters-section");
 const mediaCards = document.querySelectorAll(".media-card");
 const mediaContents = document.querySelectorAll(".media-article");
-const mediaContentCategoryConteiner = document.querySelectorAll(".media-content-category");
+const categoryWrapper = document.querySelectorAll(".media-content-category");
 const mediaContentClose = document.querySelectorAll(".media-content-close");
 const playBtns = document.querySelectorAll(".play-btn");
 const audioComponent = document.querySelectorAll(".audio-wrapper");
@@ -122,10 +122,11 @@ const unselectContent = () => {
     mediaSections.forEach(section => {
         section.style.display = "block";
     });
-}
+};
 
-mediaContentCategoryConteiner.forEach(container => {
+categoryWrapper.forEach(container => {
     const mediaContentCategories = container.querySelectorAll(".media-content-filter");
+    const reading = "Reading"
     const lecture = "Lecture"
     const podcast = "Podcast"
     const video = "Video"
@@ -137,6 +138,10 @@ mediaContentCategoryConteiner.forEach(container => {
             svgLecture.forEach(element => {
                 element.style.display = "block";
             });
+        } else if (category.innerText === reading) {
+            svgLecture.forEach(element => {
+                element.style.display = "block";
+            });
         } else if (category.innerText === podcast) {
             svgPodcast.forEach(element => {
                 element.style.display = "block";
@@ -145,9 +150,8 @@ mediaContentCategoryConteiner.forEach(container => {
             svgVideo.forEach(element => {
                 element.style.display = "block";
             });
-        }
-    })
-
+        };
+    });
 });
 
 audioComponent.forEach(component => {
@@ -278,8 +282,8 @@ document.addEventListener("play", (e) => {
     for (let i = 0, len = audios.length; i < len; i++) {
         if (audios[i] != e.target) {
             audios[i].pause();
-        }
-    }
+        };
+    };
 }, true);
 
 

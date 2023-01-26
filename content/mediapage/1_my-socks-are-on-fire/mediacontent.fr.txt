@@ -18,7 +18,11 @@ Backtext: Lorem ipsum
 
 ----
 
-Tag: Vivre le Rhône
+Tag: Vivre la Rhône
+
+----
+
+Filters: Lecture
 
 ----
 

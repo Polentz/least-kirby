@@ -3,3 +3,12 @@ Title: Media
 ----
 
 Filterintro: filter media by
+
+----
+
+Filters:
+
+- 
+  filter: Reading
+- 
+  filter: Podcast

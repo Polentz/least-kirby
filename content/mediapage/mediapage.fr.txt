@@ -6,4 +6,13 @@ Filterintro: médias filtrants par
 
 ----
 
+Filters:
+
+- 
+  filter: Lecture
+- 
+  filter: Podcast
+
+----
+
 Uuid: U6tbu5Q5obiTXfqM

@@ -6,11 +6,11 @@ Fronttext: Get a glass of water sweetheart, my socks are on fire!
 
 ----
 
-Shortname: Socks on fire
+Filter: Reading
 
 ----
 
-Background: 
+Background: - file://KeUr8m43ZYKFW3QR
 
 ----
 
@@ -18,16 +18,16 @@ Backtext: Lorem ipsum
 
 ----
 
-Filter: Lecture
+Tag: Vivre le Rhône
 
 ----
 
-Tag: Common Dreams
+Filters: Lecture
+
+----
+
+Shortname: Socks on fire
 
 ----
 
 Pagestatus: false
-
-----
-
-Uuid: cOmQUW8wkToXe3yZ

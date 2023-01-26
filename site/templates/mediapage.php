@@ -16,9 +16,9 @@
                 <li class="--txt-medium"><?= $page->filterintro()->kt() ?></li>
             </div>
             <ul class="grid-list">
-                <?php foreach ($filters as $filter): ?>
-                    <li id="<?= $filter->slug() ?>" class="filter-btn --title-small" data-filter="<?= $filter->slug() ?>">
-                        <?= $filter->kt() ?>
+                <?php foreach ($page->filters()->toStructure() as $filter): ?>
+                    <li id="<?= $filter->filter()->slug() ?>" class="filter-btn --title-small" data-filter="<?= $filter->filter()->slug() ?>">
+                        <?= $filter->filter()->kt() ?>
                     </li>
                 <?php endforeach ?>
                 <li id="all-media" class="all-media-btn --title-small" data-filter="all">Tous les médias</li>

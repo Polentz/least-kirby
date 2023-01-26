@@ -13,6 +13,8 @@ sections:
         default:
           Image
         help: This field is filled automatically and is not editable.
+        when: 
+          postType:
       filter:
         width: 1/2
         label: Filter By
@@ -20,8 +22,10 @@ sections:
         max: 1
         disabled: true
         default:
-          Lecture
+          Image
         help: This field is filled automatically and is not editable.
+        when: 
+          postType:
   cover:
     label: Image
     type: files
