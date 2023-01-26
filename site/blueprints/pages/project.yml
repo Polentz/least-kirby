@@ -78,6 +78,10 @@ tabs:
           - title-text
           - left-column-text
           - right-column-text
-          - molds-images
+          - one-column-text
+          - two-columns-text
+          - single-mold-image
           - gallery
           - cards
+          - projects
+          - logo-gallery

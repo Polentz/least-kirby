@@ -4,6 +4,9 @@ sections:
   part:
     type: fields
     fields:
+      sectiontitle:
+        label: Title
+        type: text
       maintext:
         label: Large text
         type: textarea

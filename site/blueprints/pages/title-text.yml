@@ -9,7 +9,6 @@ columns:
           sectiontitle:
             label: Title
             type: text
-            icon: headline
   - width: 1/2
     sections:
       content:

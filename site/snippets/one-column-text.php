@@ -1,6 +1,11 @@
 <section>
     <div class="grid-layout">
         <div class="grid-block --outline">
+            <?php if ($part->sectiontitle()->isNotEmpty()): ?>
+                <div class="grid-text">
+                    <h2 class="--title-large"><?= $part->sectiontitle()->kt()->inline() ?></h2>
+                </div>
+            <?php endif ?>
             <?php if ($part->maintext()->isNotEmpty()): ?>
                 <div class="grid-text --txt-medium">
                     <?= $part->maintext()->kt() ?>
