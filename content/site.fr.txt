@@ -47,6 +47,10 @@ Keywords: écologie, art, co-création, Genève, projets co-créatifs, projets i
 
 ----
 
+Pagestatus: true
+
+----
+
 Subtitle: laboratoire écologie et art pour une société en transition
 
 ----

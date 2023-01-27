@@ -2,4 +2,12 @@ Title: Projects
 
 ----
 
+Projects: true
+
+----
+
+Projectslabel: Projets
+
+----
+
 Uuid: Ilk3Aq5iqYYJqgKg

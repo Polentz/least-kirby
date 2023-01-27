@@ -1,5 +1,5 @@
 <?php
-    $items = $pages->find('mediapage', 'equipe');
+    $items = $site->children()->listed()->not('partners', $page);
 ?>
 
 <div class="menu">
@@ -17,16 +17,13 @@
                 <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
                 <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li>
             <?php else: ?>
-                <?php foreach($site->children()->listed() as $item) : ?>
+                <?php foreach($items as $item) : ?>
                 <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
                 <?php endforeach ?>
                 <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
                 <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li>
             <?php endif ?>
         <?php endif ?>
-
-
-
     </ul>
 </div>
 <div class="close-btn">

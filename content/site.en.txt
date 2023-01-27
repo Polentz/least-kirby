@@ -47,6 +47,10 @@ Keywords: ecology, art, Geneva, co-creation, co-creative, inclusive projects, co
 
 ----
 
+Pagestatus: true
+
+----
+
 Subtitle: laboratoire écologie et art pour une société en transition
 
 ----
