@@ -13,10 +13,6 @@ Email: contact@least.eco
 
 ----
 
-Newslettername: Newsletter
-
-----
-
 Temporarymenu:
 
 see you in
@@ -24,7 +20,7 @@ february 2023
 
 ----
 
-Subtitle: laboratoire écologie et art pour une société en transition
+Newslettername: Newsletter
 
 ----
 
@@ -32,6 +28,26 @@ Newslettercta:
 
 Our website will be launched in February.
 Sign up for our newsletter to receive updates and special content by least.
+
+----
+
+Partnerlink: 
+
+----
+
+Projects: 
+
+----
+
+Description: least [ecology and art laboratory for a society in transition] brings together scientists, artists, thinkers, engineers, and economists to share knowledge and know-how, foster co-creation with local groups, experiment, act together, share and learn, in order to regenerate society and its functioning by mobilising everyone’s resources. It encourages alternative ways of functioning based on common activities that go against the individual competition.
+
+----
+
+Keywords: ecology, art, Geneva, co-creation, co-creative, inclusive projects, continuing education, school of transition, cross-research residencies
+
+----
+
+Subtitle: laboratoire écologie et art pour une société en transition
 
 ----
 

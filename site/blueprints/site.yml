@@ -1,54 +1,86 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
-    label: "{{ page.title }}"
-    image: false
-    status: all
-    template:
-      - page
-      - equipe
-      - mediapage
-      - home
-
-  info:
-    type: fields
-    fields:
-      settings:
-        label: General Settings
-        type: info
-        theme: none
-        text: Content fields below are global and available on all pages.
-      address:
-        label: Address
-        type: textarea
-        icon: map
-        width: 1/3
-        buttons: false
-      email:
-        label: Email
-        type: email
-        width: 1/3      
-      temporarymenu:
-        label: Temporary menu
-        type: textarea
-        width: 1/3
-        buttons: false
-      newslettername:
-        label: Newsletter name
-        type: text
-        icon: bolt
-        width: 1/3
-        buttons: false
-      newslettercta:
-        label: Newsletter CTA
-        type: textarea
-        width: 1/3
-        buttons: false
-      partnerlink:
-        label: Partner page
-        type: text
-        width: 1/3
-        buttons: false
+tabs:
+  websitepages:
+    label: Website Pages
+    sections:
+      pages:
+        type: pages
+        label: "{{ page.title }}"
+        image: false
+        status: all
+        template:
+          - page
+          - equipe
+          - mediapage
+          - home
+  general:
+    label: Website Info
+    sections:
+      global:
+        type: fields
+        fields:
+          settings:
+            label: General Settings
+            type: info
+            theme: none
+            text: Here you can control global information available on all pages.
+          address:
+            label: Address
+            type: textarea
+            width: 1/3
+            buttons: false
+          email:
+            label: Email
+            type: email
+            width: 1/3
+          line:
+            type: line
+          menulinks:
+            label: Menu & Links
+            type: info
+            theme: none
+            text: Here you can control names and labels used for links and menu.
+          temporarymenu:
+            label: Temporary menu
+            type: textarea
+            width: 1/3
+            buttons: false
+            help: '*When it's empty, the real menu will display'
+          newslettername:
+            label: Newsletter name
+            type: text
+            width: 1/3
+            buttons: false
+          newslettercta:
+            label: Newsletter CTA
+            type: textarea
+            width: 1/3
+            buttons: false
+          partnerlink:
+            label: Link to the partner page 
+            type: text
+            width: 1/3
+            help: '*It displays in Contact'
+            buttons: false
+          projects:
+            label: Link to the projects section
+            type: text
+            width: 1/3
+            help: '*Homepage only'
+            buttons: false
+  seo:
+    label: Website SEO
+    sections:
+      meta:
+        type: fields
+        fields: 
+          description:
+            label: Website description
+            type: textarea
+            buttons: false
+          keywords:
+            label: Website keywords
+            type: tags
+            separator: ','
 

@@ -24,11 +24,26 @@ Newslettername: Newsletter
 
 ----
 
-Newslettercta: Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
+Newslettercta:
+
+Notre site web sera lancé en février.
+Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
 
 ----
 
-Partnerlink: partners and sponsors
+Partnerlink: 
+
+----
+
+Projects: 
+
+----
+
+Description: least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.
+
+----
+
+Keywords: écologie, art, co-création, Genève, projets co-créatifs, projets inclusifs, formation continue, école de la transition, résidences de recherche
 
 ----
 

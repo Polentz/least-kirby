@@ -1,4 +1,4 @@
-<section id="<?= $part->title()->slug() ?>">
+<section id="projects">
     <div class="grid-layout four-columns">
         <?php foreach ($part->children()->listed() as $card): ?>
             <div class="grid-square --outline card">

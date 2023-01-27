@@ -1,5 +1,15 @@
+<?php
+    if ($kirby->language()->code() == 'fr') {
+        $lang = 'fr';
+        $langCode = 'fr_FR';
+    } else if ($kirby->language()->code() == 'en') {
+        $lang = 'en';
+        $langCode = 'en_US';
+    }
+?>
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<?= $lang ?>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,15 +22,15 @@
     <?php endif ?>
 
     <meta name="description"
-        content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
+        content="<?= $site->description() ?>">
     <link rel="canonical" href="<?= $page->url() ?>">
     <meta name="keywords"
-        content="écologie, art, co-création, genève, projets co-créatifs, projets inclusifs, formation continue, école de la transition, résidences de recherche">
-    <meta property="og:locale" content="fr_FR">
+        content="<?= $site->keywords() ?>">
+    <meta property="og:locale" content="<?= $langCode ?>">
     <meta property="og:type" content="website">
     <meta property="og:title" content="least">
     <meta property="og:description"
-        content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
+        content="<?= $site->description() ?>">
     <meta property="og:url" content="<?= $page->url() ?>">
     <meta property="og:site_name" content="least">
     <?php if($cover = $site->file('least-mold.jpg')): ?>
@@ -32,9 +42,9 @@
     <?php endif ?>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description"
-        content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
+        content="<?= $site->description() ?>">
     <meta name="twitter:title"
-        content="least [laboratoire écologie et art pour une société en transition] réunit des scientifiques, des artistes, des penseurs et penseuses, des ingénieur·e·s, des économistes pour partager des savoirs et des savoir-faire, créer et encourager la co-création avec des groupes locaux pour expérimenter, agir ensemble, partager et apprendre, afin de régénérer la société et son fonctionnement en mobilisant les ressources de chacun·e. Il encourage des modes alternatifs de fonctionnement basés sur des activités communes allant à l'encontre de la concurrence individuelle.">
+        content="<?= $site->description() ?>">
     <?php if($cover = $site->file('least-mold.jpg')): ?>
         <meta name="twitter:image" content="<?= $cover->url() ?>">
     <?php endif ?>

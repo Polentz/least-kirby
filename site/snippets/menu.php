@@ -1,15 +1,32 @@
 <?php
-$items = $pages->find('mediapage', 'equipe');
+    $items = $pages->find('mediapage', 'equipe');
 ?>
 
 <div class="menu">
     <ul class="menu-wrapper">
-        <!-- <?php foreach($items as $item) : ?>
-            <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-        <?php endforeach ?>
-        <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
-        <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li> -->
-        <li class="menu-link"><?= $site->temporarymenu()->kt() ?></li>
+        <?php if ($site->temporarymenu()->isNotEmpty()): ?>
+            <li class="menu-link"><?= $site->temporarymenu()->kt() ?></li>   
+        <?php else: ?>
+            <?php if ($page->isHomePage()): ?>      
+                <?php foreach($items as $item) : ?>
+                    <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
+                <?php endforeach ?>
+                <?php if ($site->projects()->isNotEmpty()): ?>
+                    <li class="menu-link"><a class="js-scroll" data-target-section="projects"><?= $site->projects()->inline() ?></a></li>
+                <?php endif ?>
+                <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
+                <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li>
+            <?php else: ?>
+                <?php foreach($site->children()->listed() as $item) : ?>
+                <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
+                <?php endforeach ?>
+                <li class="menu-link"><a class="js-scroll" data-target-section="newsletter">Newsletter</a></li>
+                <li class="menu-link"><a class="js-scroll" data-target-section="contact">Contact</a></li>
+            <?php endif ?>
+        <?php endif ?>
+
+
+
     </ul>
 </div>
 <div class="close-btn">
