@@ -1,12 +1,12 @@
-.gallery-layout.--outline {
+.content-section .gallery-layout.--outline {
     outline: none;
 }
 
-.gallery-block {
+.content-section .gallery-block {
     padding-bottom: 0;
 }
 
-.gallery-btn {
+.content-section .gallery-btn {
     padding-top: 0;
 }
 
@@ -82,13 +82,17 @@
 }
 
 .filter-btn[data-filter="lecture"]:hover,
-.filter-btn[data-filter="lecture"].filtered {
+.filter-btn[data-filter="lecture"].filtered,
+.filter-btn[data-filter="reading"]:hover,
+.filter-btn[data-filter="reading"].filtered {
     background: -o-linear-gradient(233deg, #fff, #AF73BF);
     background: linear-gradient(217deg, #fff, #AF73BF);
 }
 
 .media-card[data-category="lecture"].filtered::after,
-.media-card[data-category="lecture"].highlight::after {
+.media-card[data-category="lecture"].highlight::after,
+.media-card[data-category="reading"].filtered::after,
+.media-card[data-category="reading"].highlight::after {
     background: -o-linear-gradient(47deg, #fff, #AF73BF);
     background: linear-gradient(43deg, #fff, #AF73BF);
 }

@@ -1,8 +1,12 @@
-.gallery-block {
+.content-section .gallery-layout.--outline {
+    outline: none;
+}
+
+.content-section .gallery-block {
     padding-bottom: 0;
 }
 
-.gallery-btn {
+.content-section .gallery-btn {
     padding-top: 0;
 }
 

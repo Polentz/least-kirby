@@ -1,0 +1,11 @@
+title: Newsletter
+
+sections:
+  global:
+    type: fields
+    fields:
+      info:
+        label: false
+        type: info
+        theme: none
+        text: Newsletter information are set globally via "Website Info" area.

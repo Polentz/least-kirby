@@ -780,6 +780,13 @@ input.seek-slider::-webkit-slider-thumb {
 .logo-wrapper img {
     height: 48px;
     border: none;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: -webkit-filter .5s ease;
+    -webkit-transition: -webkit-filter .5s ease;
+    -o-transition: filter .5s ease;
+    transition: filter .5s ease;
+    transition: filter .5s ease, -webkit-filter .5s ease;
 }
 
 .image-wrapper img.--grayscale {
@@ -787,6 +794,7 @@ input.seek-slider::-webkit-slider-thumb {
     filter: grayscale(0);
 }
 
+.logo-wrapper img:hover,
 .image-wrapper img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -1077,6 +1085,11 @@ input.seek-slider::-webkit-slider-thumb {
     .main {
         padding-left: 0;
         margin-bottom: var(--sidenav);
+    }
+
+    .card-front {
+        background-size: 0;
+        box-shadow: none;
     }
 
     .audio-player {

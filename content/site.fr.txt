@@ -13,13 +13,6 @@ Email: contact@least.eco
 
 ----
 
-Temporarymenu:
-
-on se retrouve en
-février 2023
-
-----
-
 Newslettername: Newsletter
 
 ----
@@ -28,6 +21,17 @@ Newslettercta:
 
 Notre site web sera lancé en février.
 Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
+
+----
+
+Year: 2023
+
+----
+
+Temporarymenu:
+
+on se retrouve en
+février 2023
 
 ----
 
