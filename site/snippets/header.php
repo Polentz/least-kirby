@@ -51,12 +51,8 @@
 
     <meta name="twitter:image:alt" content="Identité visuelle de least avec un collage d'images de moisissures">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <?php if($favicon = $site->file('least-favicon-48.png')): ?>
-        <link rel="shortcut icon" type="image/png" sizes="48x48" href="<?= $favicon->url() ?>">
-    <?php endif ?>
-    <?php if($favicon = $site->file('least-favicon-192.png')): ?>
-        <link rel="shortcut icon" type="image/png" sizes="192x192" href="<?= $favicon->url() ?>">
-    <?php endif ?>
+    <link rel="shortcut icon" type="image/png" sizes="48x48" href="/assets/favicon/least-favicon-48.png">
+    <link rel="shortcut icon" type="image/png" sizes="192x192" href="/assets/favicon/least-favicon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
