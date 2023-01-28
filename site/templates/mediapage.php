@@ -66,5 +66,6 @@
     <?php endforeach ?>
 </section>
 
+<?= snippet('newsletter') ?> 
 <?= snippet('footer') ?> 
 
