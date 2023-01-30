@@ -2,3 +2,4 @@ title: Audio File
 
 accept: 
   extension: mp3
+  type: audio

@@ -38,12 +38,13 @@ sections:
           - "no"
           - "yes"
   image:
-    label: Image
     type: files
+    label: Image
     layout: cards
-    template: simple-image
-    min: 1
+    size: small
     max: 1
+    min: 1
+    template: simple-image
     image:
       back: "#000"
       icon: false

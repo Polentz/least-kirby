@@ -1,24 +1,6 @@
 title: Home
 
 sections:
-  cover:
-    type: fields
-    fields:
-      background:
-        label: Background image
-        type: files
-        template: main-image
-        min: 1
-        max: 1
-        layout: cards
-        size: huge
-        info: "{{ file.caption }}"
-        image:
-          back: "#000"
-          icon: false
-          ratio: 16/4
-          cover: true
-
   pagesections:
     label: Page sections
     type: pages

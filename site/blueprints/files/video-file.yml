@@ -1,9 +1,10 @@
 title: Video File
 
 accept: 
-  mime: video/mp4
+  extension: mp4
   type: video
 
 fields:
   caption:
     type: text
+    width: 1/2

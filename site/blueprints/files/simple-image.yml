@@ -1,9 +1,10 @@
 title: Simple image
 
 accept: 
-  mime: image/png, image/jpg, image/jpeg
+  extension: jpg, png, jpeg
   maxwidth: 1600
 
 fields:
   alt:
     type: text
+    width: 1/2

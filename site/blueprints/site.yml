@@ -52,7 +52,7 @@ tabs:
         fields:
           year:
             laberl: Year
-            type: text
+            type: number
             width: 1/2
             after: '© least'
   websitemenu:

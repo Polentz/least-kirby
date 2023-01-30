@@ -1,8 +1,9 @@
 title: Main image
 
 accept: 
-  mime: image/jpg, image/jpeg
+  extension: jpg, png, jpeg
 
 fields:
   alt:
     type: text
+    width: 1/2

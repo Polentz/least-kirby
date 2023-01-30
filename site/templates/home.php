@@ -3,8 +3,8 @@
 
 <section class="cover">
     <div class="cover-bg" 
-        <?php if ($cover = $page->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
-        <?php endif ?>>
+        <?php foreach ($page->files()->shuffle() as $cover): ?>style="background-image: url('<?= $cover->url() ?>');"
+        <?php endforeach ?>>
     </div>
     <div class="logo">
         <h1 class="logo-name --blur"><a class="js-scroll" data-target-section="about">least</a></h1>
