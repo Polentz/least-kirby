@@ -1000,7 +1000,7 @@ input.seek-slider::-webkit-slider-thumb {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
     :root {
         --bg-color: #1d1d1d;
         --txt-color: #fff;

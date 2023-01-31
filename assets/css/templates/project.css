@@ -305,14 +305,10 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
     .card-back {
         background-color: transparent;
     }
-
-    /* .filtered {
-        color: var(--bg-color);
-    } */
 
     .media-card .card-front p,
     .media-card .card-back p,
