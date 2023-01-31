@@ -15,12 +15,9 @@
             </a>
         </div>
         <div class="gallery-block">
-            <?php foreach ($part->images() as $image): ?>
+            <?php foreach ($part->images()->sortBy('sort') as $image): ?>
                 <figure class="image-wrapper">
-                    <img 
-                        src="<?= $image->url() ?>" 
-                        alt="<?= $image->alt() ?>"
-                    >
+                    <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                     <?php if ($image->caption()): ?>
                         <figcaption class="--txt-caption"><?= $image->caption() ?></figcaption>
                     <?php endif ?>

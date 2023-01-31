@@ -8,6 +8,7 @@ sections:
     template: gallery-image
     size: small
     info: "{{ file.caption }}"
+    sortable: true
     image:
       back: "#000"
       icon: false
