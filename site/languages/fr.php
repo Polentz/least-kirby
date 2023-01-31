@@ -5,5 +5,5 @@ return [
   'default' => true,
   'direction' => 'ltr',
   'locale' => 'fr_FR',
-  'name' => 'François',
+  'name' => 'Français',
 ];

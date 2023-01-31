@@ -1,5 +1,5 @@
 <?php
-    $items = $site->children()->listed()->not('partners', $page);
+    $items = $site->children()->listed();
 ?>
 
 <div class="menu">

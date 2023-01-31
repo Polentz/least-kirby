@@ -45,7 +45,12 @@ tabs:
           newslettercta:
             label: Newsletter call to action
             type: textarea
-            width: 1/2
+            width: 1/4
+            buttons: false
+          newsletterclick:
+            label: false
+            type: text
+            width: 1/4
             buttons: false
       footer:
         type: fields
@@ -69,19 +74,13 @@ tabs:
           temporarymenu:
             label: Temporary menu
             type: textarea
-            width: 1/3
+            width: 1/2
             buttons: false
             help: When the field is empty, the actual menu will be shown.
-          partnerlink:
-            label: Link to the partner page 
-            type: text
-            width: 1/3
-            help: It displays in Contact.
-            buttons: false
           projects:
             label: Link to the projects section
             type: text
-            width: 1/3
+            width: 1/2
             help: Do you want the Projects to appear in the Home page menu?
             buttons: false
   seo:

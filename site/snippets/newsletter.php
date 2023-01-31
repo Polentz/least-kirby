@@ -11,7 +11,7 @@
             </div>
             <div class="button-wrapper">
                 <a class="button-label --txt-medium" href="<?= $site->newsletterlink() ?>"
-                    target="_blank">s'inscrire ici</a>
+                    target="_blank"><?= $site->newsletterclick() ?></a>
                 <div class="button-ui">
                     <svg width="33" height="22" viewBox="0 0 33 22" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17 21L32 11L17 0.999999" fill="none" />
