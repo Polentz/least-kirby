@@ -16,7 +16,7 @@ const filterByTag = (cards) => {
     cards.forEach(card => {
         const pageTag = mainSection.dataset.name;
         const cardTag = card.dataset.tag;
-        if (pageTag != cardTag) {
+        if (!cardTag.includes(pageTag)) {
             card.remove();
         };
     });
