@@ -116,6 +116,8 @@ a:visited {
     line-height: 1.2;
 }
 
+.grid-text h3,
+.content-text-wrapper h3,
 .--txt-medium {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
@@ -123,6 +125,8 @@ a:visited {
     line-height: 1.2;
 }
 
+.grid-text p,
+.content-text-wrapper p,
 .--txt-small {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
@@ -319,7 +323,6 @@ figcaption {
     width: 100%;
     height: 100%;
     z-index: 1;
-    /* background-image: url("/content/home/muffa-1-viola.jpg"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -473,14 +476,13 @@ figcaption {
 }
 
 .grid-block {
-    /* grid-column: span 2; */
     grid-column: span 1;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--marg-s);
+    gap: var(--p-gap);
     padding: var(--marg-s);
 }
 
@@ -493,7 +495,6 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
     gap: var(--p-gap);
-    /* padding: var(--marg-s); */
 }
 
 .grid-text img {
@@ -645,14 +646,15 @@ input.seek-slider::-webkit-slider-thumb {
 }
 
 .card-front,
-.card-back {
+.card-back-wrapper {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: var(--marg-s);
+    gap: var(--p-gap);
     padding: var(--marg-s);
 }
 
@@ -718,8 +720,13 @@ input.seek-slider::-webkit-slider-thumb {
     padding-right: var(--marg-s);
 }
 
+.gallery-btn a,
 .gallery-btn svg {
-    margin: 1rem 0;
+    width: 2rem;
+    display: block;
+}
+
+.gallery-btn svg {
     cursor: pointer;
     stroke: var(--txt-color);
 }
@@ -734,7 +741,7 @@ input.seek-slider::-webkit-slider-thumb {
     flex-direction: row;
     gap: var(--marg-s);
     width: auto;
-    overflow: scroll;
+    overflow-x: scroll;
     padding: var(--marg-s);
 }
 
@@ -760,7 +767,7 @@ input.seek-slider::-webkit-slider-thumb {
 
 .gallery-block::-webkit-scrollbar,
 .logo-block::-webkit-scrollbar {
-    width: 0px;
+    display: none;
 }
 
 .image-wrapper img {
@@ -807,7 +814,7 @@ input.seek-slider::-webkit-slider-thumb {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    gap: 8px;
+    gap: var(--p-gap);
 }
 
 .button-ui {
@@ -849,6 +856,20 @@ input.seek-slider::-webkit-slider-thumb {
     -webkit-transform: translateX(1rem);
     -ms-transform: translateX(1rem);
     transform: translateX(1rem);
+}
+
+.contact-block {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: var(--p-gap);
+    padding: var(--marg-s);
+}
+
+.contact-block .site-title {
+    line-height: 1;
 }
 
 .footer {
@@ -943,6 +964,16 @@ input.seek-slider::-webkit-slider-thumb {
         margin-right: 0px;
     }
 
+    .grid-square {
+        min-height: calc(var(--main-width) / 2);
+    }
+
+    .card-front,
+    .card-back {
+        width: 50%;
+        height: auto;
+    }
+
     .card-back {
         position: static;
         height: auto;
@@ -973,11 +1004,10 @@ input.seek-slider::-webkit-slider-thumb {
     :root {
         --bg-color: #1d1d1d;
         --txt-color: #fff;
-
         --txt-medium: 1.3rem;
         --txt-small: .9rem;
         --txt-ui: .7rem;
-
+        --p-gap: .8rem;
         --marg-s: 1rem;
         --marg-m: 2rem;
     }
@@ -1092,14 +1122,14 @@ input.seek-slider::-webkit-slider-thumb {
         box-shadow: none;
     }
 
+    .card-back {
+        background-color: transparent;
+    }
+
     .audio-player {
         gap: 8px;
         border: none;
         padding: var(--txt-small) 0;
-    }
-
-    .button-wrapper {
-        gap: 1rem;
     }
 
     .button-ui {
@@ -1113,7 +1143,6 @@ input.seek-slider::-webkit-slider-thumb {
     }
 
     .gallery-block {
-        gap: 1rem;
         padding: var(--marg-s) 0;
     }
 

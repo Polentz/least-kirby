@@ -52,7 +52,16 @@
     opacity: .2;
 }
 
-.card-back {
+.media-card .card-back {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--p-gap);
+    padding: var(--marg-s);
     cursor: pointer;
 }
 
@@ -74,34 +83,33 @@
     background: linear-gradient(217deg, #fff, #AF73BF);
 }
 
-.media-card[data-category="lecture"].filtered,
-.media-card[data-category="lecture"].highlight,
+.media-card[data-category="reading"],
+.media-card[data-category="reading"]:hover,
+.media-card[data-category="lecture"],
 .media-card[data-category="lecture"]:hover {
     background: -o-linear-gradient(47deg, #fff, #AF73BF);
     background: linear-gradient(43deg, #fff, #AF73BF);
 }
 
-.filter-btn[data-filter="video"]:hover,
-.filter-btn[data-filter="video"].filtered {
+.filter-btn[data-filter="video"],
+.filter-btn[data-filter="video"]:hover {
     background: -o-linear-gradient(233deg, #fff, #5896e7);
     background: linear-gradient(217deg, #fff, #5896e7);
 }
 
-.media-card[data-category="video"].filtered,
-.media-card[data-category="video"].highlight,
+.media-card[data-category="video"],
 .media-card[data-category="video"]:hover {
     background: -o-linear-gradient(47deg, #fff, #5896e7);
     background: linear-gradient(43deg, #fff, #5896e7);
 }
 
-.filter-btn[data-filter="podcast"]:hover,
-.filter-btn[data-filter="podcast"].filtered {
+.filter-btn[data-filter="podcast"],
+.filter-btn[data-filter="podcast"]:hover {
     background: -o-linear-gradient(233deg, #fff, #A8F0CD);
     background: linear-gradient(217deg, #fff, #A8F0CD);
 }
 
-.media-card[data-category="podcast"].filtered,
-.media-card[data-category="podcast"].highlight,
+.media-card[data-category="podcast"],
 .media-card[data-category="podcast"]:hover {
     background: -o-linear-gradient(47deg, #fff, #A8F0CD);
     background: linear-gradient(43deg, #fff, #A8F0CD);
@@ -190,7 +198,6 @@
     display: none;
 }
 
-
 .media-content-category {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -202,6 +209,10 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     gap: .8rem;
+}
+
+.media-content-category:not(:last-of-type) {
+    margin-bottom: .5rem;
 }
 
 .media-content-wrapper {
@@ -225,17 +236,9 @@
     border: var(--border);
 }
 
-/* .content-text-image img {
-    width: 100%;
-} */
-
 .video-title {
     margin-top: .8rem;
 }
-
-/* .video-wrapper video {
-    width: -webkit-fill-available;
-} */
 
 .media-content-close {
     cursor: pointer;
@@ -287,23 +290,14 @@
 }
 
 @media screen and (max-width: 720px) {
-    .card {
-        display: block;
+    .media-card .card-back {
+        height: auto;
     }
 
-    .card-back {
-        border-left: none;
-        background-color: transparent;
-        padding-top: 0;
-    }
-
-    .card-back .--txt-small {
-        display: none;
-    }
-
-    .card-back a,
-    .card-back p {
-        mix-blend-mode: difference;
+    .filtered {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
     }
 
     .media-card.unfiltered>.card-back {
@@ -312,22 +306,23 @@
 }
 
 @media screen and (max-width: 500px) {
-
-    .filtered {
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
-        color: var(--bg-color);
+    .card-back {
+        background-color: transparent;
     }
 
-    .filtered .--txt-medium p,
-    .filtered .media-content-filter {
+    /* .filtered {
         color: var(--bg-color);
+    } */
+
+    .media-card .card-front p,
+    .media-card .card-back p,
+    .media-card .media-content-filter {
+        color: var(--bg-color) !important;
     }
 
-    .filtered .svg-lecture svg,
-    .filtered .svg-podcast svg,
-    .filtered .svg-video svg {
+    .media-card .svg-lecture svg,
+    .media-card .svg-podcast svg,
+    .media-card .svg-video svg {
         stroke: var(--bg-color);
     }
 
@@ -343,4 +338,10 @@
     .audio-time {
         width: auto;
     }
+
+    /* .media-card.highlight,
+    .media-card:hover,
+    .filter-btn:hover {
+        background: none !important;
+    } */
 }

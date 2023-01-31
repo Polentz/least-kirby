@@ -41,20 +41,19 @@
 .media-card {
     position: relative;
     cursor: pointer;
-    mix-blend-mode: multiply;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
-.media-card::after {
+/* .media-card::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     pointer-events: none;
     mix-blend-mode: multiply;
-}
+} */
 
 .media-card.unfiltered {
     pointer-events: none;
@@ -64,7 +63,16 @@
     opacity: .2;
 }
 
-.card-back {
+.media-card .card-back {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--p-gap);
+    padding: var(--marg-s);
     cursor: pointer;
 }
 
@@ -89,10 +97,10 @@
     background: linear-gradient(217deg, #fff, #AF73BF);
 }
 
-.media-card[data-category="lecture"].filtered::after,
-.media-card[data-category="lecture"].highlight::after,
-.media-card[data-category="reading"].filtered::after,
-.media-card[data-category="reading"].highlight::after {
+.media-card[data-category="lecture"].filtered,
+.media-card[data-category="lecture"].highlight,
+.media-card[data-category="reading"].filtered,
+.media-card[data-category="reading"].highlight {
     background: -o-linear-gradient(47deg, #fff, #AF73BF);
     background: linear-gradient(43deg, #fff, #AF73BF);
 }
@@ -103,8 +111,8 @@
     background: linear-gradient(217deg, #fff, #5896e7);
 }
 
-.media-card[data-category="video"].filtered::after,
-.media-card[data-category="video"].highlight::after {
+.media-card[data-category="video"].filtered,
+.media-card[data-category="video"].highlight {
     background: -o-linear-gradient(47deg, #fff, #5896e7);
     background: linear-gradient(43deg, #fff, #5896e7);
 }
@@ -115,8 +123,8 @@
     background: linear-gradient(217deg, #fff, #A8F0CD);
 }
 
-.media-card[data-category="podcast"].filtered::after,
-.media-card[data-category="podcast"].highlight::after {
+.media-card[data-category="podcast"].filtered,
+.media-card[data-category="podcast"].highlight {
     background: -o-linear-gradient(47deg, #fff, #A8F0CD);
     background: linear-gradient(43deg, #fff, #A8F0CD);
 }
@@ -204,7 +212,6 @@
     display: none;
 }
 
-
 .media-content-category {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -216,6 +223,10 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     gap: .8rem;
+}
+
+.media-content-category:not(:last-of-type) {
+    margin-bottom: .5rem;
 }
 
 .media-content-wrapper {
@@ -293,23 +304,14 @@
 }
 
 @media screen and (max-width: 720px) {
-    .card {
-        display: block;
+    .media-card .card-back {
+        height: auto;
     }
 
-    .card-back {
-        border-left: none;
-        background-color: transparent;
-        padding-top: 0;
-    }
-
-    .card-back .--txt-small {
-        display: none;
-    }
-
-    .card-back a,
-    .card-back p {
-        mix-blend-mode: difference;
+    .filtered {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
     }
 
     .media-card.unfiltered>.card-back {
@@ -318,17 +320,18 @@
 }
 
 @media screen and (max-width: 500px) {
+    .card-back {
+        background-color: transparent;
+    }
 
     .filtered {
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
         color: var(--bg-color);
     }
 
-    .filtered .--txt-medium p,
+    .filtered .card-front p,
+    .filtered .card-back p,
     .filtered .media-content-filter {
-        color: var(--bg-color);
+        color: var(--bg-color) !important;
     }
 
     .filtered .svg-lecture svg,
@@ -348,5 +351,11 @@
     .content-audio-component,
     .audio-time {
         width: auto;
+    }
+
+    .media-card.highlight,
+    .filter-btn:hover {
+        background: none !important;
+        color: var(--txt-color);
     }
 }
