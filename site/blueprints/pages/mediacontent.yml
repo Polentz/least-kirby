@@ -26,18 +26,6 @@ tabs:
                 min: 1
                 max: 1
                 required: true
-              background:
-                label: Background image
-                type: files
-                template: simple-image
-                layout: list
-                size: small
-                max: 1
-                image:
-                  back: "#000"
-                  icon: false
-                  ratio: 1/1
-                  cover: true
       - width: 1/2
         sections:
           back:
@@ -56,10 +44,10 @@ tabs:
                 buttons: false
                 maxlength: 125
               tag:
-                label: Tag
+                label: Tags
                 type: tags
                 min: 1
-                max: 1
+                separator: " "
                 required: true
   mediaarticle:
     label: Media Content

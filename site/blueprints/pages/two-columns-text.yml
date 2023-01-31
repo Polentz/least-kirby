@@ -6,11 +6,8 @@ columns:
       leftcolumn:
         type: fields
         fields:
-          leftmaintext:
-            label: Large text
-            type: textarea
-          leftplaintext:
-            label: Small text
+          lefttext:
+            label: Text
             type: textarea
           leftbuttontext:
             label: Button text
@@ -23,11 +20,8 @@ columns:
       rightcolumn:
         type: fields
         fields:
-          rightmaintext:
-            label: Large text
-            type: textarea
-          rightplaintext:
-            label: Small text
+          righttext:
+            label: Text
             type: textarea
           rightbuttontext:
             label: Button text

@@ -17,11 +17,8 @@ columns:
       text:
         type: fields
         fields:
-          maintext:
-            label: Large Text
-            type: textarea
-          plaintext:
-            label: Small text
+          text:
+            label: Text
             type: textarea
           buttontext:
             label: Button text

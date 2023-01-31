@@ -10,7 +10,7 @@ Filter: Lecture
 
 ----
 
-Background: - file://KeUr8m43ZYKFW3QR
+Background: 
 
 ----
 
@@ -18,7 +18,7 @@ Backtext: Lorem ipsum
 
 ----
 
-Tag: Vivre le Rhône
+Tag: Vivre le Rhône, Newsletter
 
 ----
 

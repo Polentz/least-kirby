@@ -5,22 +5,10 @@
                         <h2 class="--title-large">Contact</h2>
                     </div>
                 </div>
-                <div class="grid-block --outline">
-                    <div class="contact--block">
-                        <p class="site-title">least</p>
-                        <p class="site-subtitle">laboratoire écologie et art pour une société en transition</p>
-                    </div>
-                    <div class="contact--block --txt-small">
-                        <?= $site->address()->kt() ?>
-                    </div>
-                    <div class="contact--block --txt-small">
-                        <a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
-                    </div>
-                    <?php if ($site->partnerlink()->isNotEmpty()): ?>
-                        <div class="contact--block --txt-small">
-                            <a href="<?= $site->partnerlink()->url() ?>"><?= $site->partnerlink() ?></a>
-                        </div>
-                    <?php endif ?>
+                <div class="contact-block --outline">
+                    <p class="site-title">least</p>
+                    <?= $site->address()->kt() ?>
+                    <a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
                 </div>
             </div>
         </section>

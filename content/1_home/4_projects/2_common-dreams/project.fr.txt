@@ -1,8 +1,12 @@
-Title: Vivre le Rhône
+Title: Common Dreams
 
 ----
 
-Fronttext: Vivre le Rhône
+Fronttext: Common Dreams
+
+----
+
+Frontfooter: 
 
 ----
 
@@ -14,15 +18,15 @@ Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 
 ----
 
-Pagestatus: true
+Backfooter: More information soon
 
 ----
 
-Placeholder: 
+Pagestatus: false
 
 ----
 
-Tag: Vivre le Rhône
+Placeholder: More information soon
 
 ----
 

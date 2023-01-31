@@ -1,16 +1,11 @@
 <section>
     <div class="grid-layout two-columns">
         <div class="grid-block --outline">
-            <?php if ($part->leftmaintext()->isNotEmpty()): ?>
-                <div class="grid-text --txt-medium">
-                    <?= $part->leftmaintext()->kt() ?>
+            <?php if ($part->lefttext()->isNotEmpty()): ?>
+                <div class="grid-text">
+                    <?= $part->lefttext()->kt() ?>
                 </div>
             <?php endif ?>
-            <?php if ($part->leftplaintext()->isNotEmpty()): ?>
-                <div class="grid-text --txt-small">
-                    <?= $part->leftplaintext()->kt() ?>
-                </div>
-            <?php endif ?> 
             <?php if ($part->leftbuttonText()->isNotEmpty()): ?>
                 <div class="button-wrapper">
                     <a class="button-label --txt-medium" href="<?= $part->leftbuttonUrl() ?>"
@@ -25,16 +20,11 @@
             <?php endif ?> 
         </div>
         <div class="grid-block --outline">
-            <?php if ($part->rightmaintext()->isNotEmpty()): ?>
-                <div class="grid-text --txt-medium">
-                    <?= $part->rightmaintext()->kt() ?>
+            <?php if ($part->righttext()->isNotEmpty()): ?>
+                <div class="grid-text">
+                    <?= $part->righttext()->kt() ?>
                 </div>
             <?php endif ?>
-            <?php if ($part->rightplaintext()->isNotEmpty()): ?>
-                <div class="grid-text --txt-small">
-                    <?= $part->rightplaintext()->kt() ?>
-                </div>
-            <?php endif ?> 
             <?php if ($part->rightbuttonText()->isNotEmpty()): ?>
                 <div class="button-wrapper">
                     <a class="button-label --txt-medium" href="<?= $part->rightbuttonUrl() ?>"

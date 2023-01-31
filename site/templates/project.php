@@ -29,10 +29,12 @@
                 <div class="media-content-header">
                     <div class="media-content-category">
                         <?php snippet('mediacategory', ['mediacontent' => $mediacontent]); ?>
-                        <div class="svg-tag">
-                            <?= asset('assets/icons/tag.svg')->read() ?>
-                        </div>
-                        <p class="media-content-tag --txt-caption"><?= $mediacontent->tag()->inline() ?></p>
+                        <?php foreach ($mediacontent->tag()->split() as $tag): ?>
+                            <div class="svg-tag">
+                                <?= asset('assets/icons/tag.svg')->read() ?>
+                            </div>
+                            <p class="media-content-tag --txt-caption"><?= $tag ?></p>
+                        <?php endforeach ?>
                     </div>
                     <div class="media-content-close">
                         <?= asset('assets/icons/close.svg')->read() ?>

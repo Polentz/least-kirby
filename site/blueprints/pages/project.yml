@@ -19,8 +19,12 @@ tabs:
                 theme: none        
               fronttext:
                 label: Title
-                type: text
+                type: textarea
                 required: true
+              frontfooter:
+                label: Footer
+                type: text
+                buttons: false
               background:
                 label: Background image
                 type: files
@@ -49,21 +53,17 @@ tabs:
                 label: Short text
                 type: textarea
                 required: true
-                buttons: false
                 maxlength: 125
+                buttons: false
+              backfooter:
+                label: Footer
+                type: text
               pagestatus:
                 label: Is the project page ready?
                 type: toggle
                 text: 
                   - "no"
                   - "yes"
-              placeholder:
-                label: Temporary text
-                placeholder: More information soon
-                help: If the project page is not ready, you can replace the link to the page with some text.
-                type: text
-                icon: text
-
   project:
     label: Project Page
     icon: page

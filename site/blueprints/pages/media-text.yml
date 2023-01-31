@@ -1,20 +1,12 @@
 title: Text + Image
 
 sections:
-  maintext:
+  copy:
     type: fields
     fields:
-      largetext: 
-        label: Large text
-        type: textarea
-
-  plaintext:
-    type: fields
-    fields:
-      copytext: 
-        label: Small text
-        type: textarea
-  
+      text: 
+        label: Text
+        type: textarea  
   image:
     type: files
     label: Image

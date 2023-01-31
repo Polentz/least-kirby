@@ -6,11 +6,7 @@ Sectiontitle: Médias
 
 ----
 
-Maintext: 
-
-----
-
-Plaintext: 
+Text: 
 
 ----
 
@@ -22,4 +18,4 @@ Buttonurl:
 
 ----
 
-Uuid: 9DjMFLyvRW58Xnn2
+Uuid: V87ido8DbfvuxNwL

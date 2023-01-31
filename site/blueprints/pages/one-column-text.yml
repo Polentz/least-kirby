@@ -7,11 +7,8 @@ sections:
       sectiontitle:
         label: Title
         type: text
-      maintext:
-        label: Large text
-        type: textarea
-      plaintext:
-        label: Small text
+      text:
+        label: Text
         type: textarea
       buttontext:
         label: Button text
