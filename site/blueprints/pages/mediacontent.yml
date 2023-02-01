@@ -45,17 +45,12 @@ tabs:
                 maxlength: 125
               tags:
                 type: structure
-                label: false
+                label: Tags
+                required: true
                 fields:
                   tag:
                     type: text
-
-#              tag:
-#                label: Tags
-#                type: tags
-#                min: 1
-#                separator: " "
-#                required: true
+                    label: List of tags
   mediaarticle:
     label: Media Content
     icon: page

@@ -172,7 +172,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: var(--marg-m);
+    margin-bottom: var(--marg-s);
     padding: 0 var(--marg-s);
 }
 

@@ -17,9 +17,9 @@ Backtext: Lorem ipsum
 Tags:
 
 - 
-  tag: Newsletter
-- 
   tag: Vivre le Rhône
+- 
+  tag: Newsletter
 
 ----
 
