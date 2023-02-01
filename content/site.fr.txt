@@ -32,14 +32,11 @@ Year: 2023
 
 ----
 
-Temporarymenu:
-
-on se retrouve en
-février 2023
+Temporarymenu: 
 
 ----
 
-Projects: 
+Projects: Projets
 
 ----
 

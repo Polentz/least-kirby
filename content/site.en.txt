@@ -32,18 +32,11 @@ Year: 2023
 
 ----
 
-Temporarymenu:
-
-see you in
-february 2023
+Temporarymenu: 
 
 ----
 
-Partnerlink: 
-
-----
-
-Projects: 
+Projects: Projects
 
 ----
 
@@ -52,6 +45,10 @@ Description: least [ecology and art laboratory for a society in transition] brin
 ----
 
 Keywords: ecology, art, Geneva, co-creation, co-creative, inclusive projects, continuing education, school of transition, cross-research residencies
+
+----
+
+Partnerlink: 
 
 ----
 

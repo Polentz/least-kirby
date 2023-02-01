@@ -848,12 +848,14 @@ input.seek-slider::-webkit-slider-thumb {
     margin: 0;
 }
 
-.grid-block a {
+.grid-block a,
+.contact-block a {
     position: relative;
 }
 
 .button-label::after,
-.grid-block a::after {
+.grid-block a::after,
+.contact-block a::after {
     content: "";
     width: 100%;
     height: 1px;
@@ -882,6 +884,10 @@ input.seek-slider::-webkit-slider-thumb {
 
 .contact-block .site-title {
     line-height: 1;
+}
+
+.contact-block a {
+    width: fit-content;
 }
 
 .footer {
