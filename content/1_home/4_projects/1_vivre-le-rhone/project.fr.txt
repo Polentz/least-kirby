@@ -2,7 +2,10 @@ Title: Vivre le Rhône
 
 ----
 
-Fronttext: Vivre le Rhône
+Fronttext:
+
+Vivre le Rhône
+2022
 
 ----
 

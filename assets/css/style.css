@@ -659,8 +659,7 @@ input.seek-slider::-webkit-slider-thumb {
     min-height: calc(var(--main-width) / 4);
 }
 
-.card-front,
-.card-back-wrapper {
+.card-wrapper {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

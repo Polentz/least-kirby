@@ -5,18 +5,29 @@
                 <div class="card-front" 
                     <?php if ($cover = $card->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
                     <?php endif ?>>
-                    <div class="card-front-wrapper --txt-medium">
-                        <?php if ($card->fronttext()->isNotEmpty()): ?>
-                            <?= $card->fronttext()->kt() ?>
-                        <?php endif ?>
-                    </div>
-                    <?php if ($card->frontfooter()->isNotEmpty()): ?>
-                        <p class="--txt-caption"><?= $card->frontfooter()->kt()->inline() ?></p>
+                    <?php if ($card->pagestatus()->isTrue()): ?>
+                        <a href="<?= $card->url() ?>" class="card-wrapper --txt-medium">
+                            <?php if ($card->fronttext()->isNotEmpty()): ?>
+                                <?= $card->fronttext()->kt() ?>
+                            <?php endif ?>
+                            <?php if ($card->frontfooter()->isNotEmpty()): ?>
+                                <p class="--txt-caption"><?= $card->frontfooter()->kt()->inline() ?></p>
+                            <?php endif ?>
+                        </a>
+                    <?php else : ?>
+                        <div class="card-wrapper --txt-medium">
+                            <?php if ($card->fronttext()->isNotEmpty()): ?>
+                                <?= $card->fronttext()->kt() ?>
+                            <?php endif ?>
+                            <?php if ($card->frontfooter()->isNotEmpty()): ?>
+                                <p class="--txt-caption"><?= $card->frontfooter()->kt()->inline() ?></p>
+                            <?php endif ?>
+                        </div>
                     <?php endif ?>
                 </div>
                 <div class="card-back --txt-small">
                     <?php if ($card->pagestatus()->isTrue()): ?>
-                        <a href="<?= $card->url() ?>" class="card-back-wrapper">
+                        <a href="<?= $card->url() ?>" class="card-wrapper">
                             <?php if ($card->backtext()->isNotEmpty()): ?>
                                 <?= $card->backtext()->kt() ?>
                             <?php endif ?>
@@ -25,7 +36,7 @@
                             <?php endif ?>
                         </a>
                     <?php else : ?>
-                        <div class="card-back-wrapper">
+                        <div class="card-wrapper">
                             <?php if ($card->backtext()->isNotEmpty()): ?>
                                 <?= $card->backtext()->kt() ?>
                             <?php endif ?>
