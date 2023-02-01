@@ -1151,23 +1151,16 @@ input.seek-slider::-webkit-slider-thumb {
         pointer-events: all;
     }
 
-    .button-ui svg,
-    .gallery-btn svg {
+    .button-ui svg {
         height: 1rem;
     }
 
-    .gallery-block {
-        padding: var(--marg-s) 0;
-    }
-
     .gallery-btn {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        display: none;
     }
 
     .image-wrapper img {
-        max-width: 100vw;
+        max-width: 85vw;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
     }
