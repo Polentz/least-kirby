@@ -37,6 +37,10 @@
     opacity: 1;
 }
 
+.media-card .card-front {
+    box-shadow: none;
+}
+
 .media-card {
     cursor: pointer;
     -webkit-transition: all .5s ease;
@@ -306,6 +310,10 @@
 }
 
 @media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+    .media-card .card-front {
+        box-shadow: none;
+    }
+
     .card-back {
         background-color: transparent;
     }
