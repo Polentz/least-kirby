@@ -39,10 +39,6 @@ février 2023
 
 ----
 
-Partnerlink: 
-
-----
-
 Projects: 
 
 ----
@@ -52,6 +48,10 @@ Description: least [laboratoire écologie et art pour une société en transitio
 ----
 
 Keywords: écologie, art, co-création, Genève, projets co-créatifs, projets inclusifs, formation continue, école de la transition, résidences de recherche
+
+----
+
+Partnerlink: 
 
 ----
 
