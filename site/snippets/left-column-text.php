@@ -1,6 +1,6 @@
 <section>
-    <div class="grid-layout two-columns">
-        <div class="grid-block --outline">
+    <div class="grid-layout four-columns">
+        <div class="grid-span --outline">
             <?php if ($part->text()->isNotEmpty()): ?>
                 <div class="grid-text">
                     <?= $part->text()->kt() ?>
@@ -19,7 +19,15 @@
                 </div>
             <?php endif ?> 
         </div>
-        <div class="grid-block --outline">  
+        <div class="grid-square --outline">  
+            <?php if ($part->thirdslot()->isTrue()): ?>
+                <img src="<?= $part->image()->url() ?>" />
+            <?php endif ?>
+        </div>
+        <div class="grid-square --outline">
+            <?php if ($part->fourthslot()->isTrue()): ?>
+                <img src="<?= $part->image()->url() ?>" />
+            <?php endif ?>
         </div>
     </div>
 </section>

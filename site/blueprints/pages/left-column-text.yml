@@ -15,14 +15,40 @@ columns:
           buttonurl:
             label: Button URL
             type: url
-  - width: 1/2
+  - width: 1/4
     sections:
-      emptycolumn:
+      slotone:
         type: fields
         fields:
-          columninfo:
-            type: info
-            label: false
-            text: THIS COLUMN WILL BE EMPTY
-            align: center
-            theme: none
+          thirdslot: 
+            label: Display an image in this column?
+            help: Use one column at a time
+            type: toggle
+            info: I suggest to use one column at a time
+            text: 
+              - "no"
+              - "yes"
+      image:
+        type: files
+        label: Image
+        layout: cards
+        size: small
+        max: 1
+        template: simple-image
+        image:
+          back: "#000"
+          icon: false
+          ratio: 1/1
+          cover: true
+  - width: 1/4
+    sections:
+      slottwo:
+        type: fields
+        fields:
+          fourthslot: 
+            label: Display an image in this column?
+            help: Use one column at a time
+            type: toggle
+            text: 
+              - "no"
+              - "yes"

@@ -486,6 +486,17 @@ figcaption {
     padding: var(--marg-s);
 }
 
+.grid-span {
+    grid-column: span 2;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: var(--p-gap);
+    padding: var(--marg-s);
+}
+
 .grid-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -505,7 +516,6 @@ figcaption {
 .grid-square {
     position: relative;
     grid-column: span 1;
-    min-height: calc(var(--main-width) / 4);
     display: flex;
     align-items: stretch;
 }
@@ -643,6 +653,10 @@ input.seek-slider::-webkit-slider-thumb {
 
 .mute-icon.toggle-volume {
     opacity: 1;
+}
+
+.card {
+    min-height: calc(var(--main-width) / 4);
 }
 
 .card-front,
