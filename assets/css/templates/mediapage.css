@@ -58,7 +58,8 @@
     opacity: .2;
 }
 
-.media-card .card-back {
+.media-card .card-back,
+.media-card .card-front {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
