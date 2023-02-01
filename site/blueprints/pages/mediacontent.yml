@@ -43,12 +43,19 @@ tabs:
                 required: true
                 buttons: false
                 maxlength: 125
-              tag:
-                label: Tags
-                type: tags
-                min: 1
-                separator: " "
-                required: true
+              tags:
+                type: structure
+                label: false
+                fields:
+                  tag:
+                    type: text
+
+#              tag:
+#                label: Tags
+#                type: tags
+#                min: 1
+#                separator: " "
+#                required: true
   mediaarticle:
     label: Media Content
     icon: page

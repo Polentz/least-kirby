@@ -10,15 +10,24 @@ Filter: Lecture
 
 ----
 
-Background: 
-
-----
-
 Backtext: Lorem ipsum
 
 ----
 
-Tag: Vivre le Rhône, Newsletter
+Tags:
+
+- 
+  tag: Newsletter
+- 
+  tag: Vivre le Rhône
+
+----
+
+Tag: Newsletter  Vivre  le  Rhône
+
+----
+
+Background: 
 
 ----
 
