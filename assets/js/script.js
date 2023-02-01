@@ -48,19 +48,6 @@ const menu = () => {
         }, 600);
     });
 
-    // closeBtn.addEventListener("click", () => {
-    //     menuWrapper.classList.remove("--fade-element");
-    //     langBtn.style.color = "var(--txt-color)";
-    //     setTimeout(() => {
-    //         openBtn.classList.remove("scale");
-    //         closeBtn.classList.remove("--show-element");
-    //     }, 300);
-    //     setTimeout(() => {
-    //         body.style.overflowY = "scroll";
-    //         menu.classList.remove("--show-element");
-    //     }, 500);
-    // });
-
     closeMenuBtns.forEach(btn => {
         btn.addEventListener("click", () => {
             console.log("click")
