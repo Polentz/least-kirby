@@ -678,7 +678,6 @@ input.seek-slider::-webkit-slider-thumb {
     background-position: center center;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 600px rgb(255 255 255 / 45%);
-    filter: grayscale(1);
 }
 
 .card-front p {
@@ -1132,8 +1131,7 @@ input.seek-slider::-webkit-slider-thumb {
     }
 
     .card-front {
-        background-size: 0;
-        box-shadow: none;
+        box-shadow: inset 0 0 0 600px rgb(29 29 29 / 45%);
     }
 
     .card-back {
