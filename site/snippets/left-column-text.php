@@ -1,3 +1,7 @@
+<?php 
+    $cover = $part->background()->toFile();
+?>
+
 <section>
     <div class="grid-layout four-columns">
         <div class="grid-span --outline">
@@ -19,15 +23,13 @@
                 </div>
             <?php endif ?> 
         </div>
-        <div class="grid-square --outline">  
-            <?php if ($part->thirdslot()->isTrue()): ?>
-                <img src="<?= $part->image()->url() ?>" />
-            <?php endif ?>
+        <div class="grid-square --outline" 
+            <?php if ($part->firstslot()->isTrue()): ?>style="background-image: url('<?= $cover->url() ?>');"
+            <?php endif ?>>  
         </div>
-        <div class="grid-square --outline">
-            <?php if ($part->fourthslot()->isTrue()): ?>
-                <img src="<?= $part->image()->url() ?>" />
-            <?php endif ?>
+        <div class="grid-square --outline" 
+            <?php if ($part->secondslot()->isTrue()): ?>style="background-image: url('<?= $cover->url() ?>');"
+            <?php endif ?>>  
         </div>
     </div>
 </section>

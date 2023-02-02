@@ -326,7 +326,6 @@ figcaption {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
 }
 
 .logo {
@@ -514,10 +513,13 @@ figcaption {
 }
 
 .grid-square {
+    min-height: calc(var(--main-width) / 4);
     position: relative;
     grid-column: span 1;
     display: flex;
-    align-items: stretch;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .grid-square img {
@@ -676,11 +678,10 @@ input.seek-slider::-webkit-slider-thumb {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 600px rgb(255 255 255 / 45%);
 }
 
-.card-front p {
-    color: var(--txt-color);
+.card-front a.card-wrapper p {
+    color: var(--bg-color);
 }
 
 .card-back {
@@ -1038,6 +1039,11 @@ input.seek-slider::-webkit-slider-thumb {
         background-position: 20% 0;
     }
 
+    .logo a {
+        -webkit-filter: opacity(1);
+        filter: opacity(1);
+    }
+
     .side-nav {
         bottom: 0;
         left: 0;
@@ -1135,8 +1141,8 @@ input.seek-slider::-webkit-slider-thumb {
         margin-bottom: var(--sidenav);
     }
 
-    .card-front {
-        box-shadow: inset 0 0 0 600px rgb(29 29 29 / 45%);
+    .card-front a.card-wrapper p {
+        color: var(--txt-color);
     }
 
     .card-back {
@@ -1166,6 +1172,21 @@ input.seek-slider::-webkit-slider-thumb {
         max-width: 85vw;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
+    }
+
+    .logo-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .logo-wrapper {
+        -webkit-filter: invert(1);
+        filter: invert(1);
     }
 
     .footer {

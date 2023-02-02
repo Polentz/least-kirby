@@ -10,22 +10,22 @@ columns:
             label: Display an image in this column?
             help: Use one column at a time
             type: toggle
-            info: I suggest to use one column at a time
+            info: Use one column at a time
             text: 
               - "no"
               - "yes"
-      image:
-        type: files
-        label: Image
-        layout: cards
-        size: small
-        max: 1
-        template: simple-image
-        image:
-          back: "#000"
-          icon: false
-          ratio: 1/1
-          cover: true
+          background:
+            label: Image
+            type: files
+            template: simple-image
+            layout: cards
+            size: small
+            max: 1
+            image:
+              back: "#000"
+              icon: false
+              ratio: 1/1
+              cover: true
   - width: 1/4
     sections:
       slottwo:

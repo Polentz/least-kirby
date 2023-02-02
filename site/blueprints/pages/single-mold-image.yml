@@ -9,7 +9,7 @@ sections:
         help: Use one column at a time
         width: 1/4
         type: toggle
-        info: I suggest to use one column at a time
+        info: Use one column at a time
         text: 
           - "no"
           - "yes"
