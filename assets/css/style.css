@@ -798,7 +798,7 @@ input.seek-slider::-webkit-slider-thumb {
 }
 
 .logo-wrapper img {
-    height: 48px;
+    height: 56px;
     border: none;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
@@ -807,6 +807,11 @@ input.seek-slider::-webkit-slider-thumb {
     -o-transition: filter .5s ease;
     transition: filter .5s ease;
     transition: filter .5s ease, -webkit-filter .5s ease;
+}
+
+.logo-wrapper figcaption {
+    padding-left: 0;
+    text-align: center;
 }
 
 .image-wrapper img.--grayscale {

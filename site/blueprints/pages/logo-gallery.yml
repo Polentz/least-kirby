@@ -4,13 +4,11 @@ sections:
   gallery:
     label: Logo gallery
     type: files
-    layout: cardlets
-    template: gallery-image
-    size: small
-    info: "{{ file.caption }}"
+    layout: cards
+    template: logo
     sortable: true
     image:
-      back: "#000"
+      back: "#fff"
       icon: false
       ratio: 1/1
       cover: true

@@ -1,0 +1,21 @@
+title: Logo
+
+accept: 
+  extension: jpg, png, jpeg
+  maxwidth: 1600
+
+fields:
+  alt:
+    type: text
+    width: 1/2
+  caption:
+    type: textarea
+    width: 1/2
+  imageheight:
+    label: Change logo height
+    default: 56
+    min: 56
+    placeholder: 56
+    type: number
+    after: px
+    width: 1/6
