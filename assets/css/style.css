@@ -911,6 +911,15 @@ input.seek-slider::-webkit-slider-thumb {
     transition: opacity 1s ease;
 }
 
+.content-section h2,
+.content-section h3,
+.content-section p,
+.content-section a,
+.content-section img,
+.media-title p {
+    opacity: 1 !important;
+}
+
 .main section.appear h2,
 .main section.appear h3,
 .main section.appear p,
