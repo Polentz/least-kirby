@@ -10,11 +10,18 @@ Filter: Podcast
 
 ----
 
-Background: 
+Backtext: Le otto montagne
 
 ----
 
-Backtext: Le otto montagne
+Tags:
+
+- 
+  tag: Common Dreams
+
+----
+
+Background: 
 
 ----
 
