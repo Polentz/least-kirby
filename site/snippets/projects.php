@@ -1,4 +1,14 @@
 <section id="projects">
+    <div class="grid-layout">
+        <div class="grid-block --outline">
+            <div class="grid-text">
+                <h2 class="--title-large"><?= $site->projects()->inline() ?></h2>
+            </div>         
+        </div>
+    </div>
+</section>
+
+<section>
     <div class="grid-layout four-columns">
         <?php foreach ($part->children()->listed() as $card): ?>
             <div class="grid-square --outline card">
