@@ -1,0 +1,33 @@
+Title: Test background
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://7HIKZq6dWqDRxORc
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### what we did
+
+Since the summer of 2022, three residencies in Geneva have already taken place. The artists started their research by exploring the urban trait of the Rhone and met scientists, professionals, and local actors who, in different ways, are related to the river. In December, the first walks and restorative circles for the landscapes were organized. Meanwhile, a weaving practice was designed and tested.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: 5vRlL9jPTfb48pa5

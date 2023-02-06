@@ -1,0 +1,35 @@
+Title: Test french text
+
+----
+
+Firstslot: false
+
+----
+
+Background: 
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### Common Dreams: Flotation School est un projet axé sur la survie, les biens communs, l’espoir et les stratégies pour aborder le changement climatique et l’ère anthropocène. L’avenir nous réserve des environnements plus extrêmes et des espaces plus urbains et seules les espèces résistantes pourront s’adapter à la vie. Partager nos désirs et nos inspirations nous permet d’imaginer des refuges et d’autres formes d’être dans un monde en voie d’extinction.
+
+### Conjointement avec l’artiste Maria Lucia Cruz Correia, least propose à une classe de 3ème année du Collège Sismondi (Genève) d’imaginer cette adaptation en proposant des alternatives. Une « île-refuge », conçue et réalisée par les étudiant·e·x·s, permet de repenser de nouvelles façons de vivre ensemble, d’agir en commun et de créer de nouveaux imaginaires, en abordant des thèmes des plus concrets aux plus philosophiques : les valeurs communautaires, le travail en commun, l’alimentation, l’énergie, la résilience émotionnelle, les lieux de soins, la gouvernance et la vie sociale.
+
+### « L’île » sera construite conjointement avec les étudiant·e·x·s, les artisan·e·x·s, les charpentier·ère·x·s et les habitant·e·x·s du quartier. Des biologistes, climatologues, ingénieur·e·x·s, activistes, agriculteur·rice·x·s et expert·e·x·s en biens communs sont invités à participer à la conception et à l’activation de l’école flottante.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: sll0yb0KvovjXDSH

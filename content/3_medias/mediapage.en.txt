@@ -1,4 +1,8 @@
-Title: Media
+Title: media
+
+----
+
+Slug: media
 
 ----
 

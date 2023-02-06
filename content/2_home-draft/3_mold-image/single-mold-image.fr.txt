@@ -1,0 +1,29 @@
+Title: Mold image
+
+----
+
+Firstslot: false
+
+----
+
+Secondslot: true
+
+----
+
+Thirdslot: false
+
+----
+
+Fourthslot: false
+
+----
+
+Images: - file://uTe9YFZnJBqaBkG4
+
+----
+
+Position: fourthslot
+
+----
+
+Uuid: LgnJ2uCKIwv59KQD
