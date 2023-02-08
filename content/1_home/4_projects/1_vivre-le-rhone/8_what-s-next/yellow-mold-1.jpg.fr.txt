@@ -1,0 +1,9 @@
+Uuid: kPC4PVq9rPIBTF14
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

@@ -6,11 +6,19 @@ Fronttext: Vivre le Rhône
 
 ----
 
-Background: 
+Frontfooter: 
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Background: - file://EwfuxmeNtiHu82AX
+
+----
+
+Backtext: Participatory research to recognise the river’s rights through walking, care rituals and restorative circles.
+
+----
+
+Backfooter: 2022-2024
 
 ----
 

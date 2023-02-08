@@ -1,9 +1,0 @@
-Uuid: Lm7Dl0FqcYiMGzNB
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 2

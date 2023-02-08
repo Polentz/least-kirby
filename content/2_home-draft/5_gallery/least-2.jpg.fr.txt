@@ -1,9 +1,0 @@
-Uuid: m6CNn844YVfvPaGQ
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 3

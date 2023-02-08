@@ -2,26 +2,23 @@ Title: Vivre le Rhône
 
 ----
 
-Fronttext:
-
-Vivre le Rhône
-2022
+Fronttext: Vivre le Rhône
 
 ----
 
-Frontfooter: 2022/2023
+Frontfooter: 
 
 ----
 
-Background: - file://y4DeZrFhVKPxVowj
+Background: - file://EwfuxmeNtiHu82AX
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Backtext: Une recherche pour redonner au fleuve ses droits à travers la marche, les rituels de soins et des cercles réparateurs.
 
 ----
 
-Backfooter: This is a footer
+Backfooter: 2022-2024
 
 ----
 
@@ -37,4 +34,4 @@ Tag: Vivre le Rhône
 
 ----
 
-Uuid: SonbfIVFNKfELf1c
+Uuid: yYpW5UiLxKwHKNtC

@@ -1,0 +1,9 @@
+Uuid: Xs79RQrz30mhx5Pe
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 5

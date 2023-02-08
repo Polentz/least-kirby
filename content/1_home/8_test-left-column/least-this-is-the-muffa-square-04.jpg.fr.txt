@@ -1,9 +1,0 @@
-Uuid: o0jxXOW0BmfrGwwE
-
-----
-
-Template: simple-image
-
-----
-
-Sort: 1

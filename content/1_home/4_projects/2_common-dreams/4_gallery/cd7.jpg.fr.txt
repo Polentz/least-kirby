@@ -1,0 +1,9 @@
+Uuid: qikEJYwqkYovsv8T
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 7

@@ -1,0 +1,49 @@
+Title: cocre-learn
+
+----
+
+Lefttext:
+
+### co-creation
+
+**least** encourages a form of art without an audience, preferring the notion of a “participating community.” Grassroots organisations, young people, local actors and citizens take part in creative processes that focus on environmental and social issues.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+### learning
+
+**least** enables the creation of a common and circular model of knowledge, stimulating peer-to-peer exchanges and transgenerational artistic mentoring through practice by offering residency grants to young local artists.
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Leftmaintext: co-creation
+
+----
+
+Leftplaintext: **least** encourages a form of art without an audience, preferring the notion of a “participating community.” Grassroots movements, young generations, local actors, and citizens are involved in the process.
+
+----
+
+Rightmaintext: learning
+
+----
+
+Rightplaintext: **least** offers young artists the opportunity to accompany the development of a specific project, stimulating trans-generational artistic mentoring through practice.

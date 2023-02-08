@@ -1,0 +1,9 @@
+Uuid: kzW7poFjYDK7Rrct
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 10

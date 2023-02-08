@@ -1,9 +1,0 @@
-Uuid: Qgrk9oR4uTkvWYbO
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 4

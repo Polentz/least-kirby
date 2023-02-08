@@ -1,0 +1,9 @@
+Uuid: sotgbjmZTgbn4Sig
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 4

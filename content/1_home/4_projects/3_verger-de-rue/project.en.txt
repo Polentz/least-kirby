@@ -6,11 +6,19 @@ Fronttext: Verger de Rue
 
 ----
 
+Frontfooter: UPCOMING
+
+----
+
 Background: 
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Backtext: An urban ecology project that involves citizens in the design, creation and maintenance of street orchards.
+
+----
+
+Backfooter: 
 
 ----
 
@@ -23,7 +31,3 @@ Placeholder:
 ----
 
 Link: 
-
-----
-
-Uuid: snY6u2uOle9Ywdmu

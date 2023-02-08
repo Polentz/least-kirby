@@ -1,0 +1,40 @@
+Title: what we're doing
+
+----
+
+Text:
+
+### réalisé
+Depuis l’été 2022, trois résidences ont déjà eu lieu à Genève. Les artistes ont initié leurs recherches en s’intéressant aux caractéristiques urbaines du Rhône. Iels ont rencontré des scientifiques, des professionnel·le·x·s et des acteur·rice·x·s locaux qui, de différentes manières, sont liés au fleuve. En décembre, les premières marches et premiers cercles collectifs de restauration des paysages ont été activés. En parallèle, une pratique de tissage in situ est expérimentée.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://DAJqc02H3ux0hGJV
+
+----
+
+Secondslot: false
+
+----
+
+Thirdslot: true
+
+----
+
+Fourthslot: false
+
+----
+
+Uuid: HOJMj83El6DICMp4

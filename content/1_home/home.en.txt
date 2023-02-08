@@ -1,5 +1,40 @@
-Title: Delete this
+Title: Home
 
 ----
 
-Background: - file://yc1n4TM2hrJCRMCk
+Slug: home-draft
+
+----
+
+Background:
+
+- 
+  id: home/muffa-1-viola-14.02.30.jpg
+  image:
+    back: '#000'
+    color: orange-400
+    cover: true
+    icon: false
+    ratio: 16/4
+    url: >
+      https://least.eco/media/pages/home/a3a211573a-1674816730/muffa-1-viola-14.02.30.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      https://least.eco/media/pages/home/a3a211573a-1674816730/muffa-1-viola-14-02-30-352x.jpg
+      352w,
+      https://least.eco/media/pages/home/a3a211573a-1674816730/muffa-1-viola-14-02-30-864x.jpg
+      864w,
+      https://least.eco/media/pages/home/a3a211573a-1674816730/muffa-1-viola-14-02-30-1408x.jpg
+      1408w
+  info: ""
+  link: >
+    /pages/home/files/muffa-1-viola-14.02.30.jpg
+  sortable: true
+  text: muffa-1-viola-14.02.30.jpg
+  uuid: file://yc1n4TM2hrJCRMCk
+  dragText: '(image: file://yc1n4TM2hrJCRMCk)'
+  filename: muffa-1-viola-14.02.30.jpg
+  type: image
+  url: >
+    https://least.eco/media/pages/home/a3a211573a-1674816730/muffa-1-viola-14.02.30.jpg

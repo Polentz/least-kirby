@@ -1,9 +1,0 @@
-Uuid: fQlbSM0hmuCB894t
-
-----
-
-Template: simple-image
-
-----
-
-Sort: 1

@@ -1,0 +1,9 @@
+Uuid: bNX84UYVA37zehxY
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 18

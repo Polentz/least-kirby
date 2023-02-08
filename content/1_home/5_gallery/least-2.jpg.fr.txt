@@ -1,9 +1,0 @@
-Uuid: 8ljJW1FTUhmvBtVO
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 3

@@ -1,9 +1,0 @@
-Uuid: 7HIKZq6dWqDRxORc
-
-----
-
-Template: simple-image
-
-----
-
-Sort: 1

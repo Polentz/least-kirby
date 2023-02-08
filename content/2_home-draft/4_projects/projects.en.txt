@@ -1,9 +1,0 @@
-Title: Projects
-
-----
-
-Projects: true
-
-----
-
-Projectslabel: Projets

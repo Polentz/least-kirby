@@ -1,0 +1,9 @@
+Uuid: YfRpJP5Au9nJsxHf
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 8

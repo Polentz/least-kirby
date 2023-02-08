@@ -1,9 +1,0 @@
-Uuid: swAkkEYxjklJqtCy
-
-----
-
-Template: simple-image
-
-----
-
-Sort: 1

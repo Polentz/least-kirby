@@ -1,9 +1,0 @@
-Uuid: 3UkxaqwHmHLr2ylx
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 5

@@ -1,0 +1,39 @@
+Title: What's next
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://kPC4PVq9rPIBTF14
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### what’s next
+
+From the end of the summer of 2023, research on the Rhône will shift from its characteristics on the Geneva route to its meanders in Valais. Five more residencies will take place until the summer of 2024. Walking and weaving practices will continue, with a particular focus on ecocide and restorative justice.
+
+All participatory actions, locations and walks will be communicated on our website and via **least**’s newsletter. Sign up now!
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Maintext: what’s next
+
+----
+
+Plaintext: From the end of summer of 2023, the research will shift its core from the urban trait of the Rhone to the Valais. Five more residencies will take place until the summer of 2024. The walking and weaving practices will proceed, with a further focus on ecocide and restorative justice.

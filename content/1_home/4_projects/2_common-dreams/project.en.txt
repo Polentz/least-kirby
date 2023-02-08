@@ -2,20 +2,28 @@ Title: Common Dreams
 
 ----
 
-Fronttext: Common Dreams
+Fronttext: Common Dreams: Flotation School
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Frontfooter: 
 
 ----
 
-Placeholder: More information soon
+Background: - file://biLA1Crd8HsgBRYG
 
 ----
 
-Pagestatus: false
+Backtext: A project focused on survival, commons, hopes, and strategies for addressing climate change and the Anthropocene.
 
 ----
 
-Uuid: SonbfIVFNKfELf1c
+Backfooter: 2022-2023
+
+----
+
+Pagestatus: true
+
+----
+
+Placeholder: 

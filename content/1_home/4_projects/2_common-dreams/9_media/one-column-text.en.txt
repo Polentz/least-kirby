@@ -1,0 +1,21 @@
+Title: Media
+
+----
+
+Maintext: 
+
+----
+
+Plaintext: 
+
+----
+
+Sectiontitle: media
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 

@@ -6,18 +6,32 @@ Sectiontitle: Vivre le Rhône
 
 ----
 
-Maintext: Vivre le Rhône (Living the Rhone) is a project created by least and Natural Contract Lab, an artistic practice led by Maria-Lucia Cruz Correia that advocates an ecology of repair based on a dialogue with the bodies of water in profound ecological transformation.
+Text:
+
+### Created by **least** together with Natural Contract Lab, Vivre le Rhône features an ongoing artistic practice led by Maria Lucia Cruz Correia, that advocates an ecology of repair based on dialogue with bodies of water in profound ecological transformation.
+
+### The places identified along the Rhone become sites of regenerative encounters between humans and more-than-human communities. Here, practices of walking-with, collective weaving as proof of evidence, rituals of care, somatic and audio scores, and grief circles come to recognise the Rhone river’s rights. The project’s aim is to implement a protocol of reciprocal care inspired by restorative justice practices in order to counteract the ecocide of aquatic life and (re)connect with the power of water.
+
+### The project unfolds through a phase of transdisciplinary research and a series of residencies, artistic practices and workshops characterised by regular exchanges of ideas between the artistic team, participants and local communities involved in the creative process.
 
 ----
 
-Plaintext:
+Buttontext: 
 
-The places identified along the Rhone become sites of regenerative encounters between human and non-human communities. Here, practices of walking and collective weaving, care rituals, bodily experiences, and the mourning of landscapes come to recognize the river's rights. The project’s aim is the design, inspired by restorative justice practices, of a protocol of reciprocal care to counteract the ecocide of aquatic life and (re)connect to the ancient power of water. 
+----
+
+Buttonurl: 
+
+----
+
+Maintext:
+
+Vivre le Rhône is a project created by **least** and **Natural Contract Lab**, an artistic practice led by Maria Lucia Cruz Correia that advocates an ecology of repair based on a dialogue with bodies of water in profound ecological transformation. 
+
+The places identified along the Rhone become sites of regenerative encounters between human and non-human communities. Here, practices of walking and collective weaving, care rituals, bodily experiences, and restorative circles come to recognize the river's rights. The project’s aim is the design, inspired by restorative justice practices, of a protocol of reciprocal care to counteract the ecocide of aquatic life and (re)connect to the power of water. 
 
 The project unfolds through a former phase of transdisciplinary research and a series of residencies, artistic practices, and workshops characterized by regular exchanges between the artistic team, the participants, and local communities involved in the creative process.
 
-Download the dossier
-
 ----
 
-Uuid: wpfRXdZwBSP6LGbx
+Plaintext: 

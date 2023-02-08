@@ -1,9 +1,0 @@
-Uuid: 43Tg91IN8XCWTIeM
-
-----
-
-Template: gallery-image
-
-----
-
-Sort: 5

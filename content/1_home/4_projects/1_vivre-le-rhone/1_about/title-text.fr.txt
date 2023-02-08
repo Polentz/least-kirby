@@ -2,7 +2,25 @@ Title: About
 
 ----
 
-Sectiontitle: Vivre la Rhône
+Sectiontitle: Vivre le Rhône
+
+----
+
+Text:
+
+### Créé par **least** et **Natural Contract Lab**, **Vivre le Rhône** déploie une pratique artistique continue. Dirigé par Maria Lucia Cruz Correia, le projet prône une écologie de la réparation basée sur un dialogue avec des étendues d’eau en profonde transformation écologique.
+
+### Les lieux identifiés le long du Rhône deviennent des sites de rencontres régénérateurs entre les communautés, humaine et plus qu’humaine. Ici, des pratiques de marche accompagnée et de tissage collectif, de rituels de soins, d’expériences somatiques et de cercles réparateurs viennent reconnaître ses droits au fleuve. Le projet a pour objectif la conception, inspirée par les pratiques de justice réparatrice, d’un protocole de soins réciproques afin de contrecarrer l’écocide sur la vie aquatique et de se (re)connecter au pouvoir ancestral de l’eau.
+
+### Le projet inclut une première phase de recherche transdisciplinaire ainsi qu’une série de résidences, de pratiques artistiques et d’ateliers caractérisés par des échanges réguliers entre l’équipe artistique, les participant·e·x·s et les communautés locales impliquées dans le processus créatif.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
 
 ----
 
@@ -18,12 +36,4 @@ The project unfolds through a former phase of transdisciplinary research and a s
 
 ----
 
-Buttontext: Download dossier
-
-----
-
-Buttonurl: 
-
-----
-
-Uuid: wpfRXdZwBSP6LGbx
+Uuid: AJ3454dwtv4Z7DQJ

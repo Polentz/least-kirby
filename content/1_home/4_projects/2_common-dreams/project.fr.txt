@@ -10,15 +10,15 @@ Frontfooter:
 
 ----
 
-Background: 
+Background: - file://biLA1Crd8HsgBRYG
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Backtext: Un projet axé sur la survie, les biens communs et les stratégies pour aborder le changement climatique et l’Anthropocène.
 
 ----
 
-Backfooter: More information soon
+Backfooter: 2022-2024
 
 ----
 
@@ -30,4 +30,4 @@ Placeholder: More information soon
 
 ----
 
-Uuid: SonbfIVFNKfELf1c
+Uuid: 2YTlIyIeyMyOtCPK

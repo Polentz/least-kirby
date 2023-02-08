@@ -6,11 +6,19 @@ Fronttext: Verger de Rue
 
 ----
 
+Frontfooter: À VENIR
+
+----
+
 Background: 
 
 ----
 
-Backtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Backtext: Un projet d’écologie urbaine impliquant les citoyen·ne·x·s dans la conception, la création et l’entretien de vergers de rue.
+
+----
+
+Backfooter: 
 
 ----
 
@@ -26,4 +34,4 @@ Link:
 
 ----
 
-Uuid: snY6u2uOle9Ywdmu
+Uuid: obLl05nXhOn2PB0C

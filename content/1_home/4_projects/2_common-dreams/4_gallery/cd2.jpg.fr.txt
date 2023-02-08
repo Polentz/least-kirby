@@ -1,0 +1,9 @@
+Uuid: eDUJ96SKIrcr7g4B
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 2

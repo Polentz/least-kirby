@@ -1,9 +1,0 @@
-Title: Card section
-
-----
-
-Uuid: 4rAUgz9jPS1Xc0d7
-
-----
-
-Text: 
