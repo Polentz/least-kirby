@@ -1,0 +1,13 @@
+Title: Empty
+
+----
+
+Slug: empty
+
+----
+
+Tag: Image
+
+----
+
+Filter: Image

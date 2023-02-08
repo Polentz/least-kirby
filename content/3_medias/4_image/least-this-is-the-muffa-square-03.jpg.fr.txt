@@ -1,9 +1,0 @@
-Uuid: rQ1OWwiczfSm920f
-
-----
-
-Template: simple-image
-
-----
-
-Sort: 1
