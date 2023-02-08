@@ -1,0 +1,9 @@
+Uuid: 1nDa7xPxVrNFIobs
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 8

@@ -1,0 +1,9 @@
+Uuid: DvpSOfWcqU1BZOhA
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 1

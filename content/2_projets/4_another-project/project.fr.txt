@@ -1,0 +1,21 @@
+Title: Another project
+
+----
+
+Uuid: xph0AGyBIZXxSyy7
+
+----
+
+Fronttext: 
+
+----
+
+Background: 
+
+----
+
+Backtext: 
+
+----
+
+Pagestatus: false

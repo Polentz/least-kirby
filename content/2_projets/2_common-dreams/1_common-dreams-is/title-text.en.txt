@@ -1,0 +1,41 @@
+Title: About
+
+----
+
+Slug: about
+
+----
+
+Sectiontitle: common dreams: flotation school
+
+----
+
+Text:
+
+### **Common Dreams: Flotation School **is a project that focuses on survival, commons, hopes and strategies for addressing climate change and the Anthropocene. The future will hold more extreme environments and urban spaces and only resilient species will be able to adapt to life. Sharing desires and inspirations enables us to envision shelters and other ways of being in an endangered world.
+
+### **least** and artist Maria Lucia Cruz Correia have offered to a class of 3rd-year students from Sismondi College (Geneva) to imagine this adaptation by suggesting alternatives. A “shelter island,” designed and realised by the students, will be the place to rethink ways of living together, acting in common and creating new imaginaries, dealing with themes from the most concrete to the most philosophical: community values, working together, food, resources, economy, energy, emotional resilience, place of care, governance and social life.
+
+### The “island” will be constructed jointly with the students, tradespeople, carpenters and neighbourhood inhabitants. Biologists, climatologists, engineers, activists, farmers and commons experts are invited throughout the process to participate in the design and activation of the Flotation School.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Maintext:
+
+**Common Dreams: Flotation School **is a project focused on survival, commons, hopes, and strategies for addressing climate change and the Anthropocene. The future will hold more extreme environments and urban spaces: only resilient species will be able to adapt to life. Sharing desires and inspirations allow us to envision shelters and other ways of being in an endangered world. 
+
+**least** and artist Maria Lucia Cruz Correia propose to a class of 3rd-year students from Sismondi College (Geneva) to imagine this adaptation by suggesting alternatives. A “shelter island,” conceived and realized by the participants, will be the place to rethink ways of living together, act in common, and create new imaginaries, dealing with themes from the most concrete to the most philosophical: food, economy, energy, and social life.
+
+The “island” will be co-constructed by the students, tradesmen, carpenters, and neighborhood inhabitants. Biologists, climatologists, engineers, activists, farmers, and commons experts will be invited to participate in the design and activation of the Flotation School.
+
+----
+
+Plaintext: 

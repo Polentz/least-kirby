@@ -1,0 +1,24 @@
+Title: Guests
+
+----
+
+Sectiontitle: 
+
+----
+
+Text:
+
+###**least** remercie toutes les personnes qui ont contribué au projet en partageant leur temps, leurs savoirs et leurs ressources :
+Tony Arborino (ingénieur et conseiller en matière d'eau et de durabilité) / EPFL – École Polytechnique Fédérale de Lausanne; Philippe Benetti et Gaëlle Cervantes / Centre de compétences pour déficits visuels; Mathilde Captyn / Association éco-impact; Armelle Choplin (géographe) / Université de Genève ; Laure Delory (activiste) / Association suisse pour la protection du climat; Alain Dubois et Pierre-François Mettan / Association Fêtes du Rhône; Luca Ferrero (pêcheur); Sylvie Fischer / Association F-information; Sophie Frezza; Stéphane Genoud (ingénieur en gestion de l'énergie) / HES-SO Valais-Wallis; Zhara Hakim (artiste / céramiste); Kimberly Hirsch; Anne Mahrer / Aînées pour la protection du climat; Gilles Mulhauser / Canton de Genève – Office cantonal de l'eau; Frédéric Pitaval (ingénieur) / Association id-eau; Michel Porret (historien) / Université de Genève; Emmanuel Reynard (géographe) / Association mémoire du Rhône; Philippe Savary (garde-pêche) / Association des gardes-pêches de Suisse romande; Marie-Thérèse Sangra (géographe et chargée d'affaires) / WWF Valais; Mara Tignino (droits de l'eau, chercheuse) / Geneva Water Hub – Université de Genève.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: yEuEGXCOG5xzfjy3

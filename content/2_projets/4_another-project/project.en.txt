@@ -1,0 +1,25 @@
+Title: Another project
+
+----
+
+Fronttext: This is another project
+
+----
+
+Background: 
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Pagestatus: false
+
+----
+
+Frontfooter: 
+
+----
+
+Backfooter: 

@@ -1,0 +1,9 @@
+Uuid: SxkjLB1t5GZsBF02
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 15

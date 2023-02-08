@@ -1,0 +1,13 @@
+Template: logo
+
+----
+
+Sort: 1
+
+----
+
+Caption: 
+
+----
+
+Imageheight: 56

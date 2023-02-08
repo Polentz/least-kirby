@@ -1,0 +1,37 @@
+Title: partnership elenco
+
+----
+
+Firstslot: false
+
+----
+
+Background: - file://mFjNkK2cLzVLqDLc
+
+----
+
+Secondslot: true
+
+----
+
+Text:
+
+Aînées pour la protection du climat
+Association des Fêtes du Rhône
+Association Porteous
+Association suisse pour la protection du climat
+B+S Ingénieurs 
+Cauderay Yves sarl
+HEPIA - Haute Ecole Paysage, Ingénieurie et Architecture
+L'Association Suisse des Gardes-Pêche
+Office cantonal de l'eau (OCEau) – Genève
+Université de Genève 
+WWF Valais
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 

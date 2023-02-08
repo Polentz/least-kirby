@@ -1,0 +1,17 @@
+Alt: 
+
+----
+
+Caption: 
+
+----
+
+Imageheight: 66
+
+----
+
+Template: logo
+
+----
+
+Sort: 5

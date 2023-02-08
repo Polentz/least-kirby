@@ -1,0 +1,9 @@
+Uuid: zmZPzHmwsiWWpw6e
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 13

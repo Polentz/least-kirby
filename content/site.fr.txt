@@ -17,10 +17,7 @@ Newslettername: Newsletter
 
 ----
 
-Newslettercta:
-
-Notre site web sera lancé en février.
-Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et des contenus inédits.
+Newslettercta: Inscrivez-vous à notre newsletter pour recevoir nos dernières nouvelles et des contenus spéciaux.
 
 ----
 

@@ -1,0 +1,25 @@
+Title: thanks to 3
+
+----
+
+Lefttext: ### **least** thanks Caroline Dayer and Jacques Cordonier for their support and friendship.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext: 
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 

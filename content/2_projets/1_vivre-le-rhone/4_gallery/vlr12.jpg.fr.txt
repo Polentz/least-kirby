@@ -1,0 +1,9 @@
+Uuid: MJ5Nf3xV8xyu008T
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 14

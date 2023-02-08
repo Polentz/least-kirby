@@ -1,0 +1,9 @@
+Uuid: mFjNkK2cLzVLqDLc
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

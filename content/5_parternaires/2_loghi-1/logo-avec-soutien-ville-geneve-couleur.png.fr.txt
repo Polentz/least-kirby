@@ -1,0 +1,21 @@
+Alt: 
+
+----
+
+Caption: 
+
+----
+
+Imageheight: 56
+
+----
+
+Uuid: zmABooR1RUXYIMt3
+
+----
+
+Template: logo
+
+----
+
+Sort: 2

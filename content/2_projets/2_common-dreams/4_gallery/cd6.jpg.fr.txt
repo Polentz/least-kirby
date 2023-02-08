@@ -1,0 +1,9 @@
+Uuid: SYAbUNv3Uf5txMZL
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 6

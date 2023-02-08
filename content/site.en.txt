@@ -17,10 +17,7 @@ Newslettername: Newsletter
 
 ----
 
-Newslettercta:
-
-Our website will be launched in February.
-Sign up for our newsletter to receive updates and special content by least.
+Newslettercta: Sign up for our newsletter to receive updates and special content.
 
 ----
 

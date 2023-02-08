@@ -1,0 +1,9 @@
+Uuid: DAJqc02H3ux0hGJV
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

@@ -1,0 +1,9 @@
+Uuid: F7QiRmd6BdIzd4N3
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 6

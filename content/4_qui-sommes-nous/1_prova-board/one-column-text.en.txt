@@ -1,0 +1,17 @@
+Title: prova board
+
+----
+
+Text: 
+
+----
+
+Sectiontitle: board
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 

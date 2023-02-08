@@ -1,0 +1,58 @@
+Title: Staff
+
+----
+
+Lefttext: ### “How to unlearn internalised customs of an unsustainable production system.”
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+**Maud Abbé-Decarroux**
+Architecture / Research
+
+**Audrey Bersier**
+Podcast
+
+**Veronique Ferrero Delacoste**
+Art Direction and Management
+
+**Maxime Gorbatchevsky**
+Artist-in-residence at **least**
+
+**Phoebe Lin-Elnan**
+Production / Cultural Participation
+
+**Hélène Mariéthoz**
+Writing / Fundraising
+
+**Giulia Polenta**
+Identity / Website
+
+**Martin Reinartz**
+Artist-in-residence at **least**
+
+**Nicole Simon Vermot**
+Accounting
+
+**Stella Succi x Favilla**
+Research / Writing
+
+**Carlos Tapia**
+Video
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 

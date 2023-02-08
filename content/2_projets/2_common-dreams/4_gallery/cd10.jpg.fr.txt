@@ -1,0 +1,9 @@
+Uuid: 6sMaBqepD4t3VKbI
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 10

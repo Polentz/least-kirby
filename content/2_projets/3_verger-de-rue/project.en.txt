@@ -1,0 +1,33 @@
+Title: Verger de Rue
+
+----
+
+Fronttext: Verger de Rue
+
+----
+
+Frontfooter: UPCOMING
+
+----
+
+Background: 
+
+----
+
+Backtext: An urban ecology project that involves citizens in the design, creation and maintenance of street orchards.
+
+----
+
+Backfooter: 
+
+----
+
+Pagestatus: false
+
+----
+
+Placeholder: 
+
+----
+
+Link: 

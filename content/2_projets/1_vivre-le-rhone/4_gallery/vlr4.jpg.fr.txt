@@ -1,0 +1,9 @@
+Uuid: okOfRPTeRwcamiVV
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 4

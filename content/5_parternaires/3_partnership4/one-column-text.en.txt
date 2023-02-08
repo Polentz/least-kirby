@@ -1,0 +1,17 @@
+Title: partnership titolo
+
+----
+
+Text: 
+
+----
+
+Sectiontitle: partnerships
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 

@@ -1,0 +1,21 @@
+Alt: 
+
+----
+
+Caption: 
+
+----
+
+Imageheight: 66
+
+----
+
+Uuid: ZKiJEjSbe7YD3kTt
+
+----
+
+Template: logo
+
+----
+
+Sort: 1

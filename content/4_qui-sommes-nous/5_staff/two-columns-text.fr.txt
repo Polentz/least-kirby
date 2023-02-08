@@ -1,0 +1,65 @@
+Title: Staff
+
+----
+
+Lefttext: ### “Comment désapprendre les coutumes internalisées d'un système de production non durable.”
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+**Maud Abbé-Decarroux**
+Architecture / Recherche
+
+**Audrey Bersier**
+Podcast
+
+**AJS Craker**
+Traductions 
+
+**Véronique Ferrero Delacoste**
+Direction 
+
+**Maxime Gorbatchevsky**
+Artiste en résidence **least**
+
+**Phoebe Lin-Elnan**
+Production / Participation Culturelle 
+**
+Hélène Mariéthoz**
+Rédaction / Recherche de fonds
+
+**Giulia Polenta**
+Identité / Site web
+
+**Martin Reinartz**
+Artiste en résidence **least**
+
+**Nicole Simon Vermot**
+Comptabilité
+
+**Stella Succi x Favilla**
+Recherche / Rédaction
+
+**Carlos Tapia**
+Vidéo
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Uuid: xu80L1faQH7aHFAr

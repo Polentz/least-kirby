@@ -1,0 +1,46 @@
+Title: prova quotes
+
+----
+
+Lefttext: ### “To live an adventure with friends. To decolonise our imaginations and weave a link with our human and more-than-human environment.”
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+**Vincent Barras**
+Professor of History of Medicine and Science (UNIL-CHUV), performer, author
+
+**Tony Berrada**
+UNIGE Professor of Finance at the Geneva Finance Research Institute
+
+**Claire de Ribaupierre**
+PhD, specialised in the field of anthropology, dramaturge, co-creator of artistic projects
+
+**Alexander Federau**
+PhD in Environmental Sciences and Philosophy, MA in Physics from the ETH Zurich, involved for many years in environmental issues
+
+**Rodrigo Fernandez**
+PhD in materials engineering from EPFL, co-founder of Terrabloc (winner of the Prix Sud 2019, sustainable start-up)
+
+**Adina Secretan**
+Choreographer, director, holder of an MA degree in Philosophy, leader of social and community artistic projects
+
+**Laurent de Wurstemberger**
+AAM architect, founder of the LDW architecture studio, co-founder of Terrabloc (winner of the Prix Sud 2019, sustainable start-up)
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 

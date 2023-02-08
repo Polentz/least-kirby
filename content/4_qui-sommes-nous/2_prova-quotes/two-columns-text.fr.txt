@@ -1,0 +1,50 @@
+Title: prova quotes
+
+----
+
+Lefttext: ### “Pour vivre une aventure entre amis. Pour décoloniser nos imaginaires, pour tisser du lien avec notre environnement humain et plus-que-humain”.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+**Vincent Barras**
+Professeur d’histoire de la médecine et des sciences (UNIL-CHUV), performeur, auteur
+
+**Tony Berrada**
+Professeur de finance UNIGE au sein du Geneva Finance Research Institute
+
+**Claire de Ribaupierre**
+Docteur ès Lettres, spécialisée dans le domaine de l’anthropologie, dramaturge, co-créatrice de projets artistiques
+
+**Alexander Federau**
+Docteur en sciences de l’environnement et en philosophie, Master en physique de l’EPFZ, engagé depuis de nombreuses années sur les questions environnementales
+
+**Rodrigo Fernandez**
+Docteur en ingénierie des matériaux EPFL, co-fondateur de Terrabloc (lauréat du Prix Sud 2019, start-up durable)
+
+**Adina Secretan**
+Chorégraphe, metteuse en scène, titulaire d’un Master en philosophie, porteuse de projets artistiques sociaux et communautaires
+
+**Laurent de Wurstemberger**
+Architecte AAM, fondateur de l’atelier d’architecture LDW, co-fondateur de Terrabloc (lauréat du Prix Sud 2019, start-up durable) 
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Uuid: TDlRm2RUfhRJds07

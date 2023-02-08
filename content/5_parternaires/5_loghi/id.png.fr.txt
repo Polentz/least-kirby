@@ -1,0 +1,21 @@
+Alt: 
+
+----
+
+Caption: 
+
+----
+
+Imageheight: 66
+
+----
+
+Uuid: 8QwemxxSw8Wp5mnW
+
+----
+
+Template: logo
+
+----
+
+Sort: 5

@@ -1,0 +1,21 @@
+Title: partnership4
+
+----
+
+Sectiontitle: partenariats
+
+----
+
+Text: 
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: Zb5NjdFdASfcKWpM

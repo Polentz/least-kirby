@@ -1,0 +1,9 @@
+Uuid: OlDw25rl6QTpDBBf
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

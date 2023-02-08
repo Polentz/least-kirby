@@ -1,0 +1,33 @@
+Title: Common Dreams
+
+----
+
+Fronttext: Common Dreams
+
+----
+
+Frontfooter: 
+
+----
+
+Background: - file://biLA1Crd8HsgBRYG
+
+----
+
+Backtext: Un projet axé sur la survie, les biens communs et les stratégies pour aborder le changement climatique et l’Anthropocène.
+
+----
+
+Backfooter: 2022-2024
+
+----
+
+Pagestatus: true
+
+----
+
+Placeholder: More information soon
+
+----
+
+Uuid: 2YTlIyIeyMyOtCPK

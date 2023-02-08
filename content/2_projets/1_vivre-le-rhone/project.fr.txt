@@ -1,0 +1,37 @@
+Title: Vivre le Rhône
+
+----
+
+Fronttext: Vivre le Rhône
+
+----
+
+Frontfooter: 
+
+----
+
+Background: - file://EwfuxmeNtiHu82AX
+
+----
+
+Backtext: Une recherche pour redonner au fleuve ses droits à travers la marche, les rituels de soins et des cercles réparateurs.
+
+----
+
+Backfooter: 2022-2024
+
+----
+
+Pagestatus: true
+
+----
+
+Placeholder: 
+
+----
+
+Tag: Vivre le Rhône
+
+----
+
+Uuid: yYpW5UiLxKwHKNtC

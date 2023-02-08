@@ -1,0 +1,9 @@
+Uuid: ckfLT98C09TLeoxY
+
+----
+
+Template: gallery-image
+
+----
+
+Sort: 12
