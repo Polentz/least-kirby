@@ -68,6 +68,7 @@ categoryWrapper.forEach(container => {
     const mediaContentCategories = container.querySelectorAll(".media-content-filter");
     const reading = "Reading"
     const lecture = "Lecture"
+    const texte = "Texte"
     const podcast = "Podcast"
     const video = "Video"
     const svgLecture = container.querySelectorAll(".svg-lecture");
@@ -79,6 +80,10 @@ categoryWrapper.forEach(container => {
                 element.style.display = "block";
             });
         } else if (category.innerText === reading) {
+            svgLecture.forEach(element => {
+                element.style.display = "block";
+            });
+        } else if (category.innerText === texte) {
             svgLecture.forEach(element => {
                 element.style.display = "block";
             });

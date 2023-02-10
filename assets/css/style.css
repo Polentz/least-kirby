@@ -107,7 +107,11 @@ a:visited {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    padding-right: 6rem;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 2;
+    -webkit-hyphenate-limit-chars: 6 3 2;
+    -moz-hyphenate-limit-chars: 6 3 2;
+    -ms-hyphenate-limit-chars: 6 3 2;
 }
 
 .--title-small {

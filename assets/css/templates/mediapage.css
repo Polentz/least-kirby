@@ -85,6 +85,8 @@
     transition: all .5s ease;
 }
 
+.filter-btn[data-filter="texte"]:hover,
+.filter-btn[data-filter="texte"].filtered,
 .filter-btn[data-filter="lecture"]:hover,
 .filter-btn[data-filter="lecture"].filtered,
 .filter-btn[data-filter="reading"]:hover,
@@ -93,6 +95,8 @@
     background: linear-gradient(217deg, #fff, #AF73BF);
 }
 
+.media-card[data-category="texte"].filtered,
+.media-card[data-category="texte"].highlight,
 .media-card[data-category="lecture"].filtered,
 .media-card[data-category="lecture"].highlight,
 .media-card[data-category="reading"].filtered,
@@ -300,7 +304,9 @@
 }
 
 @media screen and (max-width: 720px) {
-    .media-card .card-back {
+
+    .media-card .card-back,
+    .media-card .card-front {
         height: auto;
     }
 

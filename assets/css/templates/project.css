@@ -10,33 +10,6 @@
     padding-top: 0;
 }
 
-.filter-btn {
-    border-bottom: var(--border);
-    cursor: pointer;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-    position: relative;
-}
-
-.filter-btn:last-of-type {
-    display: none;
-}
-
-.filter-clear {
-    width: var(--txt-small);
-    border: none;
-    mix-blend-mode: difference;
-    position: absolute;
-    top: var(--txt-small);
-    right: var(--marg-s);
-    opacity: 0;
-}
-
-.filter-clear.show-btn {
-    opacity: 1;
-}
-
 .media-card .card-front {
     box-shadow: none;
 }
@@ -70,11 +43,6 @@
     cursor: pointer;
 }
 
-.filter-btn:hover {
-    text-indent: .5rem;
-}
-
-.filter-btn:hover,
 .media-card:hover,
 .media-card.highlight {
     -webkit-transition: all .5s ease;
@@ -82,12 +50,8 @@
     transition: all .5s ease;
 }
 
-.filter-btn[data-filter="lecture"]:hover,
-.filter-btn[data-filter="lecture"].filtered {
-    background: -o-linear-gradient(233deg, #fff, #AF73BF);
-    background: linear-gradient(217deg, #fff, #AF73BF);
-}
-
+.media-card[data-category="texte"],
+.media-card[data-category="texte"]:hover,
 .media-card[data-category="reading"],
 .media-card[data-category="reading"]:hover,
 .media-card[data-category="lecture"],
@@ -96,22 +60,10 @@
     background: linear-gradient(43deg, #fff, #AF73BF);
 }
 
-.filter-btn[data-filter="video"],
-.filter-btn[data-filter="video"]:hover {
-    background: -o-linear-gradient(233deg, #fff, #5896e7);
-    background: linear-gradient(217deg, #fff, #5896e7);
-}
-
 .media-card[data-category="video"],
 .media-card[data-category="video"]:hover {
     background: -o-linear-gradient(47deg, #fff, #5896e7);
     background: linear-gradient(43deg, #fff, #5896e7);
-}
-
-.filter-btn[data-filter="podcast"],
-.filter-btn[data-filter="podcast"]:hover {
-    background: -o-linear-gradient(233deg, #fff, #A8F0CD);
-    background: linear-gradient(217deg, #fff, #A8F0CD);
 }
 
 .media-card[data-category="podcast"],
@@ -295,7 +247,9 @@
 }
 
 @media screen and (max-width: 720px) {
-    .media-card .card-back {
+
+    .media-card .card-back,
+    .media-card .card-front {
         height: auto;
     }
 
