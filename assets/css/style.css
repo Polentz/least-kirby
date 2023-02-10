@@ -126,17 +126,6 @@ a:visited {
     line-height: 1.2;
 }
 
-.grid-text h3,
-.content-text-wrapper h3 {
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
-
-.grid-text h3 {
-    white-space: break-spaces;
-}
-
 .grid-text p,
 .content-text-wrapper p,
 .--txt-small {
@@ -144,9 +133,6 @@ a:visited {
     font-weight: 400;
     font-size: var(--txt-small);
     line-height: 1.3;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
 }
 
 .--txt-ui,
