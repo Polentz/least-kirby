@@ -66,32 +66,26 @@ const unselectContent = () => {
 
 categoryWrapper.forEach(container => {
     const mediaContentCategories = container.querySelectorAll(".media-content-filter");
-    const reading = "Reading"
-    const lecture = "Lecture"
-    const texte = "Texte"
-    const podcast = "Podcast"
-    const video = "Video"
+    const reading = [
+        "Reading",
+        "Lecture",
+        "Texte"
+    ];
+    const podcast = ["Podcast"];
+    const video = ["Video", "Vidéo"];
     const svgLecture = container.querySelectorAll(".svg-lecture");
     const svgPodcast = container.querySelectorAll(".svg-podcast");
     const svgVideo = container.querySelectorAll(".svg-video");
     mediaContentCategories.forEach(category => {
-        if (category.innerText === lecture) {
+        if (reading.includes(category.innerText)) {
             svgLecture.forEach(element => {
                 element.style.display = "block";
             });
-        } else if (category.innerText === reading) {
-            svgLecture.forEach(element => {
-                element.style.display = "block";
-            });
-        } else if (category.innerText === texte) {
-            svgLecture.forEach(element => {
-                element.style.display = "block";
-            });
-        } else if (category.innerText === podcast) {
+        } else if (podcast.includes(category.innerText)) {
             svgPodcast.forEach(element => {
                 element.style.display = "block";
             });
-        } else if (category.innerText === video) {
+        } else if (video.includes(category.innerText)) {
             svgVideo.forEach(element => {
                 element.style.display = "block";
             });
