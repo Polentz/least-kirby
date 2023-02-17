@@ -20,7 +20,12 @@
     <?php snippet($part->intendedTemplate(), compact('part')) ?>
 <?php endforeach ?>
 
-<section id="contact">
+<?php snippet('projects', [
+    'projects' => collection('projects')
+]) ?>
+
+<?= snippet('newsletter') ?>
+<section>
     <div class="grid-layout two-columns">
         <div class="grid-block --outline">
             <div class="grid-text">
@@ -34,5 +39,4 @@
         </div>
     </div>
 </section>
-
 <?= snippet('footer') ?>

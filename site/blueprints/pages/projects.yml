@@ -1,6 +1,17 @@
 title: Projects
 
-sections:
+sections: 
+  title:
+    type: fields
+    fields:
+      sectiontitle:
+        width: 1/2
+        label: Title
+        type: text
+      text:
+        label: Text
+        type: textarea
+        width: 1/2
   cards:
     type: pages
     layout: cards
@@ -12,5 +23,22 @@ sections:
       ratio: 4/3
       cover: true
     template: project
+  pagesections:
+    label: Page sections
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    templates:
+      - title-text
+      - left-column-text
+      - right-column-text
+      - one-column-text
+      - two-columns-text
+      - single-mold-image
+      - gallery
+      - logo-gallery
+      - cards
+      - newsletter
 
 

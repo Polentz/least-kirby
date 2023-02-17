@@ -25,15 +25,11 @@ Newsletterclick: s'inscrire ici
 
 ----
 
+Newsletterlink: http://eepurl.com/iewh4X
+
+----
+
 Year: 2023
-
-----
-
-Temporarymenu: 
-
-----
-
-Projects: Projets
 
 ----
 
@@ -42,6 +38,14 @@ Description: least [laboratoire écologie et art pour une société en transitio
 ----
 
 Keywords: écologie, art, co-création, Genève, projets co-créatifs, projets inclusifs, formation continue, école de la transition, résidences de recherche
+
+----
+
+Temporarymenu: 
+
+----
+
+Projects: Projets
 
 ----
 
@@ -54,7 +58,3 @@ Pagestatus: true
 ----
 
 Subtitle: laboratoire écologie et art pour une société en transition
-
-----
-
-Newsletterlink: http://eepurl.com/iewh4X

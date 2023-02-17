@@ -1,0 +1,29 @@
+Title: About
+
+----
+
+Lefttext:
+
+### least is an association that supports artistic, scientific, ecological, social and participatory approaches to activate the collective consciousness and resilience of our “Earth system”: we believe that everything, starting with our practices, our jobs, our habits, and our entire daily life, needs to be reappraised and recreated.
+
+### least’s program accompanies this transition, offering tools for developing collective thought and action to change mindsets and the world. Rooted in Switzerland, but concerned with environmental interdependency with southern Europe, least activates partnerships to enable actual connections with territories, designing residencies and projects deeply entrenched in reality.
+
+----
+
+Righttext: 
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 

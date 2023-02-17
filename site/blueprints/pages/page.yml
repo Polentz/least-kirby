@@ -15,7 +15,6 @@ sections:
       - two-columns-text
       - single-mold-image
       - gallery
-      - cards
-      - projects
       - logo-gallery
+      - cards
       - newsletter

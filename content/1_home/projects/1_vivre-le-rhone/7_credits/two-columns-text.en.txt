@@ -1,0 +1,48 @@
+Title: Credits
+
+----
+
+Lefttext:
+
+### artistic team
+
+**(link: https://voiceofnaturekinstitute.org/naturalcontractlab text: Natural Contract Lab)**
+
+Marine Calmet - Environmental Rights
+Maria Lucia Cruz Correia - Artist / Design
+Vinny Jones - Sensorial Scenography
+Margarida Mendes - Research / Sound
+Evanne Nowak - Ecological Mourning
+Brunilda Pali - Restorative Justice
+Lode Vranken - Architecture / Philosophy
+
+**Local Team**
+
+Maud Abbé-Decarroux - Cartography / Designer
+Audrey Bersier - Podcast / Sound
+Martin Reinartz - Artist-in-residence at **least**
+Carlos Tapia - Video
+
+----
+
+Righttext:
+
+### least would like to thank all the people that are contributing to the project by sharing their time, knowledge and resources:
+
+Tony Arborino (engineer and advisor on water and sustainability) / EPFL - École Polytechnique Fédérale de Lausanne; Philippe Benetti and Gaëlle Cervantes / Centre de compétences pour déficits visuels ; Mathilde Captyn / Association éco-impact; Armelle Choplin (geographer) / Université de Genève; Laure Delory (activist) / Association suisse pour la protection du climat; Alain Dubois and Pierre-François Mettan / Association Fêtes du Rhône; Luca Ferrero (fisher); Sylvie Fischer / Association F-information; Sophie Frezza; Stéphane Genoud (energy management engineer) / HES-SO Valais-Wallis; Zhara Hakim (artist / ceramics); Kimberly Hirsch; Anne Mahrer / Aînées pour la protection du climat; Gilles Mulhauser / État de Genève; Frédéric Pitaval (engineer) / Association id-eau; Michel Porret (historian) / Université de Genève; Emmanuel Reynard (geographer) / Association mémoire du Rhône; Philippe Savary (fishery warden); Marie-Thérèse Sangra (geographer) / WWF Valais; Mara Tignino (water rights, researcher) / Geneva Water Hub - Université de Genève.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 

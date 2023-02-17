@@ -1,0 +1,39 @@
+Title: Future
+
+----
+
+Lefttext:
+
+### à venir
+
+Dès la fin de l’été 2023, les recherches sur le Rhône se déplaceront de ses caractéristiques propres au tracé genevois vers ses méandres valaisans. Cinq nouvelles résidences se dérouleront jusqu’à l’été 2024. Les pratiques de marche et de tissage se poursuivront, avec un accent particulier sur l’écocide et la justice réparatrice.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+### march 2023 / walk
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### april 2023 / public talk
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Uuid: 4Ztt5PrxdSiOeUGw

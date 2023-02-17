@@ -107,11 +107,12 @@ a:visited {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-before: 4;
     -webkit-hyphenate-limit-after: 2;
-    -webkit-hyphenate-limit-chars: 6 3 2;
-    -moz-hyphenate-limit-chars: 6 3 2;
-    -ms-hyphenate-limit-chars: 6 3 2;
+    -webkit-hyphenate-limit-chars: 8 4 2;
+    -moz-hyphenate-limit-chars: 8 4 2;
+    -ms-hyphenate-limit-chars: 8 4 2;
+    hyphenate-limit-chars: 8 4 2;
 }
 
 .--title-small {
@@ -276,6 +277,10 @@ figcaption {
 
 .menu-link a:hover {
     color: black;
+}
+
+.menu-link a.current {
+    border-bottom: solid 1px var(--bg-color);
 }
 
 .close-btn {

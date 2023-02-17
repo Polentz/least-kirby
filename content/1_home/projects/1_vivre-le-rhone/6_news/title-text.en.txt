@@ -1,0 +1,17 @@
+Title: News
+
+----
+
+Text: All participatory actions, locations and walks will be communicated on our website and via least’s newsletter.
+
+----
+
+Sectiontitle: Newsletter
+
+----
+
+Buttontext: stay up to date
+
+----
+
+Buttonurl: http://eepurl.com/iewh4X

@@ -9,9 +9,9 @@ Filterintro: Filtré par
 Filters:
 
 - 
-  filter: Lecture
+  filter: Texte
 - 
-  filter: Video
+  filter: Vidéo
 
 ----
 

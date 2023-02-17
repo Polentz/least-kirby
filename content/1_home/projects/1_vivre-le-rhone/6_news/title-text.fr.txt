@@ -1,0 +1,21 @@
+Title: News
+
+----
+
+Sectiontitle: Newsletter
+
+----
+
+Text: Toutes les actions participatives, les lieux et les marches seront communiqués sur notre site et via la news de least.
+
+----
+
+Buttontext: inscrivez-vous !
+
+----
+
+Buttonurl: http://eepurl.com/iewh4X
+
+----
+
+Uuid: qpPd0cehtSZftwUP

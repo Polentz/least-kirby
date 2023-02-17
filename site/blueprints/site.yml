@@ -10,12 +10,12 @@ tabs:
         image: false
         status: all
         template:
-          - page
-          - equipe
-          - mediapage
           - home
+          - projects
+          - mediapage
+          - page
   general:
-    label: Website Info
+    label: Global Content
     sections:
       contact:
         type: fields
@@ -24,26 +24,26 @@ tabs:
             label: false
             type: info
             theme: none
-            text: Here you can control global information available on all pages.
+            text: Here you can control global information available on multiple pages.
           address:
             label: Address
             type: textarea
-            width: 1/2
+            width: 1/4
             buttons: false
           email:
             label: Email
             type: email
-            width: 1/2
+            width: 1/4
       newsletter:
         type: fields
         fields:
           newslettername:
-            label: Newsletter name
+            label: Newsletter
             type: text
-            width: 1/2
+            width: 1/4
             buttons: false
           newslettercta:
-            label: Newsletter call to action
+            label: false
             type: textarea
             width: 1/4
             buttons: false
@@ -52,37 +52,21 @@ tabs:
             type: text
             width: 1/4
             buttons: false
+            icon: angle-right
+          newsletterlink:
+            label: false
+            type: text
+            width: 1/4
+            buttons: false
+            icon: url
       footer:
         type: fields
         fields:
           year:
             laberl: Year
             type: number
-            width: 1/2
+            width: 1/4
             after: '© least'
-  websitemenu:
-    label: Website Menu/Links
-    sections:
-      menu:
-        type: fields
-        fields:
-          menulinks:
-            label: false
-            type: info
-            theme: none
-            text: Here you can control some names and labels used in links and menus.
-          temporarymenu:
-            label: Temporary menu
-            type: textarea
-            width: 1/2
-            buttons: false
-            help: When the field is empty, the actual menu will be shown.
-          projects:
-            label: Link to the projects section
-            type: text
-            width: 1/2
-            help: Do you want the Projects to appear in the Home page menu?
-            buttons: false
   seo:
     label: Website SEO
     sections:

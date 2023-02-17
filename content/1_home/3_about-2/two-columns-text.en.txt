@@ -1,0 +1,53 @@
+Title: About 2
+
+----
+
+Slug: about-2
+
+----
+
+Lefttext:
+
+### transdisciplinarity
+
+**least** brings together scientists, artists, thinkers, and civil society to share their knowledge and know-how. **least** pools ideas, knowledge, skills and tools to anchor new positive strategies in the long term.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+### long-term projects
+
+**least **disseminates an ecology of production that redefines the artist’s research- and territory-based profession in order to foster participation, assimilation and identification with the projects: a process that requires time and fluidity, different from usual production models.
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Leftmaintext: transdisciplinarity
+
+----
+
+Leftplaintext: **least **brings together scientists, artists, thinkers, and local experts to share their knowledge and know-how, fostering positive strategies through diverse skills, resources, and tools.
+
+----
+
+Rightmaintext: long-term projects
+
+----
+
+Rightplaintext: **least **spreads an ecology of production focused on in-depth research: a process that requires time and fluidity, different from usual production models.

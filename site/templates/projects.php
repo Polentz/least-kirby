@@ -1,16 +1,16 @@
 <?= snippet('header') ?>
 <?= snippet('sidebar') ?>
-
-<main class="main" data-name="<?= $page->title()->slug() ?>">
-
+<main class="main">
 <?= snippet('topbar') ?>
+
+<?= snippet('title-text', ['part' => $page ]); ?>
+
+<?= snippet('projects') ?>
 
 <?php foreach ($page->children()->listed() as $part) : ?>
     <?php snippet($part->intendedTemplate(), compact('part')) ?>
 <?php endforeach ?>
 
-<?php snippet('mediapage', [
-    'media' => collection('mediapage')
-]); ?>
-
 <?= snippet('footer') ?>
+
+

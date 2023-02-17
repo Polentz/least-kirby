@@ -6,7 +6,7 @@ Fronttext: La sagesse du myxomycète
 
 ----
 
-Filter: Lecture
+Filter: Texte
 
 ----
 

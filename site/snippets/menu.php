@@ -1,26 +1,13 @@
 <?php
-    $root = $pages->findOpen();
-    $items = $site->children()->listed()->not($root);
+    $items = $pages->listed();
 ?>
 
 <div class="menu">
     <ul class="menu-wrapper">
-        <?php if ($site->temporarymenu()->isNotEmpty()): ?>
-            <li class="menu-link"><?= $site->temporarymenu()->kt() ?></li>   
-        <?php else: ?>
-            <?php if ($page->isHomePage()): ?>
-                <?php if ($site->projects()->isNotEmpty()): ?>
-                    <li class="menu-link"><a class="js-scroll" data-target-section="projects"><?= $site->projects()->inline() ?></a></li>
-                <?php endif ?>
-                <?php foreach($items as $item) : ?>
-                    <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-                <?php endforeach ?>
-            <?php else: ?>
-                <?php foreach($items as $item) : ?>
-                    <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-                <?php endforeach ?>
-            <?php endif ?>
-        <?php endif ?>
+        <?php foreach($items as $item) : ?>
+            <li class="menu-link"><a <?= e($item->isOpen(), ' class="current"') ?> href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
+            <!-- <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li> -->
+        <?php endforeach ?>
     </ul>
 </div>
 <div class="close-btn">

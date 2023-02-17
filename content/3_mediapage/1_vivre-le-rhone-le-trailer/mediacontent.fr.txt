@@ -6,7 +6,7 @@ Fronttext: Vivre le Rhône : bande-annonce
 
 ----
 
-Filter: Video
+Filter: Vidéo
 
 ----
 

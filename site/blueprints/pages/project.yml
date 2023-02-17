@@ -1,7 +1,7 @@
 title: Project
 
 tabs:
-  card:
+  project:
     label: Project Card
     icon: grid-full
     columns: 
@@ -64,7 +64,7 @@ tabs:
                 text: 
                   - "no"
                   - "yes"
-  project:
+  page:
     label: Project Page
     icon: page
     sections:
