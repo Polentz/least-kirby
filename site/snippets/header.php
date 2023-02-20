@@ -53,10 +53,6 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="shortcut icon" type="image/png" sizes="48x48" href="/assets/favicon/least-favicon-48.png">
     <link rel="shortcut icon" type="image/png" sizes="192x192" href="/assets/favicon/least-favicon-192.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
     <?= css ([
         'assets/css/base.css',
         'assets/css/style.css',
