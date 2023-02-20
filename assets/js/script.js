@@ -19,7 +19,7 @@ const jsScroll = () => {
     for (let i = 0; i < pageLinks.length; i++) {
         const pagelink = pageLinks[i];
         pagelink.addEventListener("click", scrollIntoView, false);
-    }
+    };
 };
 
 const menu = () => {
@@ -37,7 +37,7 @@ const menu = () => {
             closeBtn.classList.add("--show-element");
         } else {
             closeBtn.classList.remove("--show-element");
-        }
+        };
         setTimeout(() => {
             body.style.overflowY = "hidden";
             menu.classList.add("--show-element");
@@ -50,7 +50,6 @@ const menu = () => {
 
     closeMenuBtns.forEach(btn => {
         btn.addEventListener("click", () => {
-            console.log("click")
             menuWrapper.classList.remove("--fade-element");
             langBtn.style.color = "var(--txt-color)";
             setTimeout(() => {
@@ -62,7 +61,7 @@ const menu = () => {
                 menu.classList.remove("--show-element");
             }, 500);
         });
-    })
+    });
 };
 
 const header = () => {

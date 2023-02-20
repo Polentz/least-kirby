@@ -1,5 +1,11 @@
-title: Media Page
-
+title: Media
+options:
+  changeSlug:
+    admin: false
+    editor: false
+  navigation:
+    status: listed
+    template: all
 
 sections:
   filter:
@@ -19,7 +25,7 @@ sections:
             type: text
             label: Available filters
   cards:
-    label: Media cards
+    label: Media
     type: pages
     layout: cards
     status: all
@@ -28,7 +34,7 @@ sections:
       icon: false
       ratio: 4/3
       cover: true
-    info: "{{ page.intendedTemplate }}"
+    info: "{{ page.filter }}"
     templates:
       - mediacontent
       - mediaimagecard

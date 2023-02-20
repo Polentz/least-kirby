@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Slug: home-draft
+Slug: home
 
 ----
 

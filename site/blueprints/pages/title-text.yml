@@ -1,4 +1,11 @@
 title: Title + Text
+options:
+  preview: false
+  changeTemplate:
+    - one-column-text
+  navigation:
+    status: listed
+    template: all
 
 columns: 
   - width: 1/2

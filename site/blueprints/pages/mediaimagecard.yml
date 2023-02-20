@@ -1,4 +1,9 @@
 title: Image card
+options:
+  preview: false
+  navigation:
+    status: listed
+    template: all
 
 sections:
   noteditable:

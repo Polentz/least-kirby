@@ -1,4 +1,11 @@
 title: Gallery
+options:
+  preview: false
+  changeTemplate:
+    - logo-gallery
+  navigation:
+    status: listed
+    template: all
 
 sections:
   gallery:

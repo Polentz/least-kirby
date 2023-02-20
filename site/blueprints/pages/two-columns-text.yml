@@ -1,4 +1,19 @@
 title: Two columns text
+options:
+  preview: false
+  changeTemplate:
+    - title-text
+    - left-column-text
+    - right-column-text
+    - one-column-text
+    - two-columns-text
+    - single-mold-image
+    - gallery
+    - logo-gallery
+    - cards
+  navigation:
+    status: listed
+    template: all
 
 columns: 
   - width: 1/2

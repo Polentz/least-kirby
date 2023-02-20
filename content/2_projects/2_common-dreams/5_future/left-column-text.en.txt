@@ -1,0 +1,37 @@
+Title: Future
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://6rpdscE6oUprs7U0
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### what’s next
+
+In the spring, the students will build and launch their *Flotation School* on Lake Geneva. The island will then be open for visitors to gather and learn thanks to tools and activities designed by the students themselves. Local actors, such as BIG (Biennale Insulaire des Espaces d’Art de Genève), will include the Flotation School in their programme. In September, the platform will be moved to Parc Rigot and transformed into an installation allowing students to share their experience with the community.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Maintext: what’s next
+
+----
+
+Plaintext: In spring, the students will build and launch the Flotation School on lake Leman. Since then, the island will be open to gathering and learning through tools and activities designed by the students. Local actors, such as the BIG Biennale, will include the Flotation School in their program. In September, the platform will be moved from the water to Park Rigot and turned into a facility for sharing their experience with the community.

@@ -1,0 +1,21 @@
+Title: Newsletter
+
+----
+
+Slug: newsletter
+
+----
+
+Sectiontitle: Newsletter
+
+----
+
+Text: Sign up for our newsletter to receive updates and special content.
+
+----
+
+Buttontext: subscribe here
+
+----
+
+Buttonurl: http://eepurl.com/iewh4X

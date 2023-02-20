@@ -6,11 +6,11 @@ Sectiontitle: Newsletter
 
 ----
 
-Text: Toutes les actions participatives, les lieux et les marches seront communiqués sur notre site et via la news de least.
+Text: Inscrivez-vous à notre newsletter pour recevoir nos dernières nouvelles et des contenus spéciaux.
 
 ----
 
-Buttontext: restez à jour !
+Buttontext: s'inscrire ici
 
 ----
 

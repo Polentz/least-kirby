@@ -1,0 +1,40 @@
+Title: Future
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://OlDw25rl6QTpDBBf
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### à venir
+Au printemps, les élèves construiront et mettront à l’eau leur « Flotation School » sur le lac Léman. Dès lors, l’île sera ouverte au rassemblement et à l’apprentissage par le biais d’outils et d’activités conçus par les jeunes. Les acteur·rice·x·s locaux, tels que la BIG biennale insulaire des espaces d’art de Genève, incluront la « Flotation School » dans leur programme. En septembre, la plateforme sera déplacée vers le Parc Rigot et transformée en une installation permettant aux élèves de partager leur expérience avec la communauté.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: uCEghWKINRdeNCxt
+
+----
+
+Maintext: 
+
+----
+
+Plaintext: 

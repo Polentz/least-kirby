@@ -1,0 +1,17 @@
+Title: Newsletter
+
+----
+
+Sectiontitle: Newsletter
+
+----
+
+Text: Get all the news and the programme of activities on the island on our website and via least’s newsletter from the beginning of April.
+
+----
+
+Buttontext: Sign up now!
+
+----
+
+Buttonurl: http://eepurl.com/iewh4X

@@ -1,4 +1,10 @@
 title: Single mold image
+options:
+  preview: false
+  changeTemplate: false
+  navigation:
+    status: listed
+    template: all
 
 sections:
   slots:

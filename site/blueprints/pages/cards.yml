@@ -1,4 +1,10 @@
 title: Cards
+options:
+  preview: false
+  changeTemplate: false
+  navigation:
+    status: listed
+    template: all
 
 sections:
   cards:

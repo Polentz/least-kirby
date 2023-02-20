@@ -1,4 +1,11 @@
 title: Right column text
+options:
+  preview: false
+  changeTemplate:
+    - left-column-text
+  navigation:
+    status: listed
+    template: all
 
 columns: 
   - width: 1/4

@@ -1,4 +1,11 @@
 title: Projects
+options:
+  changeSlug:
+    admin: false
+    editor: false
+  navigation:
+    status: listed
+    template: all
 
 sections: 
   title:
@@ -39,6 +46,5 @@ sections:
       - gallery
       - logo-gallery
       - cards
-      - newsletter
 
 

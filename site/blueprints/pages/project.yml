@@ -1,4 +1,11 @@
 title: Project
+options:
+  changeSlug:
+    admin: false
+    editor: false
+  navigation:
+    status: listed
+    template: all
 
 tabs:
   project:
@@ -85,4 +92,3 @@ tabs:
           - cards
           - projects
           - logo-gallery
-          - newsletter

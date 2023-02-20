@@ -1,4 +1,9 @@
 title: Media content
+options:
+  preview: true
+  navigation:
+    status: listed
+    template: all
 
 tabs:
   card:

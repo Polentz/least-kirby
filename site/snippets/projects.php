@@ -1,4 +1,3 @@
-
 <section>
     <div class="grid-layout four-columns">
     <?php foreach ($projects as $project): ?>

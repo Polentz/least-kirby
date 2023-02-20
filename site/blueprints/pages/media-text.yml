@@ -1,4 +1,9 @@
 title: Text + Image
+options:
+  preview: false
+  navigation:
+    status: listed
+    template: all
 
 sections:
   copy:

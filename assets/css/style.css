@@ -261,7 +261,7 @@ figcaption {
     color: var(--bg-color);
     text-align: center;
     text-transform: lowercase;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .menu-link:last-child {
@@ -362,7 +362,6 @@ figcaption {
     -webkit-filter: blur(0);
     filter: blur(0);
 }
-
 
 .logo a {
     color: var(--bg-color);
@@ -1121,10 +1120,6 @@ input.seek-slider::-webkit-slider-thumb {
     .menu {
         padding-left: 0;
         padding-bottom: var(--sidenav);
-    }
-
-    .menu-link {
-        margin-bottom: 2rem;
     }
 
     .close-btn {

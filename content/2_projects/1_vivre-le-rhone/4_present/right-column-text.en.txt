@@ -1,0 +1,28 @@
+Title: Present
+
+----
+
+Firstslot: false
+
+----
+
+Background: - file://zEvbmT6pUeekhKJz
+
+----
+
+Secondslot: true
+
+----
+
+Text:
+
+### what we’re doing
+We are currently designing the next steps of the project, fostering new encounters with local actors and creating the dramaturgy of future public walks. Residents, walkers, users and families are all invited to participate. We are also working on broadening the experience through a video project by Carlos Tapia and a podcast by Audrey Bersier.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 

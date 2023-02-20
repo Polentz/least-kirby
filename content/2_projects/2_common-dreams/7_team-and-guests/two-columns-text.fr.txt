@@ -1,0 +1,44 @@
+Title: Team and guests
+
+----
+
+Lefttext:
+
+### équipe artistique
+(link: http://mluciacruzcorreia.com/works/common-dreams-flotation text: Maria Lucia Cruz Correia) – fondatrice et coordinatrice artistique
+Maxime Gorbatchevsky – artiste en résidence **least**
+
+**Enseignant•e•x•s du Collège Sismondi**
+Adrien Beck - arts visuels
+Nathalie Novarina - arts visuels
+Alexandra Sonntag - histoire de l’art
+
+**Élèves du Collège Sismondi**
+Arthur Arlaud ; Dylan Burri ; Timothée Castilla ; Matias Chappot ; Helena Delruelle ; Jules Dubes-Plun ; Camélya Dumitrescu ; Annette Fivaz ; Odelia Forster ; Mathilde Grand-Guillaume-Perrenoud ; Anouk Grange ; Colette Heinen ; Naïka Ilunga ; Elya-Sirine Itsouhou ; Guillem Jehouda ; Fabio Mazzaferri ; Mykola Protsenko ; Naomé Valere ; Marine Re ; Emma Rigueiro Brand ; Louise Schachter ; Ilan Sela ; Flavio Viggiani ; Louis Wyss.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext:
+
+### **least **remercie toutes les personnes qui ont contribué au projet en partageant leur temps, leurs savoirs et leurs ressources :
+Maud Abbé-Decarroux (architecte) ; Marcio Bichsel (ingénieur civil) / B+S Ingénieurs ; Audrey Bersier (artiste sonore) ; Luc Bon (menuisier-charpentier) / Ateliers ABX ; Tiphaine Bussy (architecte paysagiste) / Canton de Genève – Office cantonal de l'agriculture et de la nature ; Olga Cebalos (biologiste) / Association la Libellule ; Sophie Frezza; Kimberly Hirsch; Bilal Kouti (agroforesterie) / Le Bois des 3 Sœurs ; Adrien Mésot (artiste-cueilleur) / Au Diable vert ; Rita Natálio (artiste, chercheuse) / Terra Batida ; Carlos Tapia (vidéaste) ; Zsolt Vecsernyes (ingénieur civil) / HEPIA.
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Uuid: xhQhiUghy3zQJrru

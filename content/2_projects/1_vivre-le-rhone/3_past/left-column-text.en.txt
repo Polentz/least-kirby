@@ -1,0 +1,37 @@
+Title: Past
+
+----
+
+Text:
+
+### what we did
+
+Since the summer of 2022, three residencies have already taken place in Geneva. The artists began their research by looking at the urban characteristics of the Rhône. They met with scientists, professionals and local actors who are linked to the river in different ways. In December, the first walks and collective restorative circles were organised. Alongside this, an in-situ weaving practice is being tested.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Firstslot: true
+
+----
+
+Background: - file://DAJqc02H3ux0hGJV
+
+----
+
+Secondslot: false
+
+----
+
+Thirdslot: true
+
+----
+
+Fourthslot: false

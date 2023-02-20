@@ -28,6 +28,7 @@
 </section>
 
 <?= snippet('mediapage') ?>
-<?= snippet('newsletter') ?> 
+
+<?= snippet('newsletter') ?>
 <?= snippet('footer') ?> 
 

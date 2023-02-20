@@ -1,4 +1,9 @@
 title: Audio
+options:
+  preview: false
+  navigation:
+    status: listed
+    template: all
 
 columns:
   - width: 1/2

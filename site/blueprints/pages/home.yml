@@ -1,4 +1,8 @@
 title: Home
+options:
+  navigation:
+    status: listed
+    template: all
 
 sections:
   pagesections:
@@ -17,4 +21,3 @@ sections:
       - gallery
       - logo-gallery
       - cards
-      - newsletter

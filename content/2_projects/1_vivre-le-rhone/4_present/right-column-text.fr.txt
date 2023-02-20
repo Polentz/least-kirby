@@ -1,0 +1,32 @@
+Title: Present
+
+----
+
+Firstslot: false
+
+----
+
+Background: 
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### en cours
+Nous imaginons actuellement les prochaines étapes du projet, en facilitant de nouvelles rencontres avec les acteur·rice·x·s locaux et en créant la dramaturgie des futures marches publiques. Les habitant·e·x·s, promeneur·euse·x·s, usager·ère·x·s, familles sont invités à participer. Nous travaillons également à prolonger et partager l’expérience à travers le projet vidéo de Carlos Tapia et la série de podcasts d’Audrey Bersier.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: ZeQz0ipkkBGeN9XP

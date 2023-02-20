@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'debug' => true,
     'languages' => true,
     'smartypants' => [
       'space' => '(?: | |&nbsp;|&#0*160;|&#x0*[aA]0;)',

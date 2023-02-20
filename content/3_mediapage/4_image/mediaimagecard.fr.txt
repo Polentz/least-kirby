@@ -6,7 +6,7 @@ Tag: Image
 
 ----
 
-Filter: Lecture
+Filter: Image
 
 ----
 

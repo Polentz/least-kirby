@@ -1,0 +1,59 @@
+Title: Present
+
+----
+
+Firstslot: false
+
+----
+
+Background: 
+
+----
+
+Secondslot: false
+
+----
+
+Text:
+
+### en cours
+Les élèves conçoivent actuellement le projet, des maquettes de la plateforme aux activités et ateliers qui s’y dérouleront. Nous collectons ensemble des matériaux de récupération pour la réalisation de la structure flottante.
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Lefttext:
+
+### en cours
+Les élèves conçoivent actuellement le projet, des maquettes de la plateforme aux activités et ateliers qui s’y dérouleront. Nous collectons ensemble des matériaux de récupération pour la réalisation de la structure flottante.
+
+----
+
+Leftbuttontext: 
+
+----
+
+Leftbuttonurl: 
+
+----
+
+Righttext: 
+
+----
+
+Rightbuttontext: 
+
+----
+
+Rightbuttonurl: 
+
+----
+
+Uuid: sbzwvCggAd3yPSLx

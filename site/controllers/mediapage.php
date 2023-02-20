@@ -1,8 +1,8 @@
 <?php
     return function($page) {
-        $media = collection('mediapage');
+        $mediapage = collection('mediapage');
         return [
-            'media' => $media
+            'mediapage' => $mediapage
         ];
     }
 ?>
