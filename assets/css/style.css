@@ -65,6 +65,11 @@ a:visited {
     color: currentColor;
 }
 
+.grid-block a,
+.contact-block a {
+    border-bottom: var(--border);
+}
+
 .cursor {
     position: absolute;
     top: 0;
@@ -854,26 +859,9 @@ input.seek-slider::-webkit-slider-thumb {
 }
 
 .button-label {
-    position: relative;
     text-transform: lowercase;
     margin: 0;
-}
-
-.grid-block a,
-.contact-block a {
-    position: relative;
-}
-
-.button-label::after,
-.grid-block a::after,
-.contact-block a::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: var(--txt-color);
+    border-bottom: var(--border);
 }
 
 .button-label:hover~.button-ui {
