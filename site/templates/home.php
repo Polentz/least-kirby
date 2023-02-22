@@ -29,7 +29,7 @@
     <div class="grid-layout two-columns">
         <div class="grid-block --outline">
             <div class="grid-text">
-                <h2 class="--title-large">Contact</h2>
+                <h2 class="--title-large">contact</h2>
             </div>
         </div>
         <div class="contact-block --outline">
