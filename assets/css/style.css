@@ -4,11 +4,6 @@
         url("../fonts/SpratCndBold.woff") format("woff");
 }
 
-@font-face {
-    font-family: "Space Grotesk", sans-serif;
-    src: url("../fonts/SpaceGrotesk-VariableFont_wght.ttf") format("ttf");
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
