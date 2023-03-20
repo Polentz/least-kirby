@@ -1,3 +1,11 @@
+<?php
+    if ($kirby->language()->code() == 'fr') {
+        $resetFilters = 'Tous les médias';
+    } else if ($kirby->language()->code() == 'en') {
+        $resetFilters = 'All media';
+    }
+?>
+
 <?= snippet('header') ?>
 <?= snippet('sidebar') ?>
 
@@ -21,14 +29,13 @@
                         <?= $filter->filter()->kt() ?>
                     </li>
                 <?php endforeach ?>
-                <li id="all-media" class="all-media-btn --title-small" data-filter="all">Tous les médias</li>
+                <li id="all-media" class="all-media-btn --title-small" data-filter="all"><?= $resetFilters ?></li>
             </ul>
         </div>
     </div>
 </section>
 
 <?= snippet('mediapage') ?>
-
 <?= snippet('newsletter') ?>
 <?= snippet('footer') ?> 
 
