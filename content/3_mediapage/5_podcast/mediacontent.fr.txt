@@ -1,0 +1,24 @@
+Title: Podcast
+
+----
+
+Fronttext: Podcast
+
+----
+
+Filter: Podcast
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Podcast
+
+----
+
+Uuid: jyotVMI90Q4lSSMH

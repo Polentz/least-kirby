@@ -12,6 +12,12 @@ Filters:
   filter: Texte
 - 
   filter: Vidéo
+- 
+  filter: Presse
+- 
+  filter: Audio
+- 
+  filter: Podcast
 
 ----
 

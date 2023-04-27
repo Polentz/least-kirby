@@ -1,0 +1,20 @@
+Title: Presse
+
+----
+
+Fronttext: Press
+
+----
+
+Filter: Press
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams

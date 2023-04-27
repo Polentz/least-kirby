@@ -73,9 +73,13 @@ categoryWrapper.forEach(container => {
     ];
     const podcast = ["Podcast"];
     const video = ["Video", "Vidéo"];
+    const audio = ["Audio"];
+    const press = ["Press", "Presse"];
     const svgLecture = container.querySelectorAll(".svg-lecture");
     const svgPodcast = container.querySelectorAll(".svg-podcast");
     const svgVideo = container.querySelectorAll(".svg-video");
+    const svgAudio = container.querySelectorAll(".svg-audio");
+    const svgPress = container.querySelectorAll(".svg-press");
     mediaContentCategories.forEach(category => {
         if (reading.includes(category.innerText)) {
             svgLecture.forEach(element => {
@@ -87,6 +91,14 @@ categoryWrapper.forEach(container => {
             });
         } else if (video.includes(category.innerText)) {
             svgVideo.forEach(element => {
+                element.style.display = "block";
+            });
+        } else if (audio.includes(category.innerText)) {
+            svgAudio.forEach(element => {
+                element.style.display = "block";
+            });
+        } else if (press.includes(category.innerText)) {
+            svgPress.forEach(element => {
                 element.style.display = "block";
             });
         };

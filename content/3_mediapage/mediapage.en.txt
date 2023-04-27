@@ -12,3 +12,9 @@ Filters:
   filter: Reading
 - 
   filter: Video
+- 
+  filter: Press
+- 
+  filter: Audio
+- 
+  filter: Podcast

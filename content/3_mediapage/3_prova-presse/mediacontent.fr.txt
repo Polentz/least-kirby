@@ -1,0 +1,24 @@
+Title: Presse
+
+----
+
+Fronttext: Presse
+
+----
+
+Filter: Presse
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams
+
+----
+
+Uuid: ckWbd5TUMBL4Is0D

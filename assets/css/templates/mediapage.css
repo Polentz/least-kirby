@@ -91,8 +91,8 @@
 .filter-btn[data-filter="lecture"].filtered,
 .filter-btn[data-filter="reading"]:hover,
 .filter-btn[data-filter="reading"].filtered {
-    background: -o-linear-gradient(233deg, #fff, #AF73BF);
-    background: linear-gradient(217deg, #fff, #AF73BF);
+    background: -o-linear-gradient(217deg, #fff, #C28AD1);
+    background: linear-gradient(217deg, #fff, #C28AD1);
 }
 
 .media-card[data-category="texte"].filtered,
@@ -101,32 +101,60 @@
 .media-card[data-category="lecture"].highlight,
 .media-card[data-category="reading"].filtered,
 .media-card[data-category="reading"].highlight {
-    background: -o-linear-gradient(47deg, #fff, #AF73BF);
-    background: linear-gradient(43deg, #fff, #AF73BF);
+    background: -o-linear-gradient(0deg, #fff, #C28AD1);
+    background: linear-gradient(0deg, #fff, #C28AD1);
 }
 
 .filter-btn[data-filter="video"]:hover,
 .filter-btn[data-filter="video"].filtered {
-    background: -o-linear-gradient(233deg, #fff, #5896e7);
-    background: linear-gradient(217deg, #fff, #5896e7);
+    background: -o-linear-gradient(217deg, #fff, #72A9F1);
+    background: linear-gradient(217deg, #fff, #72A9F1);
 }
 
 .media-card[data-category="video"].filtered,
 .media-card[data-category="video"].highlight {
-    background: -o-linear-gradient(47deg, #fff, #5896e7);
-    background: linear-gradient(43deg, #fff, #5896e7);
+    background: -o-linear-gradient(0deg, #fff, #72A9F1);
+    background: linear-gradient(0deg, #fff, #72A9F1);
 }
 
 .filter-btn[data-filter="podcast"]:hover,
 .filter-btn[data-filter="podcast"].filtered {
-    background: -o-linear-gradient(233deg, #fff, #A8F0CD);
-    background: linear-gradient(217deg, #fff, #A8F0CD);
+    background: -o-linear-gradient(217deg, #fff, #94d2bd);
+    background: linear-gradient(217deg, #fff, #94d2bd);
 }
 
 .media-card[data-category="podcast"].filtered,
 .media-card[data-category="podcast"].highlight {
-    background: -o-linear-gradient(47deg, #fff, #A8F0CD);
-    background: linear-gradient(43deg, #fff, #A8F0CD);
+    background: -o-linear-gradient(0deg, #fff, #94d2bd);
+    background: linear-gradient(0deg, #fff, #94d2bd);
+}
+
+.filter-btn[data-filter="audio"]:hover,
+.filter-btn[data-filter="audio"].filtered {
+    background: -o-linear-gradient(217deg, #fff, #F6D972);
+    background: linear-gradient(217deg, #fff, #F6D972);
+}
+
+.media-card[data-category="audio"].filtered,
+.media-card[data-category="audio"].highlight {
+    background: -o-linear-gradient(0deg, #fff, #F6D972);
+    background: linear-gradient(0deg, #fff, #F6D972);
+}
+
+.filter-btn[data-filter="press"]:hover,
+.filter-btn[data-filter="press"].filtered,
+.filter-btn[data-filter="presse"]:hover,
+.filter-btn[data-filter="presse"].filtered {
+    background: -o-linear-gradient(217deg, #fff, #E9E2E2);
+    background: linear-gradient(217deg, #fff, #E9E2E2);
+}
+
+.media-card[data-category="press"].filtered,
+.media-card[data-category="press"].highlight,
+.media-card[data-category="presse"].filtered,
+.media-card[data-category="presse"].highlight {
+    background: -o-linear-gradient(0deg, #fff, #E9E2E2);
+    background: linear-gradient(0deg, #fff, #E9E2E2);
 }
 
 .media-article {
@@ -199,7 +227,9 @@
 
 .svg-lecture svg,
 .svg-podcast svg,
-.svg-video svg {
+.svg-video svg,
+.svg-audio svg,
+.svg-press svg {
     display: block;
     width: var(--txt-small);
     stroke: var(--txt-color);
@@ -208,7 +238,9 @@
 
 .svg-lecture,
 .svg-podcast,
-.svg-video {
+.svg-video,
+.svg-audio,
+.svg-press {
     display: none;
 }
 
@@ -342,7 +374,9 @@
 
     .filtered .svg-lecture svg,
     .filtered .svg-podcast svg,
-    .filtered .svg-video svg {
+    .filtered .svg-video svg,
+    .filtered .svg-audio svg,
+    .filtered .svg-press svg {
         stroke: var(--bg-color);
     }
 

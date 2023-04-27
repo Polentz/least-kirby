@@ -70,7 +70,9 @@
 
 .svg-lecture svg,
 .svg-podcast svg,
-.svg-video svg {
+.svg-video svg,
+.svg-audio svg,
+.svg-press svg {
     display: block;
     width: var(--txt-small);
     stroke: var(--txt-color);
@@ -79,7 +81,9 @@
 
 .svg-lecture,
 .svg-podcast,
-.svg-video {
+.svg-video,
+.svg-audio,
+.svg-press {
     display: none;
 }
 

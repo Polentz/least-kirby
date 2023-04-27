@@ -15,4 +15,14 @@
         <path d="M18 13.3333L9 8V18L18 13.3333Z"/>
     </svg>
 </div>
+<div class="svg-audio">
+    <svg viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.46154 13.7111H5.15385C7.19305 13.7111 8.84615 15.4622 8.84615 17.6222V19.0889C8.84615 21.2489 7.19305 23 5.15385 23H1V13.7111C1 6.69096 6.37258 1 13 1C19.6274 1 25 6.69096 25 13.7111V23H20.8462C18.8069 23 17.1538 21.2489 17.1538 19.0889V17.6222C17.1538 15.4622 18.8069 13.7111 20.8462 13.7111H24.5385" />
+    </svg>
+</div>
+<div class="svg-press">
+    <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7.5H21M5 17.5H21M5 12.5H21M1 25V1H25L25 25L1 25Z" />
+    </svg>
+</div>
 <p class="media-content-filter --txt-caption"><?= $mediacontent->filter()->inline() ?></p>
