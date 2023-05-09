@@ -14,7 +14,7 @@ fields:
   imageheight:
     label: Change logo height
     default: 56
-    min: 56
+    min: 32
     placeholder: 56
     type: number
     after: px
