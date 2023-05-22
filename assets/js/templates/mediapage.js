@@ -94,9 +94,12 @@ const selectContent = (element) => {
     const contentTag = element.currentTarget.dataset.name;
     mediaContents.forEach(content => {
         const contentName = content.dataset.name;
+        const offset = 56;
         if (contentName.includes(contentTag)) {
             content.classList.add("show-content");
-            content.scrollIntoView({});
+            window.scrollTo({
+                top: -offset
+            });
         } else {
             content.classList.remove("show-content");
             mediaSections.forEach(section => {
