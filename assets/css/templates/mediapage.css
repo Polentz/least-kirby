@@ -119,14 +119,14 @@
 
 .filter-btn[data-filter="podcast"]:hover,
 .filter-btn[data-filter="podcast"].filtered {
-    background: -o-linear-gradient(217deg, #fff, #94d2bd);
-    background: linear-gradient(217deg, #fff, #94d2bd);
+    background: -o-linear-gradient(217deg, #fff, #FF5C61);
+    background: linear-gradient(217deg, #fff, #FF5C61);
 }
 
 .media-card[data-category="podcast"].filtered,
 .media-card[data-category="podcast"].highlight {
-    background: -o-linear-gradient(0deg, #fff, #94d2bd);
-    background: linear-gradient(0deg, #fff, #94d2bd);
+    background: -o-linear-gradient(0deg, #fff, #FF5C61);
+    background: linear-gradient(0deg, #fff, #FF5C61);
 }
 
 .filter-btn[data-filter="audio"]:hover,
@@ -145,16 +145,16 @@
 .filter-btn[data-filter="press"].filtered,
 .filter-btn[data-filter="presse"]:hover,
 .filter-btn[data-filter="presse"].filtered {
-    background: -o-linear-gradient(217deg, #fff, #E9E2E2);
-    background: linear-gradient(217deg, #fff, #E9E2E2);
+    background: -o-linear-gradient(217deg, #fff, #94D2BD);
+    background: linear-gradient(217deg, #fff, #94D2BD);
 }
 
 .media-card[data-category="press"].filtered,
 .media-card[data-category="press"].highlight,
 .media-card[data-category="presse"].filtered,
 .media-card[data-category="presse"].highlight {
-    background: -o-linear-gradient(0deg, #fff, #E9E2E2);
-    background: linear-gradient(0deg, #fff, #E9E2E2);
+    background: -o-linear-gradient(0deg, #fff, #94D2BD);
+    background: linear-gradient(0deg, #fff, #94D2BD);
 }
 
 .media-article {

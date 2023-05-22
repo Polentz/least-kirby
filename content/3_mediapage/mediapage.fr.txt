@@ -1,4 +1,4 @@
-Title: Médias
+Title: médias
 
 ----
 
@@ -13,9 +13,9 @@ Filters:
 - 
   filter: Vidéo
 - 
-  filter: Presse
-- 
   filter: Audio
+- 
+  filter: Presse
 - 
   filter: Podcast
 

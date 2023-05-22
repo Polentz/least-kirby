@@ -1,0 +1,24 @@
+Title: Podcast Copy
+
+----
+
+Fronttext: Podcast
+
+----
+
+Filter: Podcast
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Podcast
+
+----
+
+Uuid: nm7O9JtuZH3h9dGu

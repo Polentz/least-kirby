@@ -1,9 +1,0 @@
-Title: Blank
-
-----
-
-Tag: Image
-
-----
-
-Filter: Image
