@@ -1,5 +1,6 @@
 const mainSection = document.querySelector(".main");
 const mediaSection = document.querySelector(".cards-section");
+const cards = document.querySelectorAll(".card");
 const mediaCards = document.querySelectorAll(".media-card");
 const mediaContents = document.querySelectorAll(".media-article");
 const mediaContentClose = document.querySelectorAll(".media-content-close");
@@ -8,7 +9,7 @@ const playBtns = document.querySelectorAll(".play-btn");
 const audioComponent = document.querySelectorAll(".audio-wrapper");
 
 window.addEventListener("load", () => {
-    filterByTag(mediaCards);
+    filterByTag(cards);
     filterByTag(mediaContents);
 });
 

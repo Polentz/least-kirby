@@ -1,0 +1,7 @@
+title: Document
+options:
+  preview: false
+
+accept: 
+  type: pdf, document
+  maxsize: 15728640

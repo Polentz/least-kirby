@@ -1,4 +1,4 @@
-title: Media card
+title: Press card
 options:
   preview: true
   navigation:
@@ -35,7 +35,7 @@ tabs:
         sections:
           back:
             type: fields
-            fields:
+            fields: 
               backinfo:
                 type: info
                 label: false
@@ -51,25 +51,46 @@ tabs:
               tags:
                 type: structure
                 label: Tags
-                required: true
+                required: false
                 fields:
                   tag:
                     type: text
                     label: List of tags
-  mediaarticle:
-    label: Media Content
-    icon: page
-    sections:
-      parts:
-        type: pages
-        status: all
-        label: Content sections
-        info: "{{ page.intendedTemplate }}"
-        image: false
-        templates:
-          - media-text
-          - media-audio
-          - media-video
-          - gallery
+  mediaurl:
+    label: Media Link or PDF
+    icon: attachment
+    columns: 
+      - width: 1/2
+        sections:
+          selection:
+            type: fields
+            fields:
+              postType:
+                type: select
+                label: Choose URL or PDF/Document
+                required: true
+                options:
+                  - URL
+                  - PDF/Document
+      - width: 1/2
+        sections:
+          attachments:
+            type: fields
+            fields:
+              medialink:
+                type: url
+                label: URL
+                required: true
+                when:
+                  postType: URL
+              mediadocument:
+                type: files
+                label: PDF/Document
+                template: document
+                uploads: document
+                info: false
+                max: 1
+                required: true
+                when:
+                  postType: PDF/Document
 
- 

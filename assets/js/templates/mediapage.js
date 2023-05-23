@@ -1,6 +1,7 @@
 const filterBtns = document.querySelectorAll(".filter-btn");
 const filterClear = document.getElementById("all-media");
-const mediaSections = document.querySelectorAll(".cards-section, .filters-section");
+const sections = document.querySelectorAll(".cards-section, .filters-section");
+const cards = document.querySelectorAll(".card");
 const mediaCards = document.querySelectorAll(".media-card");
 const mediaContents = document.querySelectorAll(".media-article");
 const categoryWrapper = document.querySelectorAll(".media-content-category");
@@ -11,7 +12,7 @@ const audioComponent = document.querySelectorAll(".audio-wrapper");
 filterBtns.forEach(btn => {
     btn.addEventListener("click", (element) => {
         applyFilter(element, btn);
-        mediaCards.forEach(label => {
+        cards.forEach(label => {
             label.classList.remove("highlight");
         });
     });
@@ -19,7 +20,7 @@ filterBtns.forEach(btn => {
         highlightItemPerFilter(element);
     });
     btn.addEventListener("mouseleave", () => {
-        mediaCards.forEach(label => {
+        cards.forEach(label => {
             label.classList.remove("highlight");
         });
     });
@@ -45,16 +46,14 @@ mediaContentClose.forEach(btn => {
 
 const highlightItemPerFilter = (element) => {
     const filterName = element.currentTarget.dataset.filter;
-    mediaCards.forEach(media => {
+    cards.forEach(media => {
         const mediaCategoryTag = media.dataset.category;
         if (mediaCategoryTag.includes(filterName)) {
             media.classList.add("highlight");
         } else {
             media.classList.remove("highlight");
         };
-
     });
-
 };
 
 const applyFilter = (element, btn) => {
@@ -63,7 +62,7 @@ const applyFilter = (element, btn) => {
     });
     filterClear.style.display = "block";
     const filterName = element.currentTarget.dataset.filter;
-    mediaCards.forEach(media => {
+    cards.forEach(media => {
         const mediaCategoryTag = media.dataset.category;
         if (mediaCategoryTag.includes(filterName)) {
             media.classList.remove("unfiltered");
@@ -80,7 +79,7 @@ const removeFilters = () => {
     filterBtns.forEach(btn => {
         btn.classList.remove("filtered");
     });
-    mediaCards.forEach(media => {
+    cards.forEach(media => {
         media.classList.remove("unfiltered");
         media.classList.remove("filtered");
     });
@@ -102,7 +101,7 @@ const selectContent = (element) => {
             });
         } else {
             content.classList.remove("show-content");
-            mediaSections.forEach(section => {
+            sections.forEach(section => {
                 section.style.display = "none";
             });
         };
@@ -122,7 +121,7 @@ const unselectContent = () => {
             }
         }
     });
-    mediaSections.forEach(section => {
+    sections.forEach(section => {
         section.style.display = "block";
     });
 };

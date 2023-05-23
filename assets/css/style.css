@@ -39,7 +39,6 @@
     --p-gap: 1rem;
     --marg-s: 2rem;
     --marg-m: 4rem;
-    --border: solid 1px var(--txt-color);
 }
 
 body {
@@ -56,7 +55,7 @@ body {
 }
 
 a {
-    color: var(--txt-color);
+    color: inherit;
     cursor: pointer;
 }
 
@@ -67,7 +66,11 @@ a:visited {
 
 .grid-block a,
 .contact-block a {
-    border-bottom: var(--border);
+    border-bottom: solid 1px var(--txt-color);
+}
+
+.card-back a {
+    border-bottom: solid 1px var(--bg-color);
 }
 
 .cursor {
@@ -176,7 +179,7 @@ figcaption {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    border-right: var(--border);
+    border-right: solid 1px var(--txt-color);
 }
 
 .lang-btn {
@@ -418,7 +421,7 @@ figcaption {
     align-items: center;
     padding-left: var(--marg-s);
     padding-right: var(--marg-s);
-    outline: var(--border);
+    outline: solid 1px var(--txt-color);
     background: var(--bg-color);
     -webkit-transition: top .75s ease;
     -o-transition: top .75s ease;
@@ -454,7 +457,7 @@ figcaption {
 .main {
     padding-left: var(--sidenav);
     background-color: var(--bg-color);
-    border-top: var(--border);
+    border-top: solid 1px var(--txt-color);
     position: relative;
     z-index: 1;
 }
@@ -479,7 +482,7 @@ figcaption {
 
 .--outline {
     position: relative;
-    outline: var(--border);
+    outline: solid 1px var(--txt-color);
     margin-right: 1px;
     margin-top: 1px;
 }
@@ -519,7 +522,7 @@ figcaption {
 
 .grid-text img {
     width: 100%;
-    border: var(--border);
+    border: solid 1px var(--txt-color);
 }
 
 .grid-square {
@@ -541,7 +544,7 @@ figcaption {
 .grid-title {
     text-transform: lowercase;
     padding: var(--txt-medium) var(--marg-s);
-    border-bottom: var(--border);
+    border-bottom: solid 1px var(--txt-color);
 }
 
 .grid-list {
@@ -557,7 +560,7 @@ figcaption {
     display: flex;
     gap: 1rem;
     align-items: center;
-    border: var(--border);
+    border: solid 1px var(--txt-color);
     padding: var(--txt-small);
     margin-top: .8rem;
 }
@@ -797,7 +800,7 @@ input.seek-slider::-webkit-slider-thumb {
     height: auto;
     max-height: 50vh;
     width: auto;
-    border: var(--border);
+    border: solid 1px var(--txt-color);
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     transition: -webkit-filter .5s ease;
@@ -861,7 +864,7 @@ input.seek-slider::-webkit-slider-thumb {
 .button-label {
     text-transform: lowercase;
     margin: 0;
-    border-bottom: var(--border);
+    border-bottom: solid 1px var(--txt-color);
 }
 
 .button-label:hover~.button-ui {
@@ -1004,7 +1007,7 @@ input.seek-slider::-webkit-slider-thumb {
         position: static;
         height: auto;
         background-color: var(--bg-color);
-        border-left: var(--border);
+        border-left: solid 1px var(--txt-color);
         opacity: 1;
     }
 
@@ -1063,7 +1066,7 @@ input.seek-slider::-webkit-slider-thumb {
         width: 100%;
         height: var(--sidenav);
         border-right: none;
-        border-top: var(--border);
+        border-top: solid 1px var(--txt-color);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;

@@ -10,7 +10,7 @@
 <?php endforeach ?>
 
 <?php snippet('mediapage', [
-    'mediapage' => collection('mediapage')->template('mediacontent')
+    'mediapage' => collection('mediapage')->template(['mediacontent', 'medialink'])
 ]); ?>
 
 <?= snippet('footer') ?>

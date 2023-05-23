@@ -37,4 +37,5 @@ sections:
     info: "{{ page.filter }}"
     templates:
       - mediacontent
+      - medialink
       - mediaimagecard

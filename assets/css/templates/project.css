@@ -10,22 +10,22 @@
     padding-top: 0;
 }
 
-.media-card .card-front {
+.card .card-front {
     box-shadow: none;
 }
 
-.media-card {
+.card {
     cursor: pointer;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
-.media-card.unfiltered {
+.card.unfiltered {
     pointer-events: none;
 }
 
-.media-card.unfiltered>.card-front {
+.card.unfiltered>.card-front {
     opacity: .2;
 }
 
@@ -43,47 +43,51 @@
     cursor: pointer;
 }
 
-.media-card:hover,
-.media-card.highlight {
+.card:hover,
+.card.highlight {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
-.media-card[data-category="texte"],
-.media-card[data-category="texte"]:hover,
-.media-card[data-category="reading"],
-.media-card[data-category="reading"]:hover,
-.media-card[data-category="lecture"],
-.media-card[data-category="lecture"]:hover {
+.card[data-category="texte"],
+.card[data-category="texte"]:hover,
+.card[data-category="reading"],
+.card[data-category="reading"]:hover,
+.card[data-category="lecture"],
+.card[data-category="lecture"]:hover {
     background: -o-linear-gradient(0deg, #fff, #C28AD1);
     background: linear-gradient(0deg, #fff, #C28AD1);
 }
 
-.media-card[data-category="video"],
-.media-card[data-category="video"]:hover {
+.card[data-category="video"],
+.card[data-category="video"]:hover {
     background: -o-linear-gradient(0deg, #fff, #72A9F1);
     background: linear-gradient(0deg, #fff, #72A9F1);
 }
 
-.media-card[data-category="podcast"],
-.media-card[data-category="podcast"]:hover {
+.card[data-category="podcast"],
+.card[data-category="podcast"]:hover {
     background: -o-linear-gradient(0deg, #fff, #FF5C61);
     background: linear-gradient(0deg, #fff, #FF5C61);
 }
 
-.media-card[data-category="audio"],
-.media-card[data-category="audio"]:hover {
+.card[data-category="audio"],
+.card[data-category="audio"]:hover {
     background: -o-linear-gradient(0deg, #fff, #F6D972);
     background: linear-gradient(0deg, #fff, #F6D972);
 }
 
-.media-card[data-category="press"],
-.media-card[data-category="press"]:hover,
-.media-card[data-category="presse"],
-.media-card[data-category="presse"]:hover {
+.card[data-category="press"],
+.card[data-category="press"]:hover,
+.card[data-category="presse"],
+.card[data-category="presse"]:hover {
     background: -o-linear-gradient(0deg, #fff, #94D2BD);
     background: linear-gradient(0deg, #fff, #94D2BD);
+}
+
+.card-front a.card-wrapper p {
+    color: var(--txt-color);
 }
 
 .media-article {
@@ -119,7 +123,7 @@
     position: relative;
     -ms-grid-column-span: 3;
     grid-column: span 3;
-    outline: var(--border);
+    outline: solid 1px var(--txt-color);
     padding: var(--marg-s) 0;
 }
 
@@ -208,7 +212,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     vertical-align: baseline;
-    border: var(--border);
+    border: solid 1px var(--txt-color);
 }
 
 .video-title {
@@ -266,8 +270,8 @@
 
 @media screen and (max-width: 720px) {
 
-    .media-card .card-back,
-    .media-card .card-front {
+    .card .card-back,
+    .card .card-front {
         height: auto;
     }
 
@@ -277,13 +281,13 @@
         order: -1;
     }
 
-    .media-card.unfiltered>.card-back {
+    .card.unfiltered>.card-back {
         opacity: .2;
     }
 }
 
 @media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
-    .media-card .card-front {
+    .card .card-front {
         box-shadow: none;
     }
 
@@ -291,15 +295,15 @@
         background-color: transparent;
     }
 
-    .media-card .card-front p,
-    .media-card .card-back p,
-    .media-card .media-content-filter {
+    .card .card-front p,
+    .card .card-back p,
+    .card .media-content-filter {
         color: var(--bg-color) !important;
     }
 
-    .media-card .svg-lecture svg,
-    .media-card .svg-podcast svg,
-    .media-card .svg-video svg {
+    .card .svg-lecture svg,
+    .card .svg-podcast svg,
+    .card .svg-video svg {
         stroke: var(--bg-color);
     }
 

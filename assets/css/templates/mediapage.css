@@ -12,7 +12,7 @@
 
 .filter-btn,
 .all-media-btn {
-    border-bottom: var(--border);
+    border-bottom: solid 1px var(--txt-color);
     cursor: pointer;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -38,11 +38,11 @@
     opacity: 1;
 }
 
-.media-card .card-front {
+.card .card-front {
     box-shadow: none;
 }
 
-.media-card {
+.card {
     position: relative;
     cursor: pointer;
     -webkit-transition: all .5s ease;
@@ -50,11 +50,11 @@
     transition: all .5s ease;
 }
 
-.media-card.unfiltered {
+.card.unfiltered {
     pointer-events: none;
 }
 
-.media-card.unfiltered>.card-front {
+.card.unfiltered>.card-front {
     opacity: .2;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .filter-btn:hover,
-.media-card:hover,
-.media-card.highlight {
+.card:hover,
+.card.highlight {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -95,12 +95,12 @@
     background: linear-gradient(217deg, #fff, #C28AD1);
 }
 
-.media-card[data-category="texte"].filtered,
-.media-card[data-category="texte"].highlight,
-.media-card[data-category="lecture"].filtered,
-.media-card[data-category="lecture"].highlight,
-.media-card[data-category="reading"].filtered,
-.media-card[data-category="reading"].highlight {
+.card[data-category="texte"].filtered,
+.card[data-category="texte"].highlight,
+.card[data-category="lecture"].filtered,
+.card[data-category="lecture"].highlight,
+.card[data-category="reading"].filtered,
+.card[data-category="reading"].highlight {
     background: -o-linear-gradient(0deg, #fff, #C28AD1);
     background: linear-gradient(0deg, #fff, #C28AD1);
 }
@@ -111,8 +111,8 @@
     background: linear-gradient(217deg, #fff, #72A9F1);
 }
 
-.media-card[data-category="video"].filtered,
-.media-card[data-category="video"].highlight {
+.card[data-category="video"].filtered,
+.card[data-category="video"].highlight {
     background: -o-linear-gradient(0deg, #fff, #72A9F1);
     background: linear-gradient(0deg, #fff, #72A9F1);
 }
@@ -123,8 +123,8 @@
     background: linear-gradient(217deg, #fff, #FF5C61);
 }
 
-.media-card[data-category="podcast"].filtered,
-.media-card[data-category="podcast"].highlight {
+.card[data-category="podcast"].filtered,
+.card[data-category="podcast"].highlight {
     background: -o-linear-gradient(0deg, #fff, #FF5C61);
     background: linear-gradient(0deg, #fff, #FF5C61);
 }
@@ -135,8 +135,8 @@
     background: linear-gradient(217deg, #fff, #F6D972);
 }
 
-.media-card[data-category="audio"].filtered,
-.media-card[data-category="audio"].highlight {
+.card[data-category="audio"].filtered,
+.card[data-category="audio"].highlight {
     background: -o-linear-gradient(0deg, #fff, #F6D972);
     background: linear-gradient(0deg, #fff, #F6D972);
 }
@@ -149,12 +149,16 @@
     background: linear-gradient(217deg, #fff, #94D2BD);
 }
 
-.media-card[data-category="press"].filtered,
-.media-card[data-category="press"].highlight,
-.media-card[data-category="presse"].filtered,
-.media-card[data-category="presse"].highlight {
+.card[data-category="press"].filtered,
+.card[data-category="press"].highlight,
+.card[data-category="presse"].filtered,
+.card[data-category="presse"].highlight {
     background: -o-linear-gradient(0deg, #fff, #94D2BD);
     background: linear-gradient(0deg, #fff, #94D2BD);
+}
+
+.card-front a.card-wrapper p {
+    color: var(--txt-color);
 }
 
 .media-article {
@@ -190,7 +194,7 @@
     position: relative;
     -ms-grid-column-span: 3;
     grid-column: span 3;
-    outline: var(--border);
+    outline: solid 1px var(--txt-color);
     padding: var(--marg-s) 0;
 }
 
@@ -279,7 +283,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     vertical-align: baseline;
-    border: var(--border);
+    border: solid 1px var(--txt-color);
 }
 
 .video-title {
@@ -337,8 +341,8 @@
 
 @media screen and (max-width: 720px) {
 
-    .media-card .card-back,
-    .media-card .card-front {
+    .card .card-back,
+    .card .card-front {
         height: auto;
     }
 
@@ -348,13 +352,13 @@
         order: -1;
     }
 
-    .media-card.unfiltered>.card-back {
+    .card.unfiltered>.card-back {
         opacity: .2;
     }
 }
 
 @media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
-    .media-card .card-front {
+    .card .card-front {
         box-shadow: none;
     }
 
@@ -393,7 +397,7 @@
         width: auto;
     }
 
-    .media-card.highlight,
+    .card.highlight,
     .filter-btn:hover {
         background: none !important;
         color: var(--txt-color);

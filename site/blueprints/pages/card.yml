@@ -20,8 +20,18 @@ columns:
             theme: none 
           fronttext:
             label: Title
-            type: text
+            type: textarea
             required: true
+            buttons:
+              - bold
+              - italic
+              - '|'
+              - link
+              - email
+              - file
+              - '|'
+              - ul
+              - '|'
           background:
             label: Background image
             type: files
@@ -50,5 +60,14 @@ columns:
             label: Short text
             type: textarea
             required: true
-            buttons: false
+            buttons:
+              - bold
+              - italic
+              - '|'
+              - link
+              - email
+              - file
+              - '|'
+              - ul
+              - '|'
             maxlength: 125
