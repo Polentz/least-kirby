@@ -29,6 +29,7 @@ sections:
     type: pages
     layout: cards
     status: all
+    limit: 100
     image: 
       back: "#fff"
       icon: false
