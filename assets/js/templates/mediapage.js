@@ -90,11 +90,11 @@ const removeFilters = () => {
 };
 
 const selectContent = (element) => {
-    const contentTag = element.currentTarget.dataset.name;
+    const clickedElementName = element.currentTarget.dataset.name;
     mediaContents.forEach(content => {
         const contentName = content.dataset.name;
         const offset = 56;
-        if (contentName.includes(contentTag)) {
+        if (contentName === clickedElementName) {
             content.classList.add("show-content");
             window.scrollTo({
                 top: -offset

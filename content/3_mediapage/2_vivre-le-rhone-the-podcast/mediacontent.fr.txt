@@ -1,0 +1,24 @@
+Title: Vivre le Rhône: the podcast
+
+----
+
+Fronttext: Vivre le Rhône: le podcast, partie 01
+
+----
+
+Filter: Audio
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Tag
+
+----
+
+Uuid: YCbZVitaIVzQZi30

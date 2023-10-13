@@ -1016,6 +1016,10 @@ input.seek-slider::-webkit-slider-thumb {
         color: var(--txt-color);
     }
 
+    .--txt-medium {
+        hyphens: auto;
+    }
+
     .--outline {
         margin-right: 0;
     }

@@ -1,9 +1,0 @@
-Uuid: vcF6cYErxztRtvgo
-
-----
-
-Template: video-file
-
-----
-
-Sort: 1
