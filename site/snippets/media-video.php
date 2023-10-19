@@ -6,7 +6,7 @@
             </div>
         <?php endif ?> 
         <?php if ($file = $part->file()): ?>
-            <video controls src="<?= $file->url() ?>"></video>
+            <video controls controlslist="noplaybackrate nodownload" disablePictureInPicture src="<?= $file->url() ?>"></video>
         <?php endif ?>
         <?php if ($part->caption()->isNotEmpty()): ?>
             <div class="--txt-caption">

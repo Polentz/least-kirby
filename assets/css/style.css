@@ -929,6 +929,36 @@ input.seek-slider::-webkit-slider-thumb {
     opacity: 1;
 }
 
+video {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+:not(:root):fullscreen {
+    object-fit: contain;
+    user-select: text;
+    position: fixed !important;
+    box-sizing: border-box !important;
+    min-width: 0px !important;
+    max-width: none !important;
+    min-height: 0px !important;
+    max-height: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+    inset: 0px !important;
+    margin: 0px !important;
+}
+
+:not(:root):fullscreen::backdrop {
+    position: fixed;
+    inset: 0px;
+    background: black;
+}
+
 @media screen and (min-width: 3400px) {
     .menu-btn.scale {
         -webkit-transform: scale(300);

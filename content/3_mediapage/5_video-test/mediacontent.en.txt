@@ -1,0 +1,20 @@
+Title: Video Test
+
+----
+
+Filter: Video
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Tag
+
+----
+
+Fronttext: Video test
