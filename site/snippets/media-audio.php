@@ -1,8 +1,10 @@
 <div class="content-audio-component">
     <div class="audio-wrapper">
-        <div class="audio-title --title-small">
-            <?= $part->audiotitle()->kt() ?>
-        </div>
+        <?php if ($part->audiotitle()->isNotEmpty()): ?>
+            <div class="audio-title --title-small">
+                <?= $part->audiotitle()->kt() ?>
+            </div>
+        <?php endif ?>
         <div class="audio-player">
             <div class="play-btn">
                 <svg class="play-icon" viewBox="0 0 27 26" fill="none"

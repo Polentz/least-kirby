@@ -2,16 +2,23 @@ Title: Video Test
 
 ----
 
+Fronttext: Video test
+
+----
+
+Filter: Video
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Tag
+
+----
+
 Uuid: yVVh99rtPBZPbiCG
-
-----
-
-Filter: 
-
-----
-
-Backtext: 
-
-----
-
-Tags: 

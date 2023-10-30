@@ -1,0 +1,24 @@
+Title: Vivre le Rhône: partie 1
+
+----
+
+Fronttext: Vivre le Rhône: partie 1
+
+----
+
+Filter: Vidéo
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Uuid: 5wPmwBebi3dAI2X2

@@ -555,16 +555,27 @@ figcaption {
     padding: var(--txt-small) var(--marg-s);
 }
 
-.audio-player {
+.audio-player,
+.video-player {
     height: var(--header);
     display: flex;
     gap: 1rem;
     align-items: center;
     border: solid 1px var(--txt-color);
     padding: var(--txt-small);
+}
+
+.audio-player {
     margin-top: .8rem;
 }
 
+.video-player {
+    display: none;
+    transform: translateY(-1px);
+    background-color: var(--bg-color);
+}
+
+.video-player svg,
 .audio-player svg {
     display: flex;
     align-items: center;
@@ -573,6 +584,18 @@ figcaption {
     stroke: var(--txt-color);
     stroke-width: 1.5px;
     transition: all .5s ease;
+}
+
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-wrapper video {
+    background-image: url(https://picsum.photos/200/300);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .play-btn {
@@ -619,6 +642,7 @@ input.seek-slider {
     position: relative;
     appearance: none;
     width: 100%;
+    height: 8px;
     margin: 0;
     padding: 0;
     outline: none;
@@ -626,6 +650,8 @@ input.seek-slider {
 }
 
 input.seek-slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
     height: 8px;
     cursor: pointer;
@@ -644,30 +670,68 @@ input.seek-slider::before {
 
 input.seek-slider::-webkit-slider-thumb {
     position: relative;
+    -webkit-appearance: none;
     appearance: none;
     height: 100%;
     width: 4px;
     background-color: var(--acc-color);
 }
 
-.audio-volume {
+input.seek-slider::-moz-range-thumb {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 100%;
+    width: 8px;
+    background-color: var(--acc-color);
+    border: none;
+    border-radius: 0;
+}
+
+.audio-volume,
+.fullscreen {
     position: relative;
     cursor: pointer;
 }
 
-.volume-icon.toggle-volume {
+.volume-icon.toggle-volume,
+.fullscreen-icon.toggle-screen {
     opacity: 0;
 }
 
-.mute-icon {
+.mute-icon,
+.reducescreen-icon {
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.mute-icon.toggle-volume {
+.mute-icon.toggle-volume,
+.reducescreen-icon.toggle-screen {
     opacity: 1;
+}
+
+.video-wrapper[data-fullscreen=true] video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-wrapper.fullscreen {
+    justify-content: center;
+    background-color: var(--txt-color);
+    cursor: initial;
+}
+
+.video-wrapper.fullscreen .video-player {
+    background-color: var(--txt-color);
+}
+
+.video-wrapper.fullscreen svg {
+    stroke: var(--bg-color);
+}
+
+.video-wrapper.fullscreen .audio-time {
+    color: var(--bg-color);
 }
 
 .card {
@@ -927,36 +991,6 @@ input.seek-slider::-webkit-slider-thumb {
 .main section.appear a,
 .main section.appear img {
     opacity: 1;
-}
-
-video {
-    display: block;
-    width: 100%;
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-:not(:root):fullscreen {
-    object-fit: contain;
-    user-select: text;
-    position: fixed !important;
-    box-sizing: border-box !important;
-    min-width: 0px !important;
-    max-width: none !important;
-    min-height: 0px !important;
-    max-height: none !important;
-    width: 100% !important;
-    height: 100% !important;
-    transform: none !important;
-    inset: 0px !important;
-    margin: 0px !important;
-}
-
-:not(:root):fullscreen::backdrop {
-    position: fixed;
-    inset: 0px;
-    background: black;
 }
 
 @media screen and (min-width: 3400px) {

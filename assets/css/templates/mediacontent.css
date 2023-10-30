@@ -119,8 +119,8 @@
 .content-text-image img {
     width: 100%;
     height: auto;
-    -o-object-fit: cover;
-    object-fit: cover;
+    -o-object-fit: contain;
+    object-fit: contain;
     vertical-align: baseline;
     border: solid 1px var(--txt-color);
 }

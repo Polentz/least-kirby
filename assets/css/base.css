@@ -169,6 +169,30 @@ strong {
     font-weight: 700;
 }
 
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
 p::-moz-selection,
 h1::-moz-selection,
 h2::-moz-selection,
@@ -238,4 +262,10 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--bg-color);
     border-bottom: 1px solid var(--txt-color);
     border-left: 1px solid var(--txt-color);
+}
+
+:not(:root):fullscreen::backdrop {
+    position: fixed;
+    inset: 0px;
+    background: #1d1d1d;
 }
