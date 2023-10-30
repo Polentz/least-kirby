@@ -1,6 +1,5 @@
-<div class="--outline grid-square card" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>" 
+<div class="--outline grid-square card press-card" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>" 
 data-tag="<?php foreach ($mediacontent->tags()->toStructure() as $tag): ?><?= $tag->tag()->slug() ?> <?php endforeach ?>">
-    
     <div class="card-front">
         <?php if ($mediacontent->medialink()->isNotEmpty()) : ?>
             <a href="<?= $mediacontent->medialink()->url() ?>" target="_blank" class="card-wrapper">
@@ -15,7 +14,6 @@ data-tag="<?php foreach ($mediacontent->tags()->toStructure() as $tag): ?><?= $t
                 </div>
             </a>
     </div>
-
     <div class="card-back">
         <?php if ($mediacontent->medialink()->isNotEmpty()) : ?>
             <a href="<?= $mediacontent->medialink()->url() ?>" target="_blank" class="card-wrapper">

@@ -1,11 +1,28 @@
 const documentHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty("--doc-height", `${window.innerHeight}px`)
+    const doc = document.documentElement;
+    doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
 };
 
-window.addEventListener("load", () => {
-    history.scrollRestoration = "manual";
-});
+const customCursor = () => {
+    const cursor = document.getElementById("cursor");
+    const links = document.querySelectorAll("a, .menu-btn, .close-btn, .filter-btn, .all-media-btn, .media-label, .card-back a, .media-card .card-back, .media-content-close, .audio-player svg, .video-player svg, .seek-slider");
+    document.addEventListener("mousemove", (event) => {
+        let x = event.pageX;
+        let y = event.pageY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+    });
+    links.forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            cursor.style.width = 112 + "px";
+            cursor.style.height = 112 + "px";
+        });
+        link.addEventListener("mouseleave", () => {
+            cursor.style.width = 10 + "px";
+            cursor.style.height = 10 + "px";
+        });
+    });
+};
 
 const scrollIntoView = (e) => {
     const targetSection = document.getElementById(e.target.dataset.targetSection);
@@ -22,7 +39,7 @@ const jsScroll = () => {
     };
 };
 
-const menu = () => {
+const handleMenu = () => {
     const openBtn = document.querySelector(".menu-btn");
     const closeBtn = document.querySelector(".close-btn");
     const closeMenuBtns = document.querySelectorAll(".close-btn, .menu-link a");
@@ -64,7 +81,7 @@ const menu = () => {
     });
 };
 
-const header = () => {
+const handleHeaderOnScroll = () => {
     const topBar = document.querySelector(".header");
     let lastScrollTop = 0;
     window.addEventListener("scroll", () => {
@@ -86,7 +103,7 @@ const createChild = () => {
     return div;
 }
 
-const grid = () => {
+const handleGrid = () => {
     const gridLayout = document.querySelectorAll(".four-columns, .two-columns");
     for (let i = 0; i < gridLayout.length; i++) {
         const parent = gridLayout[i];
@@ -100,9 +117,78 @@ const grid = () => {
     };
 };
 
-window.addEventListener("resize", documentHeight);
-documentHeight();
-jsScroll();
-menu();
-header();
-grid();
+const revealOnScroll = () => {
+    const reveals = document.querySelectorAll(".main section");
+    for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        const elementVisible = 100;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("appear");
+        } else {
+            reveals[i].classList.remove("appear");
+        };
+    };
+};
+
+const handleSlideshow = () => {
+    const btnLeft = document.getElementById("btn-left");
+    const btnRight = document.getElementById("btn-right");
+    const scrollContainer = document.querySelector(".gallery-block");
+    const images = document.querySelectorAll(".image-wrapper img");
+    const distance = screen.width / 2;
+
+    if (scrollContainer) {
+        btnLeft.addEventListener("click", () => {
+            scrollContainer.scrollBy({
+                left: -distance,
+                behavior: "smooth"
+            });
+            images.forEach(image => {
+                image.classList.add("--grayscale");
+            });
+            window.addEventListener("scroll", () => {
+                images.forEach(image => {
+                    image.classList.remove("--grayscale");
+                });
+            });
+        })
+        btnRight.addEventListener("click", () => {
+            scrollContainer.scrollBy({
+                left: distance,
+                behavior: "smooth"
+            });
+            images.forEach(image => {
+                image.classList.add("--grayscale");
+            });
+            window.addEventListener("scroll", () => {
+                images.forEach(image => {
+                    image.classList.remove("--grayscale");
+                });
+            });
+        });
+    };
+};
+
+window.addEventListener("resize", () => {
+    documentHeight();
+});
+
+window.addEventListener("load", () => {
+    history.scrollRestoration = "manual";
+    documentHeight();
+    customCursor();
+    jsScroll();
+    handleMenu();
+    handleHeaderOnScroll();
+    handleGrid();
+    revealOnScroll();
+    handleSlideshow();
+});
+
+window.addEventListener("scroll", () => {
+    revealOnScroll();
+});
+
+

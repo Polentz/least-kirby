@@ -1,0 +1,21 @@
+Title: Newsletter
+
+----
+
+Sectiontitle: Newsletter
+
+----
+
+Text: Blablabla
+
+----
+
+Buttontext: 
+
+----
+
+Buttonurl: 
+
+----
+
+Uuid: qStNfo2hBZM1Zb9s

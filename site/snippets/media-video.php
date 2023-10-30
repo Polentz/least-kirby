@@ -6,7 +6,7 @@
             </div>
         <?php endif ?> 
         <?php if ($file = $part->file()): ?>
-            <video controls controlslist="noplaybackrate nodownload" disablePictureInPicture preload="metadata" src="<?= $file->url() ?>"></video>
+            <video controls <?php if($poster = $file->poster()->toFile()) :?>poster="<?= $poster->url() ?>"<?php endif ?> controlslist="noplaybackrate nodownload" disablePictureInPicture preload="metadata" src="<?= $file->url() ?>"></video>
         <?php endif ?>
         <div class="video-player">
             <div class="play-btn">
@@ -47,7 +47,7 @@
                     <path d="M24 6L18 6V0M5.24537e-07 18H6L6 24M18 24V18H24M6 5.24537e-07L6 6L0 6"/>
                 </svg>
             </div>
-        </div>
+        </div> 
         <?php if ($part->caption()->isNotEmpty()): ?>
             <div class="--txt-caption">
                 <?= $part->caption()->kt() ?>

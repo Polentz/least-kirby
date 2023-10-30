@@ -4,10 +4,8 @@
     </main>
 
     <?= js([
+        'assets/js/media.js',
         'assets/js/script.js',
-        'assets/js/cursor.js',
-        'assets/js/scroll.js',
-        'assets/js/slide.js',
         '@auto',
     ]) ?>
 </body>

@@ -39,7 +39,7 @@
             </div>
         </div>
         <?php if ($file = $part->file()): ?>
-            <audio src="<?= $file->url() ?>" preload="metadata"></audio>
+            <audio src="<?= $file->url() ?>" controls preload="metadata"></audio>
         <?php endif ?>
     </div>
 </div>

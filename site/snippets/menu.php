@@ -6,7 +6,6 @@
     <ul class="menu-wrapper">
         <?php foreach($items as $item) : ?>
             <li class="menu-link"><a <?= e($item->isOpen(), ' class="current"') ?> href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-            <!-- <li class="menu-link"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li> -->
         <?php endforeach ?>
     </ul>
 </div>
