@@ -1185,14 +1185,6 @@ figcaption {
     padding: 0 var(--marg-s);
 }
 
-/* SISTEMARE CON VERA IMMAGINE! X SAFARI */
-/* .video-wrapper video {
-    background-image: url(https://picsum.photos/200/300);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .play-btn {
     position: relative;
     cursor: pointer;
@@ -1329,6 +1321,10 @@ input.seek-slider::-moz-range-thumb {
     color: var(--bg-color);
 }
 
+.--mobile {
+    display: none;
+}
+
 @media screen and (min-width: 3400px) {
     .menu-btn.scale {
         -webkit-transform: scale(300);
@@ -1444,12 +1440,6 @@ input.seek-slider::-moz-range-thumb {
     .media-card .card-front {
         height: auto;
     }
-
-    /* .filtered {
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
-    } */
 
     .media-card.unfiltered>.card-back {
         opacity: .2;
@@ -1624,9 +1614,24 @@ input.seek-slider::-moz-range-thumb {
         align-items: flex-start;
     }
 
-    .logo-wrapper {
-        -webkit-filter: invert(1);
-        filter: invert(1);
+    .logo-wrapper.--desktop {
+        display: none;
+    }
+
+    .logo-wrapper.--mobile {
+        display: block;
+    }
+
+    .logo-wrapper.--logo-bg img {
+        background-color: var(--txt-color);
+        padding: 4px;
+    }
+
+    .logo-wrapper img {
+        max-width: 100%;
+        object-fit: contain;
+        -webkit-filter: none;
+        filter: none;
     }
 
     .footer {

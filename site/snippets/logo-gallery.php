@@ -1,12 +1,14 @@
 <section>
     <div class="gallery-layout --outline">
         <div class="logo-block">
-            <?php foreach ($part->images()->sortBy('sort') as $image): ?>
-                <figure class="logo-wrapper">
-                    <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>" style="height: <?= $image->imageheight() ?>px;">
-                    <?php if ($image->caption()): ?>
-                        <figcaption class="--txt-caption"><?= $image->caption()->kt() ?></figcaption>
-                    <?php endif ?>
+            <?php foreach ($part->desktop()->toFiles() as $image): ?>
+                <figure class="logo-wrapper --desktop">
+                    <img src="<?= $image->url() ?>" style="height: <?= $image->imageheight() ?>px;">
+                </figure>
+            <?php endforeach ?>
+            <?php foreach ($part->mobile()->toFiles() as $image): ?>
+                <figure class="logo-wrapper --mobile <?php if ($image->applyBackground()->isTrue()) : ?> --logo-bg <?php endif ?>">
+                    <img src="<?= $image->url() ?>" style="height: <?= $image->imageheightmobile() ?>px;">
                 </figure>
             <?php endforeach ?>
         </div>

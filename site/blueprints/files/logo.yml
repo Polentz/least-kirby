@@ -5,17 +5,26 @@ accept:
   maxwidth: 1600
 
 fields:
-  alt:
-    type: text
-    width: 1/2
-  caption:
-    type: textarea
-    width: 1/2
   imageheight:
-    label: Change logo height
+    type: number
+    width: 1/4
+    label: Logo size on desktop
     default: 56
     min: 32
     placeholder: 56
-    type: number
     after: px
-    width: 1/6
+  gapone:
+    type: gap
+    width: 2/3
+  imageheightmobile:
+    type: number
+    width: 1/4
+    label: Logo size on mobile
+    default: 56
+    min: 32
+    placeholder: 56
+    after: px
+  applyBackground:
+    type: toggle
+    width: 1/4
+    label: Apply background on mobile?

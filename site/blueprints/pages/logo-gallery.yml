@@ -7,15 +7,38 @@ options:
     status: listed
     template: all
 
-sections:
-  gallery:
-    label: Logo gallery
-    type: files
-    layout: cards
-    template: logo
-    sortable: true
-    image:
-      back: "#fff"
-      icon: false
-      ratio: 1/1
-      cover: true
+columns:
+  desktop:
+    width: 1/2
+    sections:
+      desktop:
+        type: fields
+        fields:
+          desktop:
+            label: Logo gallery on desktop
+            type: files
+            layout: list
+            template: logo
+            sortable: true
+            image:
+              back: "#fff"
+              icon: false
+              ratio: 1/1
+              cover: true
+  mobile:
+    width: 1/2
+    sections:
+      mobile:
+        type: fields
+        fields:
+          mobile:
+            label: Logo gallery on mobile
+            type: files
+            layout: list
+            template: logo
+            sortable: true
+            image:
+              back: "#fff"
+              icon: false
+              ratio: 1/1
+              cover: true
