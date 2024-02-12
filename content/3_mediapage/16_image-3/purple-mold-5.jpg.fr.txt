@@ -1,0 +1,9 @@
+Uuid: FnRn1ongf0q2dSRN
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

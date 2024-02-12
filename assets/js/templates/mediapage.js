@@ -21,6 +21,10 @@ const handleFilters = () => {
     filterClear.addEventListener("click", () => {
         removeFilters();
     });
+
+    pressButton.addEventListener("click", () => {
+        removeFilters();
+    });
 };
 
 const selectContent = (element) => {
@@ -42,14 +46,6 @@ const selectContent = (element) => {
     });
 };
 
-const selectContentTrigger = () => {
-    mediaCards.forEach(label => {
-        label.addEventListener("click", (element) => {
-            selectContent(element);
-        });
-    });
-};
-
 const unselectContent = () => {
     mediaContents.forEach(content => {
         if (content.classList.contains("show-content")) {
@@ -68,9 +64,18 @@ const unselectContent = () => {
     });
 };
 
+const selectContentTrigger = () => {
+    mediaCards.forEach(label => {
+        label.addEventListener("click", (element) => {
+            selectContent(element);
+        });
+    });
+};
+
 const unselectContentTrigger = (container) => {
     mediaContentClose.forEach(btn => {
-        btn.addEventListener("click", () => {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault();
             unselectContent();
             container.scrollTo(0, 0);
         });

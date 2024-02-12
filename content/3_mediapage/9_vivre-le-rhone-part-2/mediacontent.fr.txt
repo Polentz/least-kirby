@@ -1,0 +1,44 @@
+Title: Vivre le Rhône: part 2
+
+----
+
+Fronttext: Vivre le Rhône: partie 2
+
+----
+
+Filter: Vidéo
+
+----
+
+Backtext: Quand l'art rencontre le droit.
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Background: 
+
+----
+
+Tag: Vivre le Rhône
+
+----
+
+Filters: Lecture
+
+----
+
+Shortname: Socks on fire
+
+----
+
+Pagestatus: false
+
+----
+
+Uuid: jlgfOqgtH2L5jPJT

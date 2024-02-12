@@ -1,0 +1,9 @@
+Uuid: p34qNcMADOMihYB3
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

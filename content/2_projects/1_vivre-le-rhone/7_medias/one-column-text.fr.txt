@@ -2,15 +2,11 @@ Title: Médias
 
 ----
 
-Sectiontitle: Médias
+Sectiontitle: médias
 
 ----
 
-Maintext: 
-
-----
-
-Plaintext: 
+Text: 
 
 ----
 
@@ -19,6 +15,14 @@ Buttontext:
 ----
 
 Buttonurl: 
+
+----
+
+Maintext: 
+
+----
+
+Plaintext: 
 
 ----
 

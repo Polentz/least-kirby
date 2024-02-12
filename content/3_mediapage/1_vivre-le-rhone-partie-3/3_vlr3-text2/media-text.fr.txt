@@ -1,0 +1,19 @@
+Title: VLR3 text2
+
+----
+
+Text:
+
+Voix de:
+Maria Lucia Cruz Correia - artiste
+Marine Calmet - avocate des droits environnementaux
+Floriane Facchini - artiste, metteure en scène
+Vinny Jones - scénographie sensorielle
+Felix Küchler - médecin, activiste pour le climat
+Emma-Louise Lavigne - activiste Association id-eau
+Gilles Mulhauser Canton de Genève - Office cantonal de l’eau
+Laurence Piaget-Dubuis - éco-artiste, graphiste, photographe
+
+----
+
+Uuid: 7zPCF5OKt1Kir9Ic

@@ -1,0 +1,24 @@
+Title: Vivre le Rhône: the podcast
+
+----
+
+Fronttext: Vivre le Rhône: le podcast, partie 01
+
+----
+
+Filter: Audio
+
+----
+
+Backtext: Un projet audio qui retrace l’expérience de celleux qui se sont rapproché•es du fleuve en marchant.
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Uuid: 3hPlZ3nsaqjORxRt

@@ -1,0 +1,24 @@
+Title: The Gesamthof recipe: A Lesbian Garden
+
+----
+
+Fronttext: La Recette du Gesamthof: Un Jardin Lesbien
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Le Gesamthof est un jardin qui n’est pas centré sur l’humain et qui évince l’idée d’un résultat final.
+
+----
+
+Tags:
+
+- 
+  tag: 'Verger de rue '
+
+----
+
+Uuid: hC9MqkJUj9LkLvpk

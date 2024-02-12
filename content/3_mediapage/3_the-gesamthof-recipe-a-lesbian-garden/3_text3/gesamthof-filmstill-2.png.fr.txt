@@ -1,0 +1,9 @@
+Uuid: q7PKMfT4Xt8jkzOD
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

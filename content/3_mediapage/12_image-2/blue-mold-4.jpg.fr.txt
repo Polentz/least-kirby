@@ -1,0 +1,9 @@
+Uuid: vPSTzSDgeZ9VFgpF
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

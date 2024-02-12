@@ -1,0 +1,9 @@
+Uuid: ByNGueDaNJ5phAKS
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

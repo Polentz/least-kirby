@@ -14,10 +14,18 @@ Filters:
   filter: Vidéo
 - 
   filter: Audio
-- 
-  filter: Presse
-- 
-  filter: Podcast
+
+----
+
+Sectiontitle: presse
+
+----
+
+Text: 
+
+----
+
+Blocks: [{"content":{"fronttext":"<p>\u00abVivre le Rh\u00f4ne\u00bb, d\u00e9marche citoyenne et artistique<\/p>","tags":[{"tag":"Vivre le Rh\u00f4ne"}],"posttype":"URL","medialink":"https:\/\/www.letemps.ch\/culture\/vivre-le-rhone-demarche-citoyenne-et-artistique","mediadocument":[]},"id":"935785ae-e2a2-4c94-91bd-948ffd5c9b9f","isHidden":false,"type":"medialink"},{"content":{"fronttext":"<p>Weaving Subjects \u00e0 la MACO<\/p>","tags":[{"tag":"Vivre le Rh\u00f4ne"}],"posttype":"URL","medialink":"https:\/\/www.letemps.ch\/culture\/vivre-le-rhone-demarche-citoyenne-et-artistique","mediadocument":[]},"id":"664060d8-37db-421a-ad64-644d9c3c2696","isHidden":false,"type":"medialink"},{"content":{"fronttext":"<p>\u00abCommon Dreams\u00bb, une plateforme flottante \u00e0 Gen\u00e8ve<\/p>","tags":[{"tag":"Common Dreams"}],"posttype":"URL","medialink":"https:\/\/www.letemps.ch\/culture\/vivre-le-rhone-demarche-citoyenne-et-artistique","mediadocument":[]},"id":"ba1fd189-dda6-4582-b43f-9ec5d14bc290","isHidden":false,"type":"medialink"},{"content":{"fronttext":"<p>\u00abVivre le Rh\u00f4ne\u00bb c\u00e9l\u00e8bre l\u2019identit\u00e9 du fleuve<\/p>","tags":[{"tag":"Vivre le Rh\u00f4ne"}],"posttype":"URL","medialink":"https:\/\/www.letemps.ch\/culture\/vivre-le-rhone-demarche-citoyenne-et-artistique","mediadocument":[]},"id":"538df479-569c-43ac-a316-fa238f9b560c","isHidden":false,"type":"medialink"}]
 
 ----
 

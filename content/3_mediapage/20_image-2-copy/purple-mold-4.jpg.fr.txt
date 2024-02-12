@@ -1,0 +1,9 @@
+Uuid: ugbGf2nhuKzNolSx
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

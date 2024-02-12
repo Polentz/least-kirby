@@ -1,0 +1,58 @@
+name: Article
+icon: false
+
+fields:
+  frontHeadline:
+    type: info
+    label: false
+    text: FRONT OF THE CARD
+    align: center
+    theme: none 
+  fronttext:
+    label: Title
+    type: writer
+    marks: false
+    nodes: false
+    required: true
+  backHeadline:
+    type: info
+    label: false
+    text: BACK OF THE CARD
+    align: center
+    theme: none 
+  tags:
+    type: structure
+    label: Tags
+    required: false
+    fields:
+      tag:
+        type: text
+        label: List of tags
+  postType:
+    type: select
+    label: Choose URL or PDF/Document
+    required: true
+    width: 1/2
+    options:
+      - URL
+      - PDF/Document
+  medialink:
+    type: url
+    label: URL
+    required: true
+    width: 1/2
+    when:
+      postType: URL
+  mediadocument:
+    type: files
+    label: PDF/Document
+    template: document
+    uploads: document
+    info: false
+    max: 1
+    required: true
+    width: 1/2
+    when:
+      postType: PDF/Document
+
+

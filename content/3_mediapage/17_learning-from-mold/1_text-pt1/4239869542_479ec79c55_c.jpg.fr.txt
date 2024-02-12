@@ -1,0 +1,9 @@
+Uuid: uAJ60UZWooSpdUSE
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

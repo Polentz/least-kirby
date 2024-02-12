@@ -1,0 +1,20 @@
+Title: text2
+
+----
+
+Text:
+
+**Vous prenez également des concepts, comme la lenteur ou l’hésitation, qu’on interprète en général négativement et vous expliquez qu’ils sont en fait positifs…**
+La lenteur et l’hésitation sont les clés de la compétence. On peut l’illustrer avec les cellules souches. Les biologistes se sont concentrés sur ces cellules parce qu’elles sont extraordinaires : elles peuvent renouveler toutes sortes de tissus. Pendant longtemps, on a pensé que tout cela était contrôlé par un organigramme hyper contrôlé. Il s’avère pourtant qu’un élément clé est leur lenteur : les cellules souches hésitent tout le temps et, parce qu’elles hésitent, elles peuvent tout faire ! Les délais mettent du jeu dans les rouages. J’irai même plus loin : la lenteur est un levier indispensable de la transformation. Pour changer, il faut savoir s’arrêter d’abord. C’est comme être dans une voiture à un carrefour : si vous voulez changer de direction, vous devez vous arrêter, mettre votre clignotant et tourner. Si vous ne vous arrêtez pas, vous ne changerez pas.
+
+**Le changement est le mot clé ici. Les sciences dures, les chiffres et les systèmes de prédiction n’ont souvent pas la capacité de prendre en compte les imprévus ou le changement, ce qui nous donne l’illusion d’avoir une certaine forme de contrôle sur la réalité.**
+Heureusement, nous avons fait des progrès et maintenant, il s’agit plutôt d’utiliser les chiffres pour comprendre l’imprévisibilité du monde (au lieu d’utiliser les chiffres pour le contrôler). Par exemple, au laboratoire, on travaille sur la reproductibilité des formes des organes. Dans un champ de tulipes, toutes les fleurs se ressemblent. On pourrait imaginer un processus comme chez IKEA : construire des objets avec le même protocole les rend aussi reproductibles. Mais ce n’est pas le cas chez les vivants ! Lorsqu’une fleur émerge, certaines cellules se divisent, d’autres meurent, les molécules vont et viennent… Bref, c’est le bazar. Et pourtant, au final, le miracle se produit : vous obtenez une fleur qui a la même forme, la même couleur et la même taille que sa voisine. Nous avons montré que la fleur utilise et même stimule toutes sortes de comportements erratiques, justement parce qu’ils apportent beaucoup d’informations, pour atteindre cette forme reproductible ! Encore une fois, on construit de la robustesse contre la performance.
+
+**Donc, il nous faudrait accepter un certain degré de chaos ?**
+Le sociologue Gilles Armani m’a raconté un jour une histoire sur la façon de traverser un fleuve impétueux. Le Rhône présente plein de tourbillons : à la nage, vous risquez d’être pris au piège et vous vous noierez. Lorsque les gens étaient habitués à vivre avec les rivières et, s’ils se retrouvaient pris dans le courant en nageant, ils ne se débattaient pas : ils inspiraient, se laissaient emporter par le tourbillon et le fleuve les recrachait plus loin, jusqu’à arriver près de la rive. Dans un monde fluctuant, il n’est plus question de destination à atteindre le plus rapidement possible, on se concentre sur la viabilité, construite non pas contre, mais sur les turbulences.
+
+*Image: Boris Artzybasheff.*
+
+----
+
+Uuid: AnL1GRdcDeuHQ9OR

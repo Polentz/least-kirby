@@ -1,0 +1,21 @@
+Title: text1
+
+----
+
+Text:
+
+*Olivier Hamant is a transdisciplinary biologist and researcher at the National Research Institute for Agriculture, Food and the Environment (INRAE) in Lyon, and is engaged in socio-ecological education projects at the Michel Serres institute.
+His book “La Troisième Voie du Vivant” envisions a “sub-optimal” future to survive the environmental crisis: in this interview, he promotes the values of slowness, inefficiency and robustness, and invites us to embrace a certain degree of chaos.*
+
+**Authors and philosophers have always been inspired by the observation of nature to speculate about reality and society, but often with an instrumental approach. You too are inspired by nature, but from your point of view as a biologist, you come to some conclusions that challenge our prejudices on how nature works. How did your questioning begin?**
+During my PhD I worked on plant molecular biology, looking at genetic control and information. It was a clear example of an industrial framework transposed to biology: we used organigrams, we drew cascades of genes, we discussed “lines of defence,” “metabolic channelling” … Such semantics implied that life is like a machine. When I finished my PhD, I decided to try out a more integrated and interdisciplinary approach to get a more systemic view of biology. This confirmed that what I thought I knew was wrong: I’d been polluted by the concept of living beings as machines, and that’s where I started to deviate.
+
+**The book is, in fact, a real lesson in “unlearning,” as you overturn some contemporary concepts that may seem positive but ultimately aren’t, such as “optimisation.”**
+Optimisation is the archetype of reductionism: to optimise, you first need to reduce a given problem in order to solve it. When we solve small problems, we usually create other issues elsewhere. Take the Suez Canal for example: that’s a form of optimisation, of sea transport here, that makes us very vulnerable. A single boat gets stuck across the canal, and that’s it, you can’t send anything between Asia and Europe.
+
+**What about “efficiency”?**
+Photosynthesis is probably the most important metabolic process on Earth: it has existed for 3.8 billion years, and it’s the root of all biomass and civilisation. The “performance” of photosynthesis is usually less than 1%: plants waste more than 99% of solar energy. They’re really, really inefficient. Plants are green because they don’t absorb all the light; they absorb the red and blue sections of the light spectrum (the edge of the spectrum) and reflect the green part. Why do they waste so much energy? It’s now recognised that this is a response to light fluctuation. Light isn’t stable and capturing the red and blue sections allows plants to face such fluctuations. Plants manage variability before efficiency. They build robustness against performance.
+Today, we see that the world is unstable, and it will become more so in the future: we shouldn’t be focusing on efficiency but on robustness. When we look for inspiration from biology, we often focus on circularity and cooperation. It’s a good start, but if we overlook robustness, it won’t work. For instance, if we come up with a form of efficient circularity, we won’t have enough wiggle room for extreme events, and we’ll exhaust the available resources anyway. If we make cooperation efficient, the win-win result will be counterproductive, and some will be left behind. Thus, robustness is the most important principle because it makes circularity and cooperation operational.
+
+**The most substantial criticism in your book concerns performance, drawing a parallel between violence against the environment and burnout.
+**Performance generates burnout—it’s a typical effect. Burnout applies to a person or an ecosystem. The path towards burnout is sufficient to condemn “efficiency at all costs,” but performance is also counterproductive in many other ways. A typical example is sports competitions: you want to be number one, you’ll do anything, including doping or cheating. That has nothing to do with sport and it’s detrimental to your health and career.

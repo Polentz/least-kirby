@@ -1,4 +1,4 @@
-Title: Media
+Title: media
 
 ----
 
@@ -13,8 +13,6 @@ Filters:
 - 
   filter: Video
 - 
-  filter: Press
-- 
   filter: Audio
 - 
-  filter: Podcast
+  filter: Press

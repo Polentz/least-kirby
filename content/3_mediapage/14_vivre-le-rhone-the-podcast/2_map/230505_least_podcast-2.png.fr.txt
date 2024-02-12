@@ -1,0 +1,9 @@
+Uuid: kWYiQkY20rBPkTvt
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

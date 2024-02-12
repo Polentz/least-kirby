@@ -7,36 +7,75 @@ options:
     status: listed
     template: all
 
-sections:
-  filter:
-    type: fields
-    fields:
-      filterintro:
-        type: text
-        label: Filters      
-        buttons: false
-        width: 1/2
-      filters:
-        type: structure
-        label: false
-        width: 1/2
-        fields:
-          filter:
-            type: text
-            label: Available filters
-  cards:
+tabs:
+  mediatab:
     label: Media
-    type: pages
-    layout: cards
-    status: all
-    limit: 100
-    image: 
-      back: "#fff"
-      icon: false
-      ratio: 4/3
-      cover: true
-    info: "{{ page.filter }}"
-    templates:
-      - mediacontent
-      - medialink
-      - mediaimagecard
+    sections:
+      filter:
+        type: fields
+        fields:
+          filterintro:
+            type: text
+            label: Filters      
+            buttons: false
+            width: 1/2
+          filters:
+            type: structure
+            label: false
+            width: 1/2
+            fields:
+              filter:
+                type: text
+                label: 'Available filters (do not include "Presse")'
+      cards:
+        label: Media
+        type: pages
+        layout: cards
+        status: all
+        limit: 100
+        image: 
+          back: "#fff"
+          icon: false
+          ratio: 4/3
+          cover: true
+        info: "{{ page.filter }}"
+        templates:
+          - mediacontent
+          # - medialink
+          - mediaimagecard
+  pressstab:
+    label: Press
+    sections:
+      title:
+        type: fields
+        fields:
+          sectiontitle:
+            label: Section title
+            type: text
+            width: 1/2
+          text:
+            label: Text (optional)
+            type: textarea
+            width: 1/2
+      list:
+        label: Media
+        # type: pages
+        # layout: cards
+        # status: all
+        # limit: 100
+        # image: 
+        #   back: "#fff"
+        #   icon: false
+        #   ratio: 4/3
+        #   cover: true
+        # info: "{{ page.filter }}"
+        # templates:
+        #   - medialink
+        type: fields
+        fields:
+          blocks:
+            label: Press items
+            type: blocks
+            width: 1/1
+            fieldsets:
+              - medialink

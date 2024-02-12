@@ -50,7 +50,8 @@ const closeContent = () => {
 
 const closeContentTrigger = (container) => {
     mediaContentClose.forEach(btn => {
-        btn.addEventListener("click", () => {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault();
             closeContent();
             container.scrollTo(0, 0);
         });

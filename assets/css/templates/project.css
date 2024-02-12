@@ -20,29 +20,27 @@
     background: linear-gradient(0deg, #fff, #F6D972);
 }
 
-.press-card[data-category="press"],
-.press-card[data-category="presse"] {
-    background: -o-linear-gradient(0deg, #fff, #94D2BD);
-    background: linear-gradient(0deg, #fff, #94D2BD);
-}
-
 @media only screen and (max-width: 600px) and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .media-card .card-front p,
     .media-card .card-back p,
-    .media-card .media-content-filter,
-    .press-card .card-front p,
-    .press-card .card-back p,
-    .press-card .media-content-filter {
+    .media-card .media-content-filter {
         color: var(--bg-color);
     }
 
     .media-card .svg-lecture svg,
     .media-card .svg-podcast svg,
-    .media-card .svg-video svg,
-    .press-card .svg-lecture svg,
-    .press-card .svg-podcast svg,
-    .press-card .svg-video svg {
+    .media-card .svg-video svg {
         stroke: var(--bg-color);
+    }
+
+    .press-card {
+        background: -o-linear-gradient(217deg, #fff, #94D2BD);
+        background: linear-gradient(217deg, #fff, #94D2BD);
+    }
+
+    .press-card .card-front .card-wrapper p,
+    .press-card .card-back .card-wrapper p {
+        color: var(--bg-color);
     }
 }

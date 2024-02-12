@@ -1,0 +1,24 @@
+Title: Le pain sauvage
+
+----
+
+Fronttext: Le pain sauvage
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Un essai sur l’expérience de la faim en Europe à l’époque moderne.
+
+----
+
+Tags:
+
+- 
+  tag: 'Verger de rue '
+
+----
+
+Uuid: psr1hn66jBoDp0oA

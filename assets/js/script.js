@@ -3,9 +3,24 @@ const documentHeight = () => {
     doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
 };
 
+const onLoad = () => {
+    const cover = document.querySelector(".cover");
+    const main = document.querySelector("main");
+    main.style.visibility = "hidden";
+    cover.addEventListener("mousemove", () => {
+        main.style.visibility = "visible";
+    });
+    cover.addEventListener("click", () => {
+        main.style.visibility = "visible";
+    });
+    window.addEventListener("scroll", () => {
+        main.style.visibility = "visible";
+    });
+};
+
 const customCursor = () => {
     const cursor = document.getElementById("cursor");
-    const links = document.querySelectorAll("a, .menu-btn, .close-btn, .filter-btn, .all-media-btn, .media-label, .card-back a, .media-card .card-back, .media-content-close, .audio-player svg, .video-player svg, .seek-slider");
+    const links = document.querySelectorAll("a, .menu-btn, .close-btn, .filter-btn p, .all-media-btn, .media-label, .card-back a, .media-card .card-back, .media-content-close, .audio-player svg, .video-player svg, .seek-slider");
     document.addEventListener("mousemove", (event) => {
         let x = event.pageX;
         let y = event.pageY;

@@ -10,7 +10,25 @@
 <?php endforeach ?>
 
 <?php snippet('mediapage', [
-    'mediapage' => collection('mediapage')->template(['mediacontent', 'medialink'])
+    'mediapage' => collection('mediapage')->template('mediacontent')
 ]); ?>
+
+<?php foreach ($site->index()->filterBy('template', 'mediapage') as $mediapage) : ?>
+    <section>
+        <div class="grid-layout two-columns">
+            <div class="grid-block --outline">
+                <div class="grid-text">
+                    <h2 class="--title-large"><?= $mediapage->sectiontitle()->kt()->inline() ?></h2>
+                </div>
+            </div>
+            <div class="grid-block --outline"></div>
+        </div>
+    </section>
+    <section>
+        <div class="grid-layout two-columns">
+            <?= $mediapage->blocks()->toBlocks() ?>
+        </div>
+    </section>
+<?php endforeach ?>
 
 <?= snippet('footer') ?>

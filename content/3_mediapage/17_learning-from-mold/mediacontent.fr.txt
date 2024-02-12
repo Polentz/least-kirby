@@ -1,0 +1,34 @@
+Title: learning from mold
+
+----
+
+Fronttext: La sagesse du myxomycète
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Même les organismes les plus simples peuvent proposer de nouvelles façons de penser, d’agir et de collaborer.
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams
+- 
+  tag: Verger de Rue
+
+----
+
+Background: 
+
+----
+
+Tag: Newsletter
+
+----
+
+Uuid: eAecny4EB6JoCKy4

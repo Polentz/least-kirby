@@ -1,0 +1,24 @@
+Title: Zone de sacrifice
+
+----
+
+Fronttext: Zone de sacrifice
+
+----
+
+Filter: texte
+
+----
+
+Backtext: «Un jour, alors que nous nous baladions près de l’Ironbound Community Corporation, nous avons senti une odeur âcre.»
+
+----
+
+Tags:
+
+- 
+  tag: least
+
+----
+
+Uuid: bj0xKl2dlprDD6OC

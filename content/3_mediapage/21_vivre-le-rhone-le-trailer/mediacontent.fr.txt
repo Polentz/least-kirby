@@ -1,0 +1,44 @@
+Title: Vivre le Rhône: part 1
+
+----
+
+Fronttext: Vivre le Rhône: partie 1
+
+----
+
+Filter: Vidéo
+
+----
+
+Backtext: Rencontrez le Rhône et le Natural Contract Lab.
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Background: 
+
+----
+
+Tag: Vivre le Rhône
+
+----
+
+Filters: Lecture
+
+----
+
+Shortname: Socks on fire
+
+----
+
+Pagestatus: false
+
+----
+
+Uuid: cOmQUW8wkToXe3yZ

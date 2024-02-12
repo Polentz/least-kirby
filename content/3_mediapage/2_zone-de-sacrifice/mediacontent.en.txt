@@ -1,0 +1,20 @@
+Title: Zone de sacrifice
+
+----
+
+Fronttext: The Sacrifice Zone
+
+----
+
+Filter: texte
+
+----
+
+Backtext: “One day, at the Ironbound Community Corporation, we smelled something pungent".
+
+----
+
+Tags:
+
+- 
+  tag: least

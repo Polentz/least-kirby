@@ -10,10 +10,6 @@
     align-items: stretch;
 }
 
-.media-content-close {
-    display: none;
-}
-
 @media screen and (max-width: 910px) {
     .media-article {
         display: block;

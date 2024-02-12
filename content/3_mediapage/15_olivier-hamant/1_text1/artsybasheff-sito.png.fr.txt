@@ -1,0 +1,9 @@
+Uuid: 2AuYD0bXj70od2ne
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

@@ -16,7 +16,7 @@
                 <?php endforeach ?>
             </div>
             <div class="media-content-close">
-                <?= asset('assets/icons/close.svg')->read() ?>
+                <a href="<?= $mediacontent->parent()->url() ?>"><?= asset('assets/icons/close.svg')->read() ?></a>
             </div>
         </div>
         <div class="media-content-wrapper">

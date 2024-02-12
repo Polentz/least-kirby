@@ -1,0 +1,26 @@
+Title: intimite-entre-etrangers
+
+----
+
+Fronttext: Intimité entre étrangers
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Les lichens nous parlent d’un monde vivant dans lequel la solitude n’est pas une option viable.
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams
+- 
+  tag: Verger de Rue
+
+----
+
+Uuid: ZGMv3iozhADYZ1a0

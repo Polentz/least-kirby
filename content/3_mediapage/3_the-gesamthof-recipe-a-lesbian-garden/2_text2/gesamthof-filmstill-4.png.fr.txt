@@ -1,0 +1,9 @@
+Uuid: RF5M7zRnyjHAptpJ
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

@@ -13,7 +13,7 @@ Email: contact@least.eco
 
 ----
 
-Newslettername: Newsletter
+Newslettername: newsletter
 
 ----
 

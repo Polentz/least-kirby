@@ -1,0 +1,14 @@
+Title: VLR3 text1
+
+----
+
+Text:
+
+### Gardien·ne·x·s du fleuve
+En juillet 2023, dans le cadre du projet **Vivre le Rhône**, NLC et **least** ont organisé à Geneve une série d'evénements sur trois jours pour élargir une communauté légitime qui pourrait agir au nom du fleuve. Une vidéo de Carlos Tapia retrace le processus.
+(link: https://least.eco/fr/mediapage/vivre-le-rhone-le-trailer text: **Cliquez ici pour la partie 1.**)
+(link: https://least.eco/fr/mediapage/vivre-le-rhone-part-2 text: **Cliquez ici pour la partie 2.**)
+
+----
+
+Uuid: aHv8mGzQJv3Gm7U1

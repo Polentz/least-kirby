@@ -1,0 +1,9 @@
+Uuid: pvrfVHdOLv4L1fkz
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

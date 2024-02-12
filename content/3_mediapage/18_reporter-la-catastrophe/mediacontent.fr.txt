@@ -1,0 +1,26 @@
+Title: Reporter la catastrophe
+
+----
+
+Fronttext: Reporter la catastrophe
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Si la fin est proche, pourquoi ne parvenons-nous pas à nous intéresser sérieusement au réchauffement global?
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams
+- 
+  tag: Vivre le Rhône
+
+----
+
+Uuid: RV0ibszhXPNFlTFq

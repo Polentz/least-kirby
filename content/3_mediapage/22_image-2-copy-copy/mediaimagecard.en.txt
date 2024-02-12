@@ -1,0 +1,9 @@
+Title: Image Copy
+
+----
+
+Tag: Image
+
+----
+
+Filter: Image

@@ -1,0 +1,24 @@
+Title: Intervie to Myriam Roth
+
+----
+
+Fronttext: Un sentiment profond de devoir agir
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Entretien avec Myriam Roth, militante pour le climat.
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Uuid: XDL3zeIDZ1bX720F

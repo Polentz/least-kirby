@@ -1,0 +1,44 @@
+Title: Vivre le Rhône: part 1
+
+----
+
+Slug: vivre-le-rhone-the-trailer
+
+----
+
+Fronttext: Vivre le Rhône: part 1
+
+----
+
+Filter: Video
+
+----
+
+Backtext: Meet the Rhône and Natural Contract Lab
+
+----
+
+Tags:
+
+- 
+  tag: Vivre le Rhône
+
+----
+
+Background: 
+
+----
+
+Tag: Vivre le Rhône
+
+----
+
+Filters: Lecture
+
+----
+
+Shortname: Socks on fire
+
+----
+
+Pagestatus: false

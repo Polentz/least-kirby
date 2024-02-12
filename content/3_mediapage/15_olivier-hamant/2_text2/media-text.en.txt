@@ -1,0 +1,16 @@
+Title: text2
+
+----
+
+Text:
+
+**You also take concepts we interpret negatively and explain how they are actually positive, such as slowness or hesitation…**
+Slowness and hesitation are the keys to competence, as might be illustrated by stem cells. Biologists have focused on these cells for a long time because they’re extraordinary: they can renew all kinds of tissues. For a long time, we thought this was all controlled by a tidy organigram. It turns out that one of the key elements is that they’re slow: they hesitate all the time, and because they hesitate, they can do anything. Delays give some breathing space. I would actually go one step further: slowness is an essential lever for transformation. To change, you first need to stop. It’s like being in a car at a crossroads; if you want to change direction, you need to stop, indicate and turn. If you don’t stop, you won’t change.
+
+**Change is the keyword here. Hard science, numbers and prediction systems often lack the ability to consider contingencies or change, giving us the illusion that we have some form of control over reality.**
+Thankfully, we’ve made progress and now we use numbers to understand the unpredictability of the world (instead of using numbers to control it). For instance, in the lab, we’re working on the reproducibility of the shapes of organs. In a tulip field, all flowers look alike. You could think of an IKEA-like process: building things in the same way also makes them replicable. But this isn’t the case for living systems: when a flower emerges, some cells divide, others die, molecules come and go… Basically, it’s a mess. In the end, the miracle is that you get a flower with the same shape, colour and size as the neighbouring one. We showed that the flower uses and even promotes all kinds of erratic behaviours, precisely because they provide valuable information, to reach that reproducible shape. Once again, they build robustness against performance.
+
+**So, a certain degree of chaos should be embraced?**
+Sociologist Gilles Armani once told me a story about how to deal with impetuous rivers. The Rhône has all these swirls: if you don’t know how to swim through them, you might get trapped and drown. When people were used to living with rivers, if caught in the water flow, they wouldn’t fight it: they’d take in some air, let themselves be taken down by the swirl and the river would then let them out somewhere else, until they reached the shore. In a fluctuating world, the aim is no longer reaching one’s destination as quickly as possible, but rather viability, something which should be based not against, but on turbulence.
+
+*Image: Boris Artzybasheff.*

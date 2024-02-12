@@ -1,0 +1,26 @@
+Title: olivier hamant
+
+----
+
+Fronttext: Un monde sous-optimal
+
+----
+
+Filter: Texte
+
+----
+
+Backtext: Un entretien avec Olivier Hamant, auteur du livre « La troisième voie du vivant » .
+
+----
+
+Tags:
+
+- 
+  tag: Common Dreams
+- 
+  tag: Verger de Rue
+
+----
+
+Uuid: EfZvmu6FjOHTq6kK

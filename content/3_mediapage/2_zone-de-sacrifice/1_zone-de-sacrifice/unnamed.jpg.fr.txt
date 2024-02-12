@@ -1,0 +1,9 @@
+Uuid: Sn37CyM65QiYHSzM
+
+----
+
+Template: simple-image
+
+----
+
+Sort: 1

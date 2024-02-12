@@ -1,0 +1,5 @@
+Uuid: tOTL7dnUNfHgNM2k
+
+----
+
+Template: simple-image
