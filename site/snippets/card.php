@@ -1,7 +1,9 @@
 <div class="grid-square --outline card">
-    <div class="card-front --txt-medium" 
-        <?php if ($cover = $project->background()->image()): ?>style="background-image: url('<?= $cover->url() ?>');"
-        <?php endif ?>>
+    <?php if ($cover = $project->background()->image()): ?>
+        <div class="card-front --txt-medium --white" style="background-image: url('<?= $cover->url() ?>');">
+    <?php else : ?>
+        <div class="card-front --txt-medium">
+    <?php endif ?>
         <?php if ($project->fronttext()->isNotEmpty()): ?>
             <?= $project->fronttext()->kt() ?>
         <?php endif ?>

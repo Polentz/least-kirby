@@ -1,4 +1,4 @@
-Title: Verger de Rue
+Title: Verger de rue
 
 ----
 
@@ -18,7 +18,7 @@ Backtext: Un projet d’écologie urbaine impliquant les citoyen·ne·x·s dans 
 
 ----
 
-Backfooter: 
+Backfooter: À VENIR
 
 ----
 
@@ -26,12 +26,4 @@ Pagestatus: false
 
 ----
 
-Placeholder: 
-
-----
-
-Link: 
-
-----
-
-Uuid: obLl05nXhOn2PB0C
+Uuid: 2CmgmrlvwKk9rGOa

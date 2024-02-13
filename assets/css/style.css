@@ -658,7 +658,7 @@ figcaption {
     opacity: 1;
 }
 
-.card .card-front a.card-wrapper p {
+.card-front.--white p {
     color: var(--bg-color);
 }
 

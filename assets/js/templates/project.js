@@ -2,10 +2,11 @@ const mainSection = document.querySelector(".main");
 const mediaSection = document.querySelector(".cards-section");
 
 const filterByTag = (cards) => {
+    const pageTag = mainSection.dataset.name;
     cards.forEach(card => {
-        const pageTag = mainSection.dataset.name;
         const cardTag = card.dataset.tag;
-        if (!cardTag.includes(pageTag)) {
+        console.log(cardTag)
+        if (!pageTag.includes(cardTag)) {
             card.remove();
         };
     });

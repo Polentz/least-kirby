@@ -15,13 +15,12 @@
 
 <?php foreach ($site->index()->filterBy('template', 'mediapage') as $mediapage) : ?>
     <section>
-        <div class="grid-layout two-columns">
+        <div class="grid-layout">
             <div class="grid-block --outline">
                 <div class="grid-text">
                     <h2 class="--title-large"><?= $mediapage->sectiontitle()->kt()->inline() ?></h2>
                 </div>
             </div>
-            <div class="grid-block --outline"></div>
         </div>
     </section>
     <section>

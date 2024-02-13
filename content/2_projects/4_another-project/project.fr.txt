@@ -1,0 +1,29 @@
+Title: Another project
+
+----
+
+Fronttext: Another project
+
+----
+
+Frontfooter: 
+
+----
+
+Background: 
+
+----
+
+Backtext: Lorem ipsum
+
+----
+
+Backfooter: 
+
+----
+
+Pagestatus: false
+
+----
+
+Uuid: 74SX2lWDO33PCNt3

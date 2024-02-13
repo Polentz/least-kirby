@@ -2,9 +2,11 @@
     <div class="grid-layout four-columns">
     <?php foreach ($projects as $project): ?>
         <div class="grid-square --outline card">
-            <div class="card-front" 
-                <?php if ($cover = $project->background()->toFile()): ?>style="background-image: url('<?= $cover->url() ?>');"
-                <?php endif ?>>
+            <?php if ($cover = $project->background()->toFile()): ?>
+                <div class="card-front --white" style="background-image: url('<?= $cover->url() ?>');">
+            <?php else : ?>
+                <div class="card-front">
+            <?php endif ?>
                 <?php if ($project->pagestatus()->isTrue()): ?>
                     <a href="<?= $project->url() ?>" class="card-wrapper --txt-medium">
                         <?php if ($project->fronttext()->isNotEmpty()): ?>
