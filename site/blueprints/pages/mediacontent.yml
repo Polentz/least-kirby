@@ -10,6 +10,23 @@ tabs:
     label: Media Card
     icon: grid-full
     columns: 
+      - width: 1/1
+        sections:
+          general:
+            type: fields
+            fields:
+              relatedProject:
+                type: multiselect
+                label: Related Project  
+                width: 1/2
+                options:
+                  type: query
+                  query: site.grandchildren.template("project")
+                  text: "{{ page.title }}"
+                  value: "{{ page.title }}"
+              gap:    
+                type: gap 
+                width: 1/2
       - width: 1/2
         sections:
           front:
@@ -24,13 +41,14 @@ tabs:
               fronttext:
                 label: Title
                 type: text
-                required: true
               filter:
+                type: select
                 label: Filter by
-                type: tags
-                min: 1
-                max: 1
-                required: true
+                options:
+                  type: query
+                  query: page.parent.filters.toStructure
+                  text: "{{ item.filter }}"
+                  value: "{{ item.filter }}"        
       - width: 1/2
         sections:
           back:
@@ -45,13 +63,11 @@ tabs:
               backtext:
                 label: Short text
                 type: textarea
-                required: true
                 buttons: false
                 maxlength: 125
               tags:
                 type: structure
                 label: Tags
-                required: true
                 fields:
                   tag:
                     type: text

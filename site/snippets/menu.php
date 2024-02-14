@@ -1,10 +1,6 @@
-<?php
-    $items = $pages->listed();
-?>
-
 <div class="menu">
     <ul class="menu-wrapper">
-        <?php foreach($items as $item) : ?>
+        <?php foreach($pages->listed() as $item) : ?>
             <li class="menu-link"><a <?= e($item->isOpen(), ' class="current"') ?> href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
         <?php endforeach ?>
     </ul>

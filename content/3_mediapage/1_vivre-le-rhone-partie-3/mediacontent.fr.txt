@@ -2,11 +2,15 @@ Title: Vivre le Rhône: partie 3
 
 ----
 
+Relatedproject: Vivre le Rhône
+
+----
+
 Fronttext: Vivre le Rhône: partie 3
 
 ----
 
-Filter: video
+Filter: Vidéo
 
 ----
 
@@ -14,10 +18,7 @@ Backtext: Gardien·ne·x·s du fleuve
 
 ----
 
-Tags:
-
-- 
-  tag: Vivre le Rhône
+Tags: 
 
 ----
 

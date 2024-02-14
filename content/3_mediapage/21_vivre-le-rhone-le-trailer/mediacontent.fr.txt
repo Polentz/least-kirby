@@ -2,6 +2,10 @@ Title: Vivre le Rhône: part 1
 
 ----
 
+Relatedproject: Vivre le Rhône
+
+----
+
 Fronttext: Vivre le Rhône: partie 1
 
 ----

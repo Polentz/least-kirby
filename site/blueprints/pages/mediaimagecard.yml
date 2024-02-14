@@ -6,31 +6,6 @@ options:
     template: all
 
 sections:
-  noteditable:
-    type: fields
-    fields:
-      tag:
-        width: 1/2
-        label: Tag
-        type: tags
-        max: 1
-        disabled: true
-        default:
-          Image
-        help: This field is filled automatically and is not editable.
-        when: 
-          postType:
-      filter:
-        width: 1/2
-        label: Filter By
-        type: tags
-        max: 1
-        disabled: true
-        default:
-          Image
-        help: This field is filled automatically and is not editable.
-        when: 
-          postType:
   cover:
     label: Image
     type: files

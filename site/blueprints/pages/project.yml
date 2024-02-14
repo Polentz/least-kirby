@@ -27,7 +27,6 @@ tabs:
               fronttext:
                 label: Title
                 type: textarea
-                required: true
               frontfooter:
                 label: Footer
                 type: text
@@ -59,7 +58,6 @@ tabs:
               backtext:
                 label: Short text
                 type: textarea
-                required: true
                 maxlength: 125
                 buttons: false
               backfooter:

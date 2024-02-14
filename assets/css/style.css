@@ -603,7 +603,6 @@ figcaption {
 .card {
     min-height: calc(var(--main-width) / 4);
     position: relative;
-    cursor: pointer;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -1060,17 +1059,25 @@ figcaption {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: var(--p-gap) var(--marg-s);
+}
+
+.press-card .card-front .card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: var(--p-gap);
+}
+
+.press-card .card-back .card-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: var(--p-gap) var(--marg-s);
 }
 
 .press-card .--txt-small {

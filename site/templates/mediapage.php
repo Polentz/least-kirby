@@ -1,11 +1,3 @@
-<?php
-    if ($kirby->language()->code() == 'fr') {
-        $resetFilters = 'Tous les médias';
-    } else if ($kirby->language()->code() == 'en') {
-        $resetFilters = 'All media';
-    }
-?>
-
 <?= snippet('header') ?>
 <?= snippet('sidebar') ?>
 

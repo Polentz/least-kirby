@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     if ($kirby->language()->code() == 'fr') {
         $href = 'en';
         $languageString = 'English';
@@ -6,7 +6,7 @@
         $href = 'fr';
         $languageString = 'Français';
     }
-?>
+?> -->
 
 <nav class="side-nav">
     <span class="menu-btn"></span>

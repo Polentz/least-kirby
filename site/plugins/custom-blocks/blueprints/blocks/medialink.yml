@@ -2,6 +2,14 @@ name: Article
 icon: false
 
 fields:
+  relatedProject:
+    type: multiselect
+    label: Related Project  
+    options:
+      type: query
+      query: site.grandchildren.template("project")
+      text: "{{ page.title }}"
+      value: "{{ page.title }}" 
   frontHeadline:
     type: info
     label: false
@@ -13,7 +21,11 @@ fields:
     type: writer
     marks: false
     nodes: false
-    required: true
+  fronttextsubtitle:
+    label: Subtitle
+    type: writer
+    marks: false
+    nodes: false
   backHeadline:
     type: info
     label: false
@@ -23,7 +35,6 @@ fields:
   tags:
     type: structure
     label: Tags
-    required: false
     fields:
       tag:
         type: text

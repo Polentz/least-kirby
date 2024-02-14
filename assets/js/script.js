@@ -137,7 +137,7 @@ const revealOnScroll = () => {
     for (let i = 0; i < reveals.length; i++) {
         const windowHeight = window.innerHeight;
         const elementTop = reveals[i].getBoundingClientRect().top;
-        const elementVisible = 100;
+        const elementVisible = 16;
 
         if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("appear");

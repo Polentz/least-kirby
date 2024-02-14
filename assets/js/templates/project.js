@@ -1,17 +1,6 @@
 const mainSection = document.querySelector(".main");
 const mediaSection = document.querySelector(".cards-section");
 
-const filterByTag = (cards) => {
-    const pageTag = mainSection.dataset.name;
-    cards.forEach(card => {
-        const cardTag = card.dataset.tag;
-        console.log(cardTag)
-        if (!pageTag.includes(cardTag)) {
-            card.remove();
-        };
-    });
-};
-
 const openContent = (element) => {
     const contentTag = element.currentTarget.dataset.name;
     mediaContents.forEach(content => {
@@ -60,8 +49,6 @@ const closeContentTrigger = (container) => {
 };
 
 window.addEventListener("load", () => {
-    filterByTag(cards);
-    filterByTag(mediaContents);
     handleCategories();
     openContentTrigger();
     closeContentTrigger(mediaSection);

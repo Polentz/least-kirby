@@ -2,6 +2,10 @@ Title: The Gesamthof recipe: A Lesbian Garden
 
 ----
 
+Relatedproject: Verger de rue
+
+----
+
 Fronttext: La Recette du Gesamthof: Un Jardin Lesbien
 
 ----

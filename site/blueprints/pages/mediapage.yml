@@ -41,7 +41,6 @@ tabs:
         info: "{{ page.filter }}"
         templates:
           - mediacontent
-          # - medialink
           - mediaimagecard
   pressstab:
     label: Press
@@ -59,18 +58,6 @@ tabs:
             width: 1/2
       list:
         label: Media
-        # type: pages
-        # layout: cards
-        # status: all
-        # limit: 100
-        # image: 
-        #   back: "#fff"
-        #   icon: false
-        #   ratio: 4/3
-        #   cover: true
-        # info: "{{ page.filter }}"
-        # templates:
-        #   - medialink
         type: fields
         fields:
           blocks:

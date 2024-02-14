@@ -17,4 +17,5 @@ sections:
       icon: false
       ratio: 4/3
       cover: true
-    template: card
+    template: 
+      - card

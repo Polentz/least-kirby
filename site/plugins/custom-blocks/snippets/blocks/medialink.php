@@ -1,17 +1,16 @@
-<?php
-    if ($kirby->language()->code() == 'fr') {
-        $readMore = 'En savoir plus';
-    } else if ($kirby->language()->code() == 'en') {
-        $readMore = 'Read more';
-    }
-?>
-
-<div class="--outline card press-card" data-category="<?= $block->filter()->slug() ?>" data-tag="<?php foreach ($block->tags()->toStructure() as $tag): ?><?= $tag->tag()->slug() ?> <?php endforeach ?>">
+<div class="--outline card press-card" data-category="<?= $block->filter()->slug() ?>">
     <div class="card-front">
         <div class="card-wrapper">
-            <div class="--txt-small">
-                <?= $block->fronttext()->kt() ?>
-            </div>
+                <?php if ($block->fronttext()->isNotEmpty()) : ?>
+                    <div class="--txt-small">
+                        <?= $block->fronttext()->kt() ?>
+                    </div>
+                <?php endif ?>
+                <?php if ($block->fronttextsubtitle()->isNotEmpty()) : ?>
+                    <div class="--txt-caption">
+                        <?= $block->fronttextsubtitle()->kt() ?>
+                    </div>
+                <?php endif ?>
         </div>
     </div>
     <div class="card-back">

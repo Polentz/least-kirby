@@ -21,7 +21,6 @@ columns:
           fronttext:
             label: Title
             type: textarea
-            required: true
             buttons:
               - bold
               - italic
@@ -59,7 +58,6 @@ columns:
           backtext:
             label: Short text
             type: textarea
-            required: true
             buttons:
               - bold
               - italic

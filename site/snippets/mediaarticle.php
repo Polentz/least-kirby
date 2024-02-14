@@ -1,4 +1,4 @@
-<div class="--outline media-article" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>" data-tag="<?php foreach ($mediacontent->tags()->toStructure() as $tag): ?><?= $tag->tag()->slug() ?> <?php endforeach ?>">
+<div class="--outline media-article" data-category="<?= $mediacontent->filter()->slug() ?>" data-name="<?= $mediacontent->title()->slug() ?>">
     <div class="media-title">
         <div class="--txt-medium">
             <?= $mediacontent->fronttext()->kt() ?>

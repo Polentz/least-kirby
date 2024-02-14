@@ -1,13 +1,3 @@
-<?php
-    if ($kirby->language()->code() == 'fr') {
-        $lang = 'fr';
-        $langCode = 'fr_FR';
-    } else if ($kirby->language()->code() == 'en') {
-        $lang = 'en';
-        $langCode = 'en_US';
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>

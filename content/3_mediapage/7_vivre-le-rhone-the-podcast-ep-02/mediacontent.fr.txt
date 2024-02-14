@@ -2,6 +2,10 @@ Title: Vivre le Rhône: the podcast ep. 02
 
 ----
 
+Relatedproject: Vivre le Rhône
+
+----
+
 Fronttext: Vivre le Rhône: le podcast, partie 02
 
 ----
