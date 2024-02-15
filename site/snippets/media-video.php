@@ -4,10 +4,20 @@
             <div class="video-title --title-small">
                 <?= $part->videotitle()->kt() ?>
             </div>
-        <?php endif ?> 
-        <?php if ($file = $part->file()): ?>
-            <video controls <?php if($poster = $file->poster()->toFile()) :?>poster="<?= $poster->url() ?>"<?php endif ?> controlslist="noplaybackrate nodownload" disablePictureInPicture preload="metadata" src="<?= $file->url() ?>"></video>
         <?php endif ?>
+        
+            <video 
+                controls controlslist="noplaybackrate nodownload" disablePictureInPicture preload="metadata" 
+                <?php foreach ($part->videoItems()->toFiles() as $item) : ?>
+                <?php if ($item->type() == 'image') : ?>
+                    poster="<?= $item->resize(1200, null)->url() ?>"
+                <?php endif ?>
+                <?php if ($item->type() == 'video') : ?>
+                    src="<?= $item->url() ?>"
+                <?php endif ?>
+                <?php endforeach ?>>
+            </video>
+
         <div class="video-player">
             <div class="play-btn">
                 <svg class="play-icon" viewBox="0 0 27 26" fill="none"

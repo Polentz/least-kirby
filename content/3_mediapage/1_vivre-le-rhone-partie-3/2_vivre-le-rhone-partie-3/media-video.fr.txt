@@ -6,4 +6,19 @@ Audiotitle: Gardien·ne·x·s du fleuve
 
 ----
 
+Videoitems:
+
+- file://fibw5PoZF19pR6o5
+- file://TCzykHNhnNylTpir
+
+----
+
+Videoitem: - file://fibw5PoZF19pR6o5
+
+----
+
+Posteritem: - file://TCzykHNhnNylTpir
+
+----
+
 Uuid: EC0x9ElP204qCe8d

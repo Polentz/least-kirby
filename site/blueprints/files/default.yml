@@ -1,1 +1,9 @@
 title: File
+
+fields:
+  alt:
+    type: text
+    width: 1/2
+  caption:
+    type: text
+    width: 1/2
