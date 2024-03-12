@@ -19,6 +19,7 @@ columns:
             type: files
             layout: list
             template: logo
+            uploads: logo
             sortable: true
             image:
               back: "#fff"
@@ -36,6 +37,7 @@ columns:
             type: files
             layout: list
             template: logo
+            uploads: logo
             sortable: true
             image:
               back: "#fff"

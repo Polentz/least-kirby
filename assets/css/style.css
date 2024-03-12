@@ -1724,6 +1724,10 @@ input.seek-slider::-moz-range-thumb {
         color: var(--txt-color);
     }
 
+    .card-front.--white p {
+        color: var(--txt-color);
+    }
+
     .card-back {
         background-color: transparent;
     }
