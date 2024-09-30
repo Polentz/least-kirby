@@ -1,4 +1,4 @@
-panel.plugin("architecturelandinitiative/blocks", {
+panel.plugin("least/blocks", {
   blocks: {
     medialink: {
       template: `

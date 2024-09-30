@@ -42,7 +42,7 @@
     <?php endforeach ?>
 </section>
 
-<section id="<?= $page->sectiontitle()->slug() ?>">
+<section id="<?= $page->sectiontitle()->slug() ?>" class="press-section">
     <div class="grid-layout two-columns">
         <div class="grid-block --outline">
             <div class="grid-text">
@@ -59,7 +59,7 @@
     </div>
 </section>
 
-<section>
+<section class="press-content">
     <div class="grid-layout two-columns">
         <?= $page->blocks()->toBlocks() ?>
     </div>

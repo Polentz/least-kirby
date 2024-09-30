@@ -18,27 +18,17 @@ use Throwable;
 class View
 {
 	/**
-	 * The absolute path to the view file
-	 */
-	protected string $file;
-
-	/**
-	 * The view data
-	 */
-	protected array $data = [];
-
-	/**
 	 * Creates a new view object
 	 */
-	public function __construct(string $file, array $data = [])
-	{
-		$this->file = $file;
-		$this->data = $data;
+	public function __construct(
+		// The absolute path to the view file
+		protected string $file,
+		protected array $data = []
+	) {
 	}
 
 	/**
-	 * Returns the view's data array
-	 * without globals.
+	 * Returns the view's data array without globals
 	 */
 	public function data(): array
 	{
@@ -80,7 +70,6 @@ class View
 
 		ob_start();
 
-		$exception = null;
 		try {
 			F::load($this->file(), null, $this->data());
 		} catch (Throwable $e) {
@@ -90,11 +79,11 @@ class View
 		$content = ob_get_contents();
 		ob_end_clean();
 
-		if ($exception === null) {
-			return $content;
+		if (($exception ?? null) !== null) {
+			throw $exception;
 		}
 
-		throw $exception;
+		return $content;
 	}
 
 	/**
@@ -108,6 +97,8 @@ class View
 	/**
 	 * Magic string converter to enable
 	 * converting view objects to string
+	 *
+	 * @see ::render()
 	 */
 	public function __toString(): string
 	{

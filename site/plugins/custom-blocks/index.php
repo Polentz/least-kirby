@@ -1,5 +1,5 @@
 <?php
-Kirby::plugin('architecturelandinitiative/blocks', [
+Kirby::plugin('least/blocks', [
     'blueprints' => [
         'blocks/medialink' => __DIR__ . '/blueprints/blocks/medialink.yml',
       ],

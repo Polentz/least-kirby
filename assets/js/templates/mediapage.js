@@ -29,6 +29,7 @@ const handleFilters = () => {
 
 const selectContent = (element) => {
     const clickedElementName = element.currentTarget.dataset.name;
+    const pressContent = document.querySelectorAll(".press-section, .press-content");
     mediaContents.forEach(content => {
         const contentName = content.dataset.name;
         const offset = 56;
@@ -43,10 +44,14 @@ const selectContent = (element) => {
                 section.style.display = "none";
             });
         };
+        pressContent.forEach(element => {
+            element.style.display = "none";
+        });
     });
 };
 
 const unselectContent = () => {
+    const pressContent = document.querySelectorAll(".press-section, .press-content");
     mediaContents.forEach(content => {
         if (content.classList.contains("show-content")) {
             content.classList.remove("show-content");
@@ -61,6 +66,9 @@ const unselectContent = () => {
     });
     sections.forEach(section => {
         section.style.display = "block";
+    });
+    pressContent.forEach(element => {
+        element.style.display = "block";
     });
 };
 

@@ -17,9 +17,6 @@ use stdClass;
  */
 class Obj extends stdClass
 {
-	/**
-	 * Constructor
-	 */
 	public function __construct(array $data = [])
 	{
 		foreach ($data as $key => $val) {
@@ -37,6 +34,7 @@ class Obj extends stdClass
 
 	/**
 	 * Improved `var_dump` output
+	 * @codeCoverageIgnore
 	 */
 	public function __debugInfo(): array
 	{

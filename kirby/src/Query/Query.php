@@ -9,6 +9,7 @@ use Kirby\Cms\File;
 use Kirby\Cms\Page;
 use Kirby\Cms\Site;
 use Kirby\Cms\User;
+use Kirby\Image\QrCode;
 use Kirby\Toolkit\I18n;
 
 /**
@@ -51,7 +52,7 @@ class Query
 	/**
 	 * Creates a new Query object
 	 */
-	public static function factory(string $query): static
+	public static function factory(string|null $query): static
 	{
 		return new static(query: $query);
 	}
@@ -117,7 +118,11 @@ Query::$entries['file'] = function (string $id): File|null {
 };
 
 Query::$entries['page'] = function (string $id): Page|null {
-	return App::instance()->site()->find($id);
+	return App::instance()->page($id);
+};
+
+Query::$entries['qr'] = function (string $data): QrCode {
+	return new QrCode($data);
 };
 
 Query::$entries['site'] = function (): Site {
